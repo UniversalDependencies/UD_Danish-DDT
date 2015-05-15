@@ -16,7 +16,7 @@
 16	udvikles	udvikle	VERB	_	VerbForm=Inf|Voice=Pass	10	dobj	_	_
 17	uden	uden	ADP	_	AdpType=Prep	20	case	_	_
 18	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	20	det	_	_
-19	"	&quot;	PUNCT	_	_	20	punct	_	_
+19	"	&quot;	PUNCT	_	_	16	punct	_	_
 20	jernnæve	jernnæve	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	16	nmod	_	_
 21	"	&quot;	PUNCT	_	_	20	punct	_	_
 22	.	.	PUNCT	_	_	10	punct	_	_
@@ -34,10 +34,10 @@
 11	diktatur	diktatur	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	_
 12	.	.	PUNCT	_	_	2	punct	_	_
 
-1	I	i	ADP	_	AdpType=Prep	6	dep	_	_
-2	en	en	PRON	_	Gender=Com|Number=Sing|PronType=Ind	1	dep	_	_
+1	I	i	ADP	_	AdpType=Prep	2	case	_	_
+2	en	en	PRON	_	Gender=Com|Number=Sing|PronType=Ind	6	nmod	_	_
 3	af	af	ADP	_	AdpType=Prep	5	case	_	_
-4	deres	deres	PRON	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	5	det	_	_
 5	artikler	artikel	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	nmod	_	_
 6	hedder	hedde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -57,7 +57,7 @@
 
 1	Og	og	CONJ	_	_	0	root	_	_
 2	når	når	SCONJ	_	_	6	mark	_	_
-3	deres	deres	PRON	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	repræsentanter	repræsentant	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	_
 5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 6	parate	parat	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	16	mark	_	_
@@ -66,8 +66,8 @@
 9	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	8	dep	_	_
 10	i	i	ADP	_	AdpType=Prep	11	case	_	_
 11	struben	strube	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nmod	_	_
-12	på	på	ADP	_	AdpType=Prep	11	dep	_	_
-13	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	12	dep	_	_
+12	på	på	ADP	_	AdpType=Prep	13	case	_	_
+13	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	11	nmod	_	_
 14	,	,	PUNCT	_	_	6	punct	_	_
 15	så	så	ADV	_	_	16	advmod	_	_
 16	stopper	stoppe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
@@ -90,7 +90,7 @@
 11	af	af	ADP	_	AdpType=Prep	12	case	_	_
 12	interesser	interesse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	10	nmod	_	_
 13	og	og	CONJ	_	_	4	cc	_	_
-14	følgelig	følgelig	ADV	_	_	13	dep	_	_
+14	følgelig	følgelig	ADV	_	_	13	advmod	_	_
 15	for	for	ADP	_	AdpType=Prep	17	case	_	_
 16	demokratiske	demokratisk	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	17	amod	_	_
 17	reformer	reform	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	13	nmod	_	_
@@ -105,7 +105,7 @@
 6	Netop	netop	ADV	_	_	18	advmod	_	_
 7	fordi	fordi	SCONJ	_	_	6	mark	_	_
 8	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
-9	end	end	ADV	_	_	10	advmod	_	_
+9	end	end	ADP	_	_	10	dep	_	_
 10	ikke	ikke	ADV	_	_	11	neg	_	_
 11	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	dep	_	_
 12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	13	det	_	_
@@ -136,8 +136,8 @@
 2	kunne	kunne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	ikke	ikke	ADV	_	_	2	neg	_	_
-5	helt	hel	ADJ	_	Degree=Pos|Variant=Short	6	amod	_	_
-6	objektivt	objektiv	ADJ	_	Degree=Pos|Variant=Short	2	amod	_	_
+5	helt	helt	ADV	_	Degree=Pos	6	advmod	_	_
+6	objektivt	objektivt	ADV	_	Degree=Pos	2	advmod	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -180,7 +180,7 @@
 24	se	se	VERB	_	VerbForm=Inf|Voice=Act	23	dep	_	_
 25	mere	meget	ADJ	_	Definite=Ind|Degree=Comp|Number=Sing|Variant=Long	24	dobj	_	_
 26	af	af	ADP	_	AdpType=Prep	25	dep	_	_
-27	.	.	PUNCT	_	_	2	punct	_	_
+27	.	.	PUNCT	_	_	21	punct	_	_
 28	"	&quot;	PUNCT	_	_	2	punct	_	_
 
 1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
@@ -245,10 +245,10 @@
 16	i	i	ADP	_	AdpType=Prep	18	case	_	_
 17	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
 18	ligebehandlingsnævn	ligebehandlingsnævn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	_
-19	,	,	PUNCT	_	_	18	punct	_	_
+19	,	,	PUNCT	_	_	14	punct	_	_
 20	som	som	PART	_	PartType=Inf	27	dobj	_	_
 21	Folketinget	folketing	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	nsubj	_	_
-22	kort	kort	ADJ	_	Degree=Pos|Variant=Short	23	amod	_	_
+22	kort	kort	ADV	_	Degree=Pos	23	nmod:temp	_	_
 23	før	før	ADP	_	AdpType=Prep	24	case	_	_
 24	sommerferien	sommerferie	NOUN	_	Definite=Def|Gender=Com|Number=Sing	25	nmod	_	_
 25	besluttede	beslutte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	dep	_	_
@@ -306,7 +306,7 @@
 11	Stavnsager	Stavnsager	PROPN	_	_	10	name	_	_
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	auxpass	_	_
-14	positivt	positiv	ADJ	_	Degree=Pos|Variant=Short	15	amod	_	_
+14	positivt	positivt	ADV	_	Degree=Pos	15	advmod	_	_
 15	overrasket	overraske	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
 16	over	over	ADP	_	AdpType=Prep	17	case	_	_
 17	ideen	ide	NOUN	_	Definite=Def|Gender=Com|Number=Sing	15	nmod	_	_
@@ -323,7 +323,7 @@
 9	deltog	deltage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	dobj	_	_
 10	alt	alt	ADV	_	_	11	advmod	_	_
 11	for	for	ADV	_	_	12	advmod	_	_
-12	lidt	lidt	ADJ	_	Degree=Pos|Variant=Short	9	amod	_	_
+12	lidt	lidt	ADV	_	Degree=Pos	9	advmod	_	_
 13	i	i	ADP	_	AdpType=Prep	14	case	_	_
 14	debatten	debat	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nmod	_	_
 15	om	om	ADP	_	AdpType=Prep	16	case	_	_
@@ -363,7 +363,7 @@
 31	"	&quot;	PUNCT	_	_	29	punct	_	_
 32	,	,	PUNCT	_	_	29	punct	_	_
 33	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	_	_
-34	teksten	tekst	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	expl	_	_
+34	teksten	tekst	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	dep	_	_
 35	over	over	ADP	_	AdpType=Prep	36	case	_	_
 36	billederne	billede	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	34	nmod	_	_
 37	af	af	ADP	_	AdpType=Prep	38	case	_	_
@@ -415,17 +415,17 @@
 1	Nu	nu	ADV	_	_	2	advmod	_	_
 2	rykker	rykke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	social-grundtvigianerne	social-grundtvigianer	NOUN	_	Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
-4	ind	ind	ADV	_	_	2	dep	_	_
+4	ind	ind	ADV	_	_	2	nmod:loc	_	_
 
 1	Af	af	ADP	_	AdpType=Prep	2	case	_	_
 2	Steffen	Steffen	PROPN	_	_	0	root	_	_
 3	Borch	Borch	PROPN	_	_	2	name	_	_
 
 1	I	i	ADP	_	AdpType=Prep	3	dep	_	_
-2	1972	1972	NUM	_	NumType=Card	1	dep	_	_
+2	1972	1972	NUM	_	NumType=Card	1	nummod	_	_
 3	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	Skjern	Skjern	PROPN	_	_	3	nsubj	_	_
-5	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	nmod:poss	_	_
+5	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
 6	første	første	ADJ	_	Degree=Pos|Variant=Long	7	amod	_	_
 7	værtshus	værtshus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	dobj	_	_
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -459,10 +459,10 @@
 27	kredse	kreds	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	24	nmod:poss	_	_
 28	.	.	PUNCT	_	_	2	punct	_	_
 
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	samme	samme	ADJ	_	Degree=Pos|Variant=Long	0	root	_	_
-4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	dep	_	_
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	samme	samme	ADJ	_	Degree=Pos|Variant=Long	4	amod	_	_
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	at	at	SCONJ	_	_	9	mark	_	_
 7	Poul-Erik	Poul-Erik	PROPN	_	_	9	nsubj	_	_
@@ -470,7 +470,7 @@
 9	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	dep	_	_
 10	til	til	ADP	_	AdpType=Prep	11	case	_	_
 11	byen	by	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nmod	_	_
-12	.	.	PUNCT	_	_	3	punct	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
 
 1	"	&quot;	PUNCT	_	_	2	punct	_	_
 2	Men	men	CONJ	_	_	14	dep	_	_
@@ -490,8 +490,8 @@
 16	.	.	PUNCT	_	_	14	punct	_	_
 
 1	20	20	NUM	_	NumType=Card	2	nummod	_	_
-2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	dep	_	_
-3	senere	sen	ADJ	_	Degree=Comp|Variant=Short	4	amod	_	_
+2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod:temp	_	_
+3	senere	senere	ADV	_	Degree=Comp	4	advmod	_	_
 4	tabte	tabe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	Indre	indre	ADJ	_	Degree=Pos|Variant=Long	6	amod	_	_
 6	Mission	mission	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
@@ -552,7 +552,7 @@
 21	menighedsråd	menighedsråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	_
 22	.	.	PUNCT	_	_	4	punct	_	_
 
-1	Otte-fem	otte-fem	NUM	_	NumType=Card	2	dep	_	_
+1	Otte-fem	otte-fem	NUM	_	NumType=Card	2	nummod	_	_
 2	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	i	i	ADP	_	AdpType=Prep	6	case	_	_
@@ -571,7 +571,7 @@
 1	Nu	nu	ADV	_	_	2	advmod	_	_
 2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	syv-seks	syv-seks	NUM	_	NumType=Card	2	dep	_	_
+4	syv-seks	syv-seks	NUM	_	NumType=Card	2	nummod	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Og	og	CONJ	_	_	0	root	_	_
@@ -626,7 +626,7 @@
 4	ministeren	minister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
 5	løjet	lyve	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	1	list	_	_
 6	om	om	ADP	_	AdpType=Prep	10	case	_	_
-7	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	9	nmod:poss	_	_
+7	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	_
 8	og	og	CONJ	_	_	9	dep	_	_
 9	regeringens	regering	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	10	nmod:poss	_	_
 10	kendskab	kendskab	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
@@ -659,7 +659,7 @@
 7	med	med	ADP	_	AdpType=Prep	9	case	_	_
 8	sikkerhedsudvalgets	sikkerhedsudvalg	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod:poss	_	_
 9	vidende	vidende	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	_
-10	,	,	PUNCT	_	_	6	punct	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
 11	hvorfor	hvorfor	ADV	_	_	6	advmod	_	_
 12	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 13	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	6	nsubjpass	_	_
@@ -685,7 +685,7 @@
 14	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	sende	sende	VERB	_	VerbForm=Inf|Voice=Act	6	dep	_	_
 16	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	dobj	_	_
-17	af_sted	af_sted	ADV	_	_	15	dep	_	_
+17	af_sted	af_sted	ADV	_	_	15	nmod:loc	_	_
 18	på	på	ADP	_	AdpType=Prep	19	case	_	_
 19	selvmordsmissioner	selvmordsmission	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	17	nmod	_	_
 20	?	?	PUNCT	_	_	1	punct	_	_
@@ -711,7 +711,7 @@
 19	ikke	ikke	ADV	_	_	21	neg	_	_
 20	også	også	ADV	_	_	21	advmod	_	_
 21	render	rende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	dep	_	_
-22	rundt	rundt	ADV	_	_	21	dep	_	_
+22	rundt	rundt	ADV	_	_	21	nmod:loc	_	_
 23	og	og	CONJ	_	_	21	cc	_	_
 24	snager	snage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
 25	i	i	ADP	_	AdpType=Prep	28	case	_	_
@@ -724,7 +724,7 @@
 2	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	nu	nu	ADV	_	_	4	advmod	_	_
 4	bedt	bede	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
-5	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	6	nmod:poss	_	_
+5	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
 6	departementschef	departementschef	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	dobj	_	_
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	Peter	Peter	PROPN	_	_	6	dep	_	_
@@ -763,8 +763,8 @@
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	ligeledes	ligeledes	ADV	_	_	4	advmod	_	_
 4	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	43	amod	_	_
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	1	dep	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	1	nmod	_	_
 7	regeringen	regering	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
 8	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
 9	med	med	ADP	_	AdpType=Prep	10	case	_	_
@@ -777,7 +777,7 @@
 16	Om	om	SCONJ	_	_	19	mark	_	_
 17	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 18	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
-19	søge	søge	VERB	_	VerbForm=Inf|Voice=Act	8	expl	_	_
+19	søge	søge	VERB	_	VerbForm=Inf|Voice=Act	8	dep	_	_
 20	at	at	PART	_	PartType=Inf	19	dobj	_	_
 21	lave	lave	VERB	_	VerbForm=Inf|Voice=Act	20	dep	_	_
 22	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	23	det	_	_
@@ -792,9 +792,9 @@
 31	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	33	det	_	_
 32	egentlig	egentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	33	amod	_	_
 33	gennemgang	gennemgang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	29	nmod	_	_
-34	af	af	ADP	_	AdpType=Prep	33	dep	_	_
-35	,	,	PUNCT	_	_	36	punct	_	_
-36	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	34	dep	_	_
+34	af	af	ADP	_	AdpType=Prep	36	case	_	_
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	33	nmod	_	_
 37	FET	FET	PROPN	_	_	38	nsubj	_	_
 38	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	acl:relcl	_	_
 39	og	og	CONJ	_	_	38	cc	_	_
@@ -837,25 +837,25 @@
 15	og	og	CONJ	_	_	35	cc	_	_
 16	så	så	ADV	_	_	24	advmod	_	_
 17	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	_	_
-18	mindst	lille	ADJ	_	Degree=Sup|Variant=Short	21	amod	_	_
+18	mindst	mindst	ADV	_	Degree=Sup	21	advmod	_	_
 19	150	150	NUM	_	NumType=Card	21	nummod	_	_
 20	kritiske	kritisk	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	21	amod	_	_
 21	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	nsubjpass	_	_
 22	ikke	ikke	ADV	_	_	24	neg	_	_
 23	være	være	AUX	_	VerbForm=Inf|Voice=Act	24	auxpass	_	_
 24	kommet	komme	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	35	conj	_	_
-25	ind	ind	ADV	_	_	24	dep	_	_
+25	ind	ind	ADV	_	_	24	nmod:loc	_	_
 26	igen	igen	ADV	_	_	24	advmod	_	_
 27	,	,	PUNCT	_	_	24	punct	_	_
 28	og	og	CONJ	_	_	35	cc	_	_
 29	de	den	PRON	_	Number=Plur|PronType=Dem	35	nsubjpass	_	_
-30	42	42	NUM	_	NumType=Card	29	dep	_	_
+30	42	42	NUM	_	NumType=Card	29	nummod	_	_
 31	på	på	ADP	_	AdpType=Prep	32	case	_	_
 32	fyringslisten	fyringsliste	NOUN	_	Definite=Def|Gender=Com|Number=Sing	29	nmod	_	_
 33	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	35	aux	_	_
 34	have	have	AUX	_	VerbForm=Inf|Voice=Act	35	aux	_	_
 35	mistet	miste	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	40	dep	_	_
-36	deres	deres	PRON	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+36	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	37	det	_	_
 37	opsigelsesfrist	opsigelsesfrist	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	35	dobj	_	_
 38	,	,	PUNCT	_	_	35	punct	_	_
 39	"	&quot;	PUNCT	_	_	35	punct	_	_
@@ -864,14 +864,14 @@
 42	og	og	CONJ	_	_	41	cc	_	_
 43	Max	Max	PROPN	_	_	41	conj	_	_
 44	,	,	PUNCT	_	_	40	punct	_	_
-45	umiddelbart	umiddelbar	ADJ	_	Degree=Pos|Variant=Short	46	amod	_	_
+45	umiddelbart	umiddelbart	ADV	_	Degree=Pos	46	nmod:temp	_	_
 46	efter	efter	ADP	_	AdpType=Prep	48	case	_	_
 47	morgenens	morgen	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	48	nmod:poss	_	_
 48	fællesmøde	fællesmøde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	40	nmod	_	_
 49	.	.	PUNCT	_	_	40	punct	_	_
 
 1	De	den	PRON	_	Number=Plur|PronType=Dem	3	nsubj	_	_
-2	to	to	NUM	_	NumType=Card	1	dep	_	_
+2	to	to	NUM	_	NumType=Card	1	nummod	_	_
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	på	på	ADP	_	AdpType=Prep	7	case	_	_
 5	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	7	det	_	_
@@ -883,7 +883,7 @@
 11	øjeblikket	øjeblik	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	_
 12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	auxpass	_	_
 13	trukket	trække	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	7	cop	_	_
-14	tilbage	tilbage	ADV	_	_	13	dep	_	_
+14	tilbage	tilbage	ADV	_	_	13	nmod:loc	_	_
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	mens	mens	SCONJ	_	_	20	mark	_	_
 17	ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	nsubj	_	_
@@ -899,12 +899,12 @@
 1	Efterhånden	efterhånden	ADV	_	_	13	advmod	_	_
 2	som	som	PART	_	PartType=Inf	8	dep	_	_
 3	navnene	navn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	_
-4	på	på	ADP	_	AdpType=Prep	3	dep	_	_
-5	de	den	PRON	_	Number=Plur|PronType=Dem	4	dep	_	_
-6	42	42	NUM	_	NumType=Card	5	dep	_	_
+4	på	på	ADP	_	AdpType=Prep	5	case	_	_
+5	de	den	PRON	_	Number=Plur|PronType=Dem	3	nmod	_	_
+6	42	42	NUM	_	NumType=Card	5	nummod	_	_
 7	fyrede	fyre	VERB	_	Number=Plur|Tense=Past|VerbForm=Part	6	dep	_	_
 8	sivede	sive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
-9	ud	ud	ADV	_	_	8	dep	_	_
+9	ud	ud	ADV	_	_	8	nmod:loc	_	_
 10	til	til	ADP	_	AdpType=Prep	11	case	_	_
 11	kollegerne	kollega	NOUN	_	Definite=Def|Gender=Com|Number=Plur	9	nmod	_	_
 12	,	,	PUNCT	_	_	8	punct	_	_
@@ -928,7 +928,7 @@
 30	for	for	ADP	_	AdpType=Prep	32	case	_	_
 31	nogle	nogen	DET	_	Number=Plur|PronType=Ind	32	det	_	_
 32	medarbejdere	medarbejder	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	29	nmod	_	_
-33	,	,	PUNCT	_	_	32	punct	_	_
+33	,	,	PUNCT	_	_	25	punct	_	_
 34	som	som	PART	_	PartType=Inf	38	nsubj	_	_
 35	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	38	aux	_	_
 36	været	være	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	38	cop	_	_
@@ -948,7 +948,7 @@
 6	på	på	ADP	_	AdpType=Prep	5	dep	_	_
 7	at	at	PART	_	PartType=Inf	6	dep	_	_
 8	ryge	ryge	VERB	_	VerbForm=Inf|Voice=Act	7	dep	_	_
-9	ud	ud	ADV	_	_	8	dep	_	_
+9	ud	ud	ADV	_	_	8	nmod:loc	_	_
 10	under	under	ADP	_	AdpType=Prep	12	case	_	_
 11	alle	al	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	12	amod	_	_
 12	omstændigheder	omstændighed	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	5	nmod	_	_
@@ -968,11 +968,11 @@
 1	men	men	CONJ	_	_	0	root	_	_
 2	hos	hos	ADP	_	AdpType=Prep	7	dep	_	_
 3	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	2	amod	_	_
-4	andre	anden	PRON	_	Number=Plur|PronType=Ind	3	dep	_	_
+4	andre	anden	PRON	_	Number=Plur|PronType=Ind	3	nmod	_	_
 5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 6	holdningen	holdning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
 7	en	en	PRON	_	Gender=Com|Number=Sing|PronType=Ind	1	conj	_	_
-8	anden	anden	PRON	_	Gender=Com|Number=Sing|PronType=Ind	7	dep	_	_
+8	anden	anden	PRON	_	Gender=Com|Number=Sing|PronType=Ind	7	nmod	_	_
 9	:	:	PUNCT	_	_	7	punct	_	_
 10	"	&quot;	PUNCT	_	_	16	punct	_	_
 11	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
@@ -980,7 +980,7 @@
 13	ikke	ikke	ADV	_	_	16	neg	_	_
 14	være	være	AUX	_	VerbForm=Inf|Voice=Act	16	cop	_	_
 15	de	den	DET	_	Number=Plur|PronType=Dem	16	det	_	_
-16	næste	næste	ADJ	_	Degree=Pos|Variant=Long	7	expl	_	_
+16	næste	næste	ADJ	_	Degree=Pos|Variant=Long	7	amod	_	_
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	der	der	PART	_	PartType=Inf	20	nsubj	_	_
 19	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
@@ -1020,9 +1020,9 @@
 15	med	med	ADP	_	AdpType=Prep	17	case	_	_
 16	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	17	det	_	_
 17	modspil	modspil	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	_
-18	i	i	ADP	_	AdpType=Prep	17	dep	_	_
-19	samme	samme	ADJ	_	Degree=Pos|Variant=Long	18	amod	_	_
-20	størrelsesorden	størrelsesorden	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	dep	_	_
+18	i	i	ADP	_	AdpType=Prep	20	case	_	_
+19	samme	samme	ADJ	_	Degree=Pos|Variant=Long	20	amod	_	_
+20	størrelsesorden	størrelsesorden	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -1049,14 +1049,14 @@
 11	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	købe	købe	VERB	_	VerbForm=Inf|Voice=Act	6	dep	_	_
 13	basis-varer	basis-vare	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	12	dobj	_	_
-14	billigere	billig	ADJ	_	Degree=Comp|Variant=Short	12	amod	_	_
+14	billigere	billigere	ADV	_	Degree=Comp	12	advmod	_	_
 15	andre	anden	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	steder	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	dep	_	_
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 1	Går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	dep	_	_
 2	konkurrenterne	konkurrent	NOUN	_	Definite=Def|Gender=Com|Number=Plur	1	nsubj	_	_
-3	ned	ned	ADV	_	_	1	dep	_	_
+3	ned	ned	ADV	_	_	1	nmod:loc	_	_
 4	i	i	ADP	_	AdpType=Prep	5	case	_	_
 5	pris	pris	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
 6	,	,	PUNCT	_	_	1	punct	_	_
@@ -1078,7 +1078,7 @@
 7	anden	anden	DET	_	Gender=Com|Number=Sing|PronType=Ind	9	det	_	_
 8	kedelig	kedelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	9	amod	_	_
 9	følge	følge	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	dobj	_	_
-10	,	,	PUNCT	_	_	4	punct	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
 11	set	se	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	4	dep	_	_
 12	med	med	ADP	_	AdpType=Prep	13	case	_	_
 13	brancheøjne	brancheøje	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	_
@@ -1138,7 +1138,7 @@
 15	Super-Brugser	Super-Brugs	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	10	nmod	_	_
 16	.	.	PUNCT	_	_	2	punct	_	_
 
-1	Tidligere	tidlig	ADJ	_	Degree=Comp|Variant=Short	2	amod	_	_
+1	Tidligere	tidligere	ADV	_	Degree=Comp	2	advmod	_	_
 2	havde	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	de	den	DET	_	Number=Plur|PronType=Dem	5	det	_	_
 4	store	stor	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	5	amod	_	_
@@ -1157,7 +1157,7 @@
 5	antallet	antal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
 6	ned	ned	ADV	_	_	4	advmod	_	_
 7	til	til	ADP	_	AdpType=Prep	6	dep	_	_
-8	8.000	8.000	NUM	_	NumType=Card	7	dep	_	_
+8	8.000	8.000	NUM	_	NumType=Card	7	nummod	_	_
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -1208,7 +1208,7 @@
 9	af	af	ADP	_	AdpType=Prep	10	case	_	_
 10	finansloven	finanslov	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	nmod	_	_
 11	for	for	ADP	_	AdpType=Prep	10	dep	_	_
-12	1991	1991	NUM	_	NumType=Card	11	dep	_	_
+12	1991	1991	NUM	_	NumType=Card	11	nummod	_	_
 13	til	til	ADP	_	AdpType=Prep	14	case	_	_
 14	murbrækker	murbrækker	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
 15	for	for	ADP	_	AdpType=Prep	14	dep	_	_
@@ -1221,7 +1221,7 @@
 22	på	på	ADP	_	AdpType=Prep	28	case	_	_
 23	de	den	DET	_	Number=Plur|PronType=Dem	28	det	_	_
 24	andre	anden	DET	_	Number=Plur|PronType=Ind	28	det	_	_
-25	,	,	PUNCT	_	_	28	punct	_	_
+25	,	,	PUNCT	_	_	20	punct	_	_
 26	sprængfarlige	sprængfarlig	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	28	amod	_	_
 27	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	28	amod	_	_
 28	områder	område	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	nmod	_	_
@@ -1339,7 +1339,7 @@
 17	at	at	PART	_	PartType=Inf	16	dep	_	_
 18	sikre	sikre	VERB	_	VerbForm=Inf|Voice=Act	17	dep	_	_
 19	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	22	det	_	_
-20	mere	meget	ADJ	_	Degree=Comp|Variant=Short	21	amod	_	_
+20	mere	mere	ADV	_	Degree=Comp	21	advmod	_	_
 21	afdæmpet	afdæmpet	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	22	amod	_	_
 22	overenskomstresultat	overenskomstresultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	dobj	_	_
 23	.	.	PUNCT	_	_	3	punct	_	_
@@ -1350,7 +1350,7 @@
 1	"	&quot;	PUNCT	_	_	3	punct	_	_
 2	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	tvivler	tvivle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	dep	_	_
-4	oprigtig	oprigtig	ADJ	_	Degree=Pos|Variant=Short	5	amod	_	_
+4	oprigtig	oprigtig	ADV	_	Degree=Pos	5	advmod	_	_
 5	talt	tale	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	3	dep	_	_
 6	på	på	ADP	_	AdpType=Prep	3	dep	_	_
 7	,	,	PUNCT	_	_	13	punct	_	_
@@ -1361,14 +1361,14 @@
 12	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	nedsætte	nedsætte	VERB	_	VerbForm=Inf|Voice=Act	6	dep	_	_
 14	priserne	pris	NOUN	_	Definite=Def|Gender=Com|Number=Plur	13	dobj	_	_
-15	i	i	ADP	_	AdpType=Prep	13	dep	_	_
-16	samme	samme	ADJ	_	Degree=Pos|Variant=Long	15	amod	_	_
-17	omfang	omfang	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	dep	_	_
-18	,	,	PUNCT	_	_	22	punct	_	_
+15	i	i	ADP	_	AdpType=Prep	17	case	_	_
+16	samme	samme	ADJ	_	Degree=Pos|Variant=Long	17	amod	_	_
+17	omfang	omfang	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	_
+18	,	,	PUNCT	_	_	13	punct	_	_
 19	som	som	PART	_	PartType=Inf	22	dep	_	_
 20	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
 21	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
-22	nedsætte	nedsætte	VERB	_	VerbForm=Inf|Voice=Act	16	acl:relcl	_	_
+22	nedsætte	nedsætte	AUX	_	VerbForm=Inf|Voice=Act	17	aux	_	_
 23	moms	moms	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	dobj	_	_
 24	og	og	CONJ	_	_	23	cc	_	_
 25	afgifter	afgift	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	23	conj	_	_
@@ -1397,12 +1397,12 @@
 12	Brøndby	Brøndby	PROPN	_	_	10	conj	_	_
 13	,	,	PUNCT	_	_	2	punct	_	_
 14	og	og	CONJ	_	_	2	cc	_	_
-15	dagen	dag	NOUN	_	Definite=Def|Gender=Com|Number=Sing	16	dep	_	_
+15	dagen	dag	NOUN	_	Definite=Def|Gender=Com|Number=Sing	16	nmod:temp	_	_
 16	efter	efter	ADV	_	_	17	advmod	_	_
 17	følger	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 18	kampene	kamp	NOUN	_	Definite=Def|Gender=Com|Number=Plur	17	nsubj	_	_
 19	:	:	PUNCT	_	_	18	punct	_	_
-20	Ikast-Lyngby	Ikast-Lyngby	PROPN	_	_	18	expl	_	_
+20	Ikast-Lyngby	Ikast-Lyngby	PROPN	_	_	18	appos	_	_
 21	,	,	PUNCT	_	_	20	punct	_	_
 22	B_1903-Silkeborg	B_1903-Silkeborg	PROPN	_	_	20	conj	_	_
 23	,	,	PUNCT	_	_	20	punct	_	_
@@ -1419,7 +1419,7 @@
 6	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	mødes	mødes	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 8	to	to	NUM	_	NumType=Card	9	nummod	_	_
-9	gange	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	dep	_	_
+9	gange	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	nmod:temp	_	_
 10	i	i	ADP	_	AdpType=Prep	11	case	_	_
 11	løbet	løb	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_
 12	af	af	ADP	_	AdpType=Prep	13	case	_	_
@@ -1443,19 +1443,19 @@
 30	således	således	ADV	_	_	29	amod	_	_
 31	ud	ud	ADV	_	_	29	advmod	_	_
 32	:	:	PUNCT	_	_	29	punct	_	_
-33	Lyngby-Brøndby	Lyngby-Brøndby	PROPN	_	_	29	expl	_	_
+33	Lyngby-Brøndby	Lyngby-Brøndby	PROPN	_	_	29	dep	_	_
 34	,	,	PUNCT	_	_	33	punct	_	_
 35	Silkeborg-AGF	Silkeborg-AGF	PROPN	_	_	33	conj	_	_
 36	,	,	PUNCT	_	_	33	punct	_	_
 37	Vejle-Ikast	Vejle-Ikast	PROPN	_	_	33	conj	_	_
 38	,	,	PUNCT	_	_	33	punct	_	_
 39	Frem-B	Frem-B	PROPN	_	_	33	conj	_	_
-40	1903	1903	NUM	_	NumType=Card	39	dep	_	_
+40	1903	1903	NUM	_	NumType=Card	39	nummod	_	_
 41	og	og	CONJ	_	_	33	cc	_	_
 42	AaB-OB	AaB-OB	PROPN	_	_	33	conj	_	_
 43	.	.	PUNCT	_	_	7	punct	_	_
 
-1	Hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	11	dep	_	_
+1	Hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	10	nmod	_	_
 2	der	der	PART	_	PartType=Inf	4	nsubj	_	_
 3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	ske	ske	VERB	_	VerbForm=Inf|Voice=Act	1	acl:relcl	_	_
@@ -1465,7 +1465,7 @@
 8	Divisionsforeningen	divisionsforening	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
 9	først	først	ADV	_	_	7	advmod	_	_
 10	stilling	stilling	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	dobj	_	_
-11	til	til	ADP	_	AdpType=Prep	10	dep	_	_
+11	til	til	ADP	_	AdpType=Prep	1	case	_	_
 12	på	på	ADP	_	AdpType=Prep	13	case	_	_
 13	generalforsamlingen	generalforsamling	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nmod	_	_
 14	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	16	det	_	_
@@ -1492,7 +1492,7 @@
 17	hidtidig	hidtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	18	amod	_	_
 18	praksis	praksis	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	nmod	_	_
 19	spilles	spille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	10	dep	_	_
-20	efterår/forår	efterår/forår	X	_	_	19	dep	_	_
+20	efterår/forår	efterår/forår	X	_	_	19	nmod:temp	_	_
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 1	Bliver	blive	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
@@ -1503,16 +1503,16 @@
 6	danmarksmester	danmarksmester	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
 7	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	9	det	_	_
 8	23.	23.	ADJ	_	NumType=Ord	9	dep	_	_
-9	juni	juni	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	dep	_	_
+9	juni	juni	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nmod:temp	_	_
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 1	Uden	uden	ADP	_	AdpType=Prep	0	root	_	_
 2	dog	dog	ADV	_	_	1	advmod	_	_
 3	at	at	PART	_	PartType=Inf	1	dep	_	_
 4	opnå	opnå	VERB	_	VerbForm=Inf|Voice=Act	3	dep	_	_
-5	meget	meget	ADJ	_	Degree=Pos|Variant=Short	4	dobj	_	_
+5	meget	meget	ADV	_	Degree=Pos	4	dobj	_	_
 6	mere	meget	ADJ	_	Definite=Ind|Degree=Comp|Number=Sing|Variant=Long	5	amod	_	_
-7	end	end	SCONJ	_	_	8	mark	_	_
+7	end	end	ADP	_	_	8	mark	_	_
 8	æren	ære	NOUN	_	Definite=Def|Gender=Com|Number=Sing	6	dep	_	_
 9	,	,	PUNCT	_	_	16	punct	_	_
 10	fordi	fordi	SCONJ	_	_	16	mark	_	_
@@ -1541,11 +1541,11 @@
 10	at	at	PART	_	PartType=Inf	9	dobj	_	_
 11	bibeholde	bibeholde	VERB	_	VerbForm=Inf|Voice=Act	10	dep	_	_
 12	turneringen	turnering	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	dobj	_	_
-13	forår/efterår	forår/efterår	X	_	_	11	dep	_	_
+13	forår/efterår	forår/efterår	X	_	_	11	nmod:temp	_	_
 14	rykker	rykke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 15	to	to	NUM	_	NumType=Card	16	nummod	_	_
 16	hold	hold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nsubj	_	_
-17	ud	ud	ADV	_	_	14	dep	_	_
+17	ud	ud	ADV	_	_	14	nmod:loc	_	_
 18	af	af	ADP	_	AdpType=Prep	19	case	_	_
 19	Superligaen	superliga	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
 20	.	.	PUNCT	_	_	14	punct	_	_
@@ -1553,7 +1553,7 @@
 1	Hvorefter	hvorefter	ADV	_	_	0	root	_	_
 2	de	den	DET	_	Number=Plur|PronType=Dem	6	det	_	_
 3	otte	otte	NUM	_	NumType=Card	6	nummod	_	_
-4	bedst	god	ADJ	_	Degree=Sup|Variant=Short	5	amod	_	_
+4	bedst	bedst	ADV	_	Degree=Sup	5	advmod	_	_
 5	placerede	placere	VERB	_	Number=Plur|Tense=Past|VerbForm=Part	6	dep	_	_
 6	hold	hold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nsubj	_	_
 7	fra	fra	ADP	_	AdpType=Prep	8	case	_	_
@@ -1577,7 +1577,7 @@
 
 1	Kampvognene	kampvogn	NOUN	_	Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
 2	kørte	køre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	ind	ind	ADV	_	_	2	dep	_	_
+3	ind	ind	ADV	_	_	2	nmod:loc	_	_
 4	og	og	CONJ	_	_	3	cc	_	_
 5	ud	ud	ADV	_	_	3	conj	_	_
 6	mellem	mellem	ADP	_	AdpType=Prep	10	case	_	_
@@ -1659,13 +1659,13 @@
 4	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	dobj	_	_
 5	ned	ned	ADV	_	_	3	advmod	_	_
 6	med	med	ADP	_	AdpType=Prep	8	case	_	_
-7	deres	deres	PRON	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	tanks	tank	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	nmod	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	slår	slå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	dep	_	_
-3	løs	løs	ADJ	_	Degree=Pos|Variant=Short	2	amod	_	_
+3	løs	løs	ADV	_	Degree=Pos	2	advmod	_	_
 4	på	på	ADP	_	AdpType=Prep	5	case	_	_
 5	kvinder	kvinde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	nmod	_	_
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -1684,8 +1684,8 @@
 7	begyndte	begynde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	dep	_	_
 8	at	at	PART	_	PartType=Inf	7	dobj	_	_
 9	skyde	skyde	VERB	_	VerbForm=Inf|Voice=Act	8	dep	_	_
-10	mod	mod	ADP	_	AdpType=Prep	9	dep	_	_
-11	alle	al	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	10	amod	_	_
+10	mod	mod	ADP	_	AdpType=Prep	11	case	_	_
+11	alle	al	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	9	nmod	_	_
 12	...	...	PUNCT	_	_	7	punct	_	_
 13	lige	lige	ADV	_	_	14	advmod	_	_
 14	meget	meget	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	7	amod	_	_
@@ -1715,18 +1715,18 @@
 13	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	15	det	_	_
 14	såret	såre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	15	dep	_	_
 15	litauer	litauer	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	dobj	_	_
-16	,	,	PUNCT	_	_	15	punct	_	_
+16	,	,	PUNCT	_	_	12	punct	_	_
 17	der	der	PART	_	PartType=Inf	19	nsubjpass	_	_
 18	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	auxpass	_	_
 19	hjulpet	hjælpe	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	15	cop	_	_
-20	væk	væk	ADV	_	_	19	dep	_	_
+20	væk	væk	ADV	_	_	19	nmod:loc	_	_
 21	fra	fra	ADP	_	AdpType=Prep	22	case	_	_
 22	slagmarken	slagmark	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	nmod	_	_
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 1	Bagefter	bagefter	ADV	_	_	5	advmod	_	_
 2	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	auxpass	_	_
-3	deres	deres	PRON	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
 4	kamera	kamera	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubjpass	_	_
 5	konfiskeret	konfiskere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1811,13 +1811,13 @@
 1	"	&quot;	PUNCT	_	_	5	punct	_	_
 2	Byen	by	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	totalt	total	ADJ	_	Degree=Pos|Variant=Short	5	amod	_	_
+4	totalt	totalt	ADV	_	Degree=Pos	5	advmod	_	_
 5	mørk	mørk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	0	root	_	_
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 1	Stilheden	stilhed	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	nærmest	nær	ADJ	_	Degree=Sup|Variant=Short	2	amod	_	_
+3	nærmest	nærmest	ADV	_	Degree=Sup	2	advmod	_	_
 4	larmende	larme	VERB	_	Tense=Pres|VerbForm=Part,Trans	2	dep	_	_
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1872,7 +1872,7 @@
 12	været	være	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
 13	begrænsede	begrænse	VERB	_	Number=Plur|Tense=Past|VerbForm=Part	12	dep	_	_
 14	og	og	CONJ	_	_	13	cc	_	_
-15	meget	meget	ADJ	_	Degree=Pos|Variant=Short	16	amod	_	_
+15	meget	meget	ADV	_	Degree=Pos	16	advmod	_	_
 16	målrettede	målrettet	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	13	conj	_	_
 17	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -1917,13 +1917,13 @@
 
 1	Kl.	klokke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	dep	_	_
 2	01.44	01.44	NUM	_	NumType=Card	1	nmod	_	_
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
 4	dansk	dansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	5	amod	_	_
 5	tid	tid	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	dep	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	brød	bryde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	helvede	helvede	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	_
-9	løs	løs	ADJ	_	Degree=Pos|Variant=Short	7	amod	_	_
+9	løs	løs	ADV	_	Degree=Pos	7	amod	_	_
 10	igen	igen	ADV	_	_	7	advmod	_	_
 11	over	over	ADP	_	AdpType=Prep	12	case	_	_
 12	Bagdad	Bagdad	PROPN	_	_	7	nmod	_	_
@@ -1949,7 +1949,7 @@
 
 1	Flammerne	flamme	NOUN	_	Definite=Def|Gender=Com|Number=Plur	2	nsubj	_	_
 2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	op	op	ADV	_	_	2	dep	_	_
+3	op	op	ADV	_	_	2	nmod:loc	_	_
 4	i	i	ADP	_	AdpType=Prep	5	case	_	_
 5	horisonten	horisont	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -1981,7 +1981,7 @@
 17	veteranen	veteran	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	conj	_	_
 18	fra	fra	ADP	_	AdpType=Prep	19	case	_	_
 19	Vietnam	Vietnam	PROPN	_	_	17	nmod	_	_
-20	,	,	PUNCT	_	_	17	punct	_	_
+20	,	,	PUNCT	_	_	22	punct	_	_
 21	krigsreporter	krigsreporter	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	name	_	_
 22	Peter	Peter	PROPN	_	_	17	appos	_	_
 23	Arnett	Arnett	PROPN	_	_	22	name	_	_
@@ -2008,7 +2008,7 @@
 3	mor	mor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	nsubj	_	_
 4	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
 5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	6	det	_	_
-6	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	dep	_	_
+6	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod:temp	_	_
 7	måneder	måned	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nmod	_	_
 8	forinden	forinden	ADV	_	_	14	advmod	_	_
 9	konstateret	konstatere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	14	dep	_	_
@@ -2028,7 +2028,7 @@
 
 1	Hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bad	bede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
+3	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	_
 4	mand	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	dobj	_	_
 5	kontakte	kontakte	VERB	_	VerbForm=Inf|Voice=Act	2	dep	_	_
 6	Københavns	København	PROPN	_	Case=Gen	7	nmod:poss	_	_
@@ -2042,14 +2042,14 @@
 14	tiltalte	tiltale	VERB	_	Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	12	dep	_	_
 15	som	som	PART	_	PartType=Inf	11	dep	_	_
 16	dagplejefar	dagplejefar	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	dep	_	_
-17	,	,	PUNCT	_	_	11	punct	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
 18	for	for	ADP	_	AdpType=Prep	11	dep	_	_
 19	at	at	PART	_	PartType=Inf	18	dep	_	_
 20	få	få	VERB	_	VerbForm=Inf|Voice=Act	19	dep	_	_
 21	sønnen	søn	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	dobj	_	_
 22	anbragt	anbringe	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	20	dep	_	_
 23	under	under	ADP	_	AdpType=Prep	26	case	_	_
-24	mere	meget	ADJ	_	Degree=Comp|Variant=Short	25	amod	_	_
+24	mere	mere	ADV	_	Degree=Comp	25	advmod	_	_
 25	betryggende	betryggende	ADJ	_	Degree=Pos|Variant=Long	26	amod	_	_
 26	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	nmod	_	_
 27	.	.	PUNCT	_	_	2	punct	_	_
@@ -2070,7 +2070,7 @@
 7	ifølge	ifølge	ADP	_	AdpType=Prep	8	case	_	_
 8	tiltalen	tiltale	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	nmod	_	_
 9	-	-	PUNCT	_	_	7	punct	_	_
-10	amok	amok	ADJ	_	Degree=Pos|Variant=Short	4	amod	_	_
+10	amok	amok	ADV	_	Degree=Pos	4	amod	_	_
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 1	H.'s	H.	PROPN	_	Case=Gen	2	nmod:poss	_	_
@@ -2082,12 +2082,12 @@
 1	"	&quot;	PUNCT	_	_	5	punct	_	_
 2	Anders	Anders	PROPN	_	_	5	nsubj	_	_
 3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	helt	hel	ADJ	_	Degree=Pos|Variant=Short	5	amod	_	_
+4	helt	helt	ADV	_	Degree=Pos	5	advmod	_	_
 5	anderledes	anderledes	ADJ	_	Degree=Pos|Variant=Long	0	root	_	_
 6	af	af	ADP	_	AdpType=Prep	7	case	_	_
 7	sind	sind	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
-8	end	end	SCONJ	_	_	11	dep	_	_
-9	min	min	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+8	end	end	ADP	_	_	11	dep	_	_
+9	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
 10	egen	egen	ADJ	_	Degree=Pos|Gender=Com|Number=Sing|Variant=Long	11	amod	_	_
 11	søn	søn	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	dep	_	_
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -2100,7 +2100,7 @@
 6	drengen	dreng	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
 7	tudede	tude	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	dep	_	_
 8	så	så	ADV	_	_	9	advmod	_	_
-9	meget	meget	ADJ	_	Degree=Pos|Variant=Short	7	amod	_	_
+9	meget	meget	ADV	_	Degree=Pos	7	advmod	_	_
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	så	så	SCONJ	_	_	14	mark	_	_
 12	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
@@ -2114,9 +2114,9 @@
 2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	have	have	AUX	_	VerbForm=Inf|Voice=Act	4	aux	_	_
 4	slået	slå	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
-5	hårdere	hård	ADJ	_	Degree=Comp|Variant=Short	4	amod	_	_
+5	hårdere	hårdere	ADV	_	Degree=Comp	4	advmod	_	_
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	end	end	SCONJ	_	_	9	mark	_	_
+7	end	end	ADP	_	_	9	mark	_	_
 8	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	troede	tro	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	dep	_	_
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -2133,7 +2133,7 @@
 6	øjnene	øje	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	nmod	_	_
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	og	og	CONJ	_	_	2	cc	_	_
-9	hans	hans	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	hans	hans	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
 10	nakke	nakke	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	nsubj	_	_
 11	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
 12	slap	slap	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	2	conj	_	_
@@ -2150,7 +2150,7 @@
 8	at	at	PART	_	PartType=Inf	7	dobj	_	_
 9	trække	trække	VERB	_	VerbForm=Inf|Voice=Act	8	dep	_	_
 10	vejret	vejr	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	dobj	_	_
-11	hæst	hæs	ADJ	_	Degree=Pos|Variant=Short	9	amod	_	_
+11	hæst	hæst	ADV	_	Degree=Pos	9	advmod	_	_
 12	og	og	CONJ	_	_	3	cc	_	_
 13	ringede	ringe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 14	efter	efter	ADP	_	AdpType=Prep	16	case	_	_
@@ -2163,7 +2163,7 @@
 3	ringede	ringe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	også	også	ADV	_	_	3	advmod	_	_
 5	til	til	ADP	_	AdpType=Prep	7	case	_	_
-6	hans	hans	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	hans	hans	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
 7	far	far	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
 8	og	og	CONJ	_	_	3	cc	_	_
 9	fortalte	fortælle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
@@ -2171,7 +2171,7 @@
 11	at	at	SCONJ	_	_	15	mark	_	_
 12	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
-14	gruelig	gruelig	ADJ	_	Degree=Pos|Variant=Short	15	amod	_	_
+14	gruelig	gruelig	ADV	_	Degree=Pos	15	advmod	_	_
 15	gal	gal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	9	dobj	_	_
 16	-	-	PUNCT	_	_	15	punct	_	_
 17	drengen	dreng	NOUN	_	Definite=Def|Gender=Com|Number=Sing	19	nsubj	_	_
@@ -2186,7 +2186,7 @@
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	at	at	SCONJ	_	_	9	mark	_	_
-6	min	min	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+6	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
 7	nuværende	nuværende	ADJ	_	Degree=Pos|Variant=Long	8	amod	_	_
 8	kontrakt	kontrakt	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	nsubj	_	_
 9	udløber	udløbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	dep	_	_
@@ -2204,12 +2204,12 @@
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	forventer	forvente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-11	,	,	PUNCT	_	_	17	punct	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
 12	at	at	SCONJ	_	_	17	mark	_	_
 13	Brøndbys	Brøndby	PROPN	_	Case=Gen	14	nmod:poss	_	_
 14	ledelse	ledelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	nsubj	_	_
 15	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
-16	"	&quot;	PUNCT	_	_	17	punct	_	_
+16	"	&quot;	PUNCT	_	_	12	punct	_	_
 17	forgylde	forgylde	VERB	_	VerbForm=Inf|Voice=Act	9	dobj	_	_
 18	"	&quot;	PUNCT	_	_	17	punct	_	_
 19	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	17	dobj	_	_
@@ -2219,7 +2219,7 @@
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	der	der	PART	_	PartType=Inf	29	nsubj	_	_
 25	i_hvert_fald	i_hvert_fald	ADV	_	_	26	advmod	_	_
-26	delvis	delvis	ADJ	_	Degree=Pos|Variant=Short	29	amod	_	_
+26	delvis	delvis	ADV	_	Degree=Pos	29	advmod	_	_
 27	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux	_	_
 28	kunne	kunne	AUX	_	VerbForm=Inf|Voice=Act	29	aux	_	_
 29	konkurrere	konkurrere	AUX	_	VerbForm=Inf|Voice=Act	22	aux	_	_
@@ -2260,12 +2260,12 @@
 19	at	at	SCONJ	_	_	23	mark	_	_
 20	Superliga-finalen	superliga-finale	NOUN	_	Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	_
 21	aldrig	aldrig	ADV	_	_	23	advmod	_	_
-22	rigtig	rigtig	ADJ	_	Degree=Pos|Variant=Short	23	amod	_	_
+22	rigtig	rigtig	ADV	_	Degree=Pos	23	advmod	_	_
 23	formåede	formå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	dobj	_	_
 24	at	at	PART	_	PartType=Inf	23	dobj	_	_
 25	fænge	fænge	VERB	_	VerbForm=Inf|Voice=Act	24	dep	_	_
-26	rent	ren	ADJ	_	Degree=Pos|Variant=Short	27	amod	_	_
-27	underholdningsmæssigt	underholdningsmæssig	ADJ	_	Degree=Pos|Variant=Short	25	amod	_	_
+26	rent	rent	ADV	_	Degree=Pos	27	advmod	_	_
+27	underholdningsmæssigt	underholdningsmæssigt	ADV	_	Degree=Pos	25	advmod	_	_
 28	.	.	PUNCT	_	_	14	punct	_	_
 
 1	"	&quot;	PUNCT	_	_	4	punct	_	_
@@ -2297,7 +2297,7 @@
 14	trille	trille	VERB	_	VerbForm=Inf|Voice=Act	6	dobj	_	_
 15	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	16	det	_	_
 16	kamp	kamp	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	dobj	_	_
-17	hjem	hjem	ADV	_	_	14	dep	_	_
+17	hjem	hjem	ADV	_	_	14	nmod:loc	_	_
 18	,	,	PUNCT	_	_	14	punct	_	_
 19	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 20	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
@@ -2313,7 +2313,7 @@
 2	Emeka	Emeka	PROPN	_	_	4	nsubj	_	_
 3	Ezeugo	Ezeugo	PROPN	_	_	2	name	_	_
 4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	nsubj	_	_
-5	hen	hen	ADV	_	_	4	dep	_	_
+5	hen	hen	ADV	_	_	4	nmod:loc	_	_
 6	og	og	CONJ	_	_	4	cc	_	_
 7	dummer	dumme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 8	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	dobj	_	_
@@ -2341,10 +2341,10 @@
 4	på	på	ADP	_	AdpType=Prep	3	dep	_	_
 5	,	,	PUNCT	_	_	13	punct	_	_
 6	at	at	SCONJ	_	_	13	mark	_	_
-7	samme	samme	ADJ	_	Degree=Pos|Variant=Long	13	nsubj	_	_
-8	dumhed	dumhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	dep	_	_
-9	hos	hos	ADP	_	AdpType=Prep	13	dep	_	_
-10	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	9	dep	_	_
+7	samme	samme	ADJ	_	Degree=Pos|Variant=Long	8	amod	_	_
+8	dumhed	dumhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	13	nsubj	_	_
+9	hos	hos	ADP	_	AdpType=Prep	10	case	_	_
+10	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	13	nmod	_	_
 11	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 12	have	have	AUX	_	VerbForm=Inf|Voice=Act	13	aux	_	_
 13	kostet	koste	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	4	dep	_	_
@@ -2352,7 +2352,7 @@
 15	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	17	det	_	_
 16	klækkelig	klækkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	17	amod	_	_
 17	bøde	bøde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	13	dobj	_	_
-18	!	!	PUNCT	_	_	3	punct	_	_
+18	!	!	PUNCT	_	_	13	punct	_	_
 19	"	&quot;	PUNCT	_	_	3	punct	_	_
 
 1	Steen	Steen	PROPN	_	_	0	root	_	_
@@ -2378,12 +2378,12 @@
 3	Palle	Palle	PROPN	_	_	1	list	_	_
 4	Hedemann	Hedemann	PROPN	_	_	3	name	_	_
 
-1	På	på	ADP	_	AdpType=Prep	24	dep	_	_
-2	samme	samme	ADJ	_	Degree=Pos|Variant=Long	1	amod	_	_
-3	tidspunkt	tidspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	dep	_	_
-4	-	-	PUNCT	_	_	2	punct	_	_
+1	På	på	ADP	_	AdpType=Prep	3	case	_	_
+2	samme	samme	ADJ	_	Degree=Pos|Variant=Long	3	amod	_	_
+3	tidspunkt	tidspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	_
+4	-	-	PUNCT	_	_	3	punct	_	_
 5	i	i	ADP	_	AdpType=Prep	6	case	_	_
-6	tidsrummet	tidsrum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
+6	tidsrummet	tidsrum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	_
 7	mellem	mellem	ADP	_	AdpType=Prep	8	case	_	_
 8	klokken	klokke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	6	nmod	_	_
 9	11.50	11.50	NUM	_	NumType=Card	8	nmod	_	_
@@ -2402,7 +2402,7 @@
 22	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	nmod	_	_
 23	have	have	AUX	_	VerbForm=Inf|Voice=Act	24	aux	_	_
 24	dræbt	dræbe	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
-25	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	26	nmod:poss	_	_
+25	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	26	det	_	_
 26	kone	kone	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	dobj	_	_
 27	og	og	CONJ	_	_	24	cc	_	_
 28	skaffet	skaffe	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	24	conj	_	_
@@ -2431,7 +2431,7 @@
 11	DR-Dokumentar	DR-Dokumentar	PROPN	_	_	12	nmod	_	_
 12	gruppen	gruppe	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	_
 13	i	i	ADP	_	AdpType=Prep	16	case	_	_
-14	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	16	nmod:poss	_	_
+14	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	_
 15	sønderlemmende	sønderlemme	VERB	_	Tense=Pres|VerbForm=Part	16	dep	_	_
 16	kritik	kritik	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	_
 17	af	af	ADP	_	AdpType=Prep	20	case	_	_
@@ -2491,7 +2491,7 @@
 34	?	?	PUNCT	_	_	30	punct	_	_
 35	"	&quot;	PUNCT	_	_	30	punct	_	_
 
-1	Underforstået	underforstået	ADJ	_	Degree=Pos|Variant=Short	0	root	_	_
+1	Underforstået	underforstået	ADV	_	Degree=Pos	0	root	_	_
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	at	at	SCONJ	_	_	6	mark	_	_
 4	der	der	PART	_	PartType=Inf	6	expl	_	_
@@ -2499,10 +2499,10 @@
 6	mangle	mangle	VERB	_	VerbForm=Inf|Voice=Act	1	list	_	_
 7	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	8	det	_	_
 8	side	side	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	dobj	_	_
-9	-	-	PUNCT	_	_	8	punct	_	_
+9	-	-	PUNCT	_	_	6	punct	_	_
 10	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	8	dep	_	_
 11	med	med	ADP	_	AdpType=Prep	13	case	_	_
-12	hendes	hendes	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+12	hendes	hendes	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	forklaring	forklaring	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	_
 14	om	om	ADP	_	AdpType=Prep	15	case	_	_
 15	Ove	Ove	PROPN	_	_	13	nmod	_	_
@@ -2515,7 +2515,7 @@
 5	kriminalassistent	kriminalassistent	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	name	_	_
 6	Villy	Villy	PROPN	_	_	4	nsubj	_	_
 7	Nielsen	Nielsen	PROPN	_	_	6	name	_	_
-8	,	,	PUNCT	_	_	6	punct	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
 9	Frederikshavn	Frederikshavn	PROPN	_	_	6	dep	_	_
 10	politi	politi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	dep	_	_
 11	,	,	PUNCT	_	_	19	punct	_	_
@@ -2536,14 +2536,14 @@
 26	Jane	Jane	PROPN	_	_	20	nmod	_	_
 27	Nielsen	Nielsen	PROPN	_	_	26	name	_	_
 28	på	på	ADP	_	AdpType=Prep	30	case	_	_
-29	hendes	hendes	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+29	hendes	hendes	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
 30	bopæl	bopæl	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	_
 31	under	under	ADP	_	AdpType=Prep	32	case	_	_
 32	overværelse	overværelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	_
 33	af	af	ADP	_	AdpType=Prep	35	case	_	_
-34	hendes	hendes	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+34	hendes	hendes	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
 35	mand	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	32	nmod	_	_
-36	,	,	PUNCT	_	_	19	punct	_	_
+36	,	,	PUNCT	_	_	37	punct	_	_
 37	imidlertid	imidlertid	ADV	_	_	4	advmod	_	_
 38	,	,	PUNCT	_	_	43	punct	_	_
 39	at	at	SCONJ	_	_	43	mark	_	_
@@ -2563,15 +2563,15 @@
 53	.	.	PUNCT	_	_	4	punct	_	_
 
 1	"	&quot;	PUNCT	_	_	5	punct	_	_
-2	Min	min	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	Min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 3	far	far	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
 4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	stukket	stikke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	13	dep	_	_
-6	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	nmod:poss	_	_
+6	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
 7	tissemand	tissemand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	dobj	_	_
-8	op	op	ADV	_	_	5	dep	_	_
-9	i	i	ADP	_	AdpType=Prep	8	dep	_	_
-10	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	9	dep	_	_
+8	op	op	ADV	_	_	5	nmod:loc	_	_
+9	i	i	ADP	_	AdpType=Prep	10	case	_	_
+10	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	"	&quot;	PUNCT	_	_	5	punct	_	_
 13	meddelte	meddele	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -2640,12 +2640,12 @@
 31	kommunikere	kommunikere	VERB	_	VerbForm=Inf|Voice=Act	30	dep	_	_
 32	med	med	ADP	_	AdpType=Prep	31	dep	_	_
 33	de	den	DET	_	Number=Plur|PronType=Dem	40	det	_	_
-34	såkaldt	såkaldt	ADJ	_	Degree=Pos|Variant=Short	40	amod	_	_
-35	"	&quot;	PUNCT	_	_	40	punct	_	_
-36	vidtgående	vidtgående	ADJ	_	Degree=Pos|Variant=Short	37	amod	_	_
-37	fysisk	fysisk	ADJ	_	Degree=Pos|Variant=Short	40	amod	_	_
+34	såkaldt	såkaldt	ADV	_	Degree=Pos	40	advmod	_	_
+35	"	&quot;	PUNCT	_	_	24	punct	_	_
+36	vidtgående	vidtgående	ADV	_	Degree=Pos	37	advmod	_	_
+37	fysisk	fysisk	ADV	_	Degree=Pos	40	advmod	_	_
 38	og	og	CONJ	_	_	37	cc	_	_
-39	psykisk	psykisk	ADJ	_	Degree=Pos|Variant=Short	37	conj	_	_
+39	psykisk	psykisk	ADV	_	Degree=Pos	37	conj	_	_
 40	handicappede	handicappet	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	32	amod	_	_
 41	"	&quot;	PUNCT	_	_	40	punct	_	_
 42	.	.	PUNCT	_	_	9	punct	_	_
@@ -2664,9 +2664,9 @@
 8	Københavns	København	PROPN	_	Case=Gen	9	nmod:poss	_	_
 9	Amts	amt	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	10	nmod:poss	_	_
 10	sygehusafdeling	sygehusafdeling	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	nmod	_	_
-11	for	for	ADP	_	AdpType=Prep	10	dep	_	_
-12	multihandicappede	multihandicappet	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	11	amod	_	_
-13	,	,	PUNCT	_	_	8	punct	_	_
+11	for	for	ADP	_	AdpType=Prep	12	case	_	_
+12	multihandicappede	multihandicappet	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	10	nmod	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
 14	Vangedehuse	Vangedehuse	PROPN	_	_	8	appos	_	_
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	og	og	CONJ	_	_	4	cc	_	_
@@ -2709,7 +2709,7 @@
 14	eller	eller	CONJ	_	_	16	dep	_	_
 15	flere	mange	ADJ	_	Degree=Comp|Number=Plur|Variant=Long	16	amod	_	_
 16	pædagoger	pædagog	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	nmod	_	_
-17	over	over	ADV	_	_	10	dep	_	_
+17	over	over	ADV	_	_	10	nmod:loc	_	_
 18	for	for	ADP	_	AdpType=Prep	19	case	_	_
 19	stavepladen	staveplade	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
 20	,	,	PUNCT	_	_	22	punct	_	_
@@ -2718,10 +2718,10 @@
 23	af	af	ADP	_	AdpType=Prep	24	case	_	_
 24	alfabetet	alfabet	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	_
 25	og	og	CONJ	_	_	24	cc	_	_
-26	nogle	nogen	DET	_	Number=Plur|PronType=Ind	27	det	_	_
-27	få	få	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	24	conj	_	_
+26	nogle	nogen	DET	_	Number=Plur|PronType=Ind	29	det	_	_
+27	få	få	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	29	amod	_	_
 28	andre	anden	DET	_	Number=Plur|PronType=Ind	29	det	_	_
-29	symboler	symbol	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	27	dep	_	_
+29	symboler	symbol	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	conj	_	_
 30	.	.	PUNCT	_	_	10	punct	_	_
 
 1	For	for	ADP	_	AdpType=Prep	5	dep	_	_
@@ -2770,7 +2770,7 @@
 21	damer	dame	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	23	nsubj	_	_
 22	allerede	allerede	ADV	_	_	23	advmod	_	_
 23	kravlede	kravle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
-24	op	op	ADV	_	_	23	dep	_	_
+24	op	op	ADV	_	_	23	nmod:loc	_	_
 25	på	på	ADP	_	AdpType=Prep	26	case	_	_
 26	plateau'erne	plateau	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	24	nmod	_	_
 27	i	i	ADP	_	AdpType=Prep	28	case	_	_
@@ -2802,8 +2802,8 @@
 23	str.	størrelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	21	nmod	_	_
 24	36	36	NUM	_	NumType=Card	23	nmod	_	_
 25	til	til	ADP	_	AdpType=Prep	22	dep	_	_
-26	41	41	NUM	_	NumType=Card	25	dep	_	_
-27	-	-	PUNCT	_	_	25	punct	_	_
+26	41	41	NUM	_	NumType=Card	25	nummod	_	_
+27	-	-	PUNCT	_	_	21	punct	_	_
 28	eller	eller	CONJ	_	_	25	cc	_	_
 29	i_hvert_fald	i_hvert_fald	ADV	_	_	30	advmod	_	_
 30	til	til	ADP	_	AdpType=Prep	31	case	_	_
@@ -2813,7 +2813,7 @@
 
 1	Flot	flot	ADJ	_	Degree=Pos|Variant=Long	0	root	_	_
 
-1	Tøjet	tøj	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nsubj	_	_
+1	Tøjet	tøj	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	_
 2	,	,	PUNCT	_	_	8	punct	_	_
 3	der	der	PART	_	PartType=Inf	8	nsubj	_	_
 4	også	også	ADV	_	_	8	advmod	_	_
@@ -2832,21 +2832,21 @@
 17	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	dep	_	_
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
-21	fra	fra	ADP	_	AdpType=Prep	0	root	_	_
-22	samme	samme	ADJ	_	Degree=Pos|Variant=Long	21	amod	_	_
-23	butik	butik	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	dep	_	_
-24	,	,	PUNCT	_	_	31	punct	_	_
+20	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+21	fra	fra	ADP	_	AdpType=Prep	23	case	_	_
+22	samme	samme	ADJ	_	Degree=Pos|Variant=Long	23	amod	_	_
+23	butik	butik	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	nmod	_	_
+24	,	,	PUNCT	_	_	23	punct	_	_
 25	hvor	hvor	ADV	_	_	31	advmod	_	_
 26	lak	lak	NOUN	_	Definite=Ind|Number=Sing	27	nmod	_	_
 27	pandebånd	pandebånd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	31	nsubj	_	_
-28	i	i	ADP	_	AdpType=Prep	27	dep	_	_
-29	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	28	amod	_	_
-30	farver	farve	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	29	dep	_	_
-31	koster	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+28	i	i	ADP	_	AdpType=Prep	30	case	_	_
+29	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	30	amod	_	_
+30	farver	farve	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	27	nmod	_	_
+31	koster	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	dep	_	_
 32	49	49	NUM	_	NumType=Card	33	nummod	_	_
 33	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	31	dobj	_	_
-34	.	.	PUNCT	_	_	21	punct	_	_
+34	.	.	PUNCT	_	_	20	punct	_	_
 
 1	Psykedelisk-mønstret	psykedelisk-mønstret	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	2	amod	_	_
 2	klokkehat	klokkehat	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
@@ -2895,9 +2895,9 @@
 12	399	399	NUM	_	NumType=Card	13	nummod	_	_
 13	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	dobj	_	_
 14	-	-	PUNCT	_	_	11	punct	_	_
-15	støvletterne	støvlet	NOUN	_	Definite=Def|Gender=Com|Number=Plur	11	dep	_	_
+15	støvletterne	støvlet	NOUN	_	Definite=Def|Gender=Com|Number=Plur	11	nsubj	_	_
 16	499	499	NUM	_	NumType=Card	17	nummod	_	_
-17	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	dep	_	_
+17	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	dobj	_	_
 18	.	.	PUNCT	_	_	11	punct	_	_
 
 1	Ruskindssko	Ruskindssko	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	5	nsubj	_	_
@@ -2916,12 +2916,12 @@
 5	med	med	ADP	_	AdpType=Prep	6	case	_	_
 6	ankelremme	ankelrem	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	_
 7	også	også	ADV	_	_	2	advmod	_	_
-8	,	,	PUNCT	_	_	2	punct	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
 9	li'som	li'som	ADV	_	_	2	advmod	_	_
 10	op-art	op-art	X	_	Foreign=Yes	11	nmod	_	_
 11	lak	lak	NOUN	_	Definite=Ind|Number=Sing	9	dep	_	_
-12	i	i	ADP	_	AdpType=Prep	11	dep	_	_
-13	sort	sort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	12	amod	_	_
+12	i	i	ADP	_	AdpType=Prep	13	case	_	_
+13	sort	sort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	11	nmod	_	_
 14	med	med	ADP	_	AdpType=Prep	16	case	_	_
 15	hvid	hvid	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	16	amod	_	_
 16	hæl	hæl	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
@@ -2935,8 +2935,8 @@
 6	hundrede	hundrede	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	dobj	_	_
 7	at	at	PART	_	PartType=Inf	6	dep	_	_
 8	spare	spare	VERB	_	VerbForm=Inf|Voice=Act	7	dep	_	_
-9	på	på	ADP	_	AdpType=Prep	8	dep	_	_
-10	andre	anden	PRON	_	Number=Plur|PronType=Ind	9	dep	_	_
+9	på	på	ADP	_	AdpType=Prep	10	case	_	_
+10	andre	anden	PRON	_	Number=Plur|PronType=Ind	8	nmod	_	_
 11	af	af	ADP	_	AdpType=Prep	13	case	_	_
 12	sko-modens	sko-mode	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	13	nmod:poss	_	_
 13	sællerter	sællert	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	10	nmod	_	_
@@ -2944,15 +2944,15 @@
 15	Eddie	Eddie	PROPN	_	_	8	nmod	_	_
 16	.	.	PUNCT	_	_	1	punct	_	_
 
-1	Flere	mange	ADJ	_	Degree=Comp|Number=Plur|Variant=Long	7	amod	_	_
-2	gange	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	dep	_	_
+1	Flere	mange	ADJ	_	Degree=Comp|Number=Plur|Variant=Long	2	amod	_	_
+2	gange	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	dep	_	_
 3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 4	Brian	Brian	PROPN	_	_	7	nsubjpass	_	_
 5	Sand	Sand	PROPN	_	_	4	name	_	_
 6	været	være	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	7	auxpass	_	_
 7	ledsaget	ledsage	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
 8	af	af	ADP	_	AdpType=Prep	10	case	_	_
-9	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	nmod:poss	_	_
+9	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
 10	hund	hund	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	når	når	SCONJ	_	_	14	mark	_	_
@@ -2973,7 +2973,7 @@
 4	hunden	hund	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
 5	også	også	ADV	_	_	3	advmod	_	_
 6	opsigt	opsigt	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	dobj	_	_
-7	,	,	PUNCT	_	_	3	punct	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 8	blandt_andet	blandt_andet	ADV	_	_	3	advmod	_	_
 9	fordi	fordi	SCONJ	_	_	8	mark	_	_
 10	Brian	Brian	PROPN	_	_	11	nsubj	_	_
@@ -3002,7 +3002,7 @@
 11	at	at	PART	_	PartType=Inf	10	dep	_	_
 12	mildne	mildne	VERB	_	VerbForm=Inf|Voice=Act	11	dep	_	_
 13	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	16	det	_	_
-14	lidt	lidt	ADJ	_	Degree=Pos|Variant=Short	15	amod	_	_
+14	lidt	lidt	ADV	_	Degree=Pos	15	advmod	_	_
 15	voldsomme	voldsom	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	16	amod	_	_
 16	udseende	udseende	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	dobj	_	_
 17	.	.	PUNCT	_	_	2	punct	_	_
@@ -3016,7 +3016,7 @@
 7	familien	familie	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
 8	på	på	ADP	_	AdpType=Prep	9	case	_	_
 9	ski	ski	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	nmod	_	_
-10	ned	ned	ADV	_	_	5	dep	_	_
+10	ned	ned	ADV	_	_	5	nmod:loc	_	_
 11	ad	ad	ADP	_	AdpType=Prep	12	case	_	_
 12	bakkerne	bakke	NOUN	_	Definite=Def|Gender=Com|Number=Plur	10	nmod	_	_
 13	.	.	PUNCT	_	_	1	punct	_	_
@@ -3039,7 +3039,7 @@
 12	ligner	ligne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	dobj	_	_
 13	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	14	det	_	_
 14	gris	gris	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	dobj	_	_
-15	,	,	PUNCT	_	_	14	punct	_	_
+15	,	,	PUNCT	_	_	12	punct	_	_
 16	tapir	tapir	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	conj	_	_
 17	eller	eller	CONJ	_	_	12	cc	_	_
 18	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
@@ -3083,13 +3083,13 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Men	men	CONJ	_	_	0	root	_	_
-2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
-3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	jo	jo	ADV	_	_	5	advmod	_	_
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+4	jo	jo	ADV	_	_	8	advmod	_	_
 5	smukke	smuk	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	1	conj	_	_
-6	-	-	PUNCT	_	_	5	punct	_	_
-7	ikke	ikke	ADV	_	_	5	neg	_	_
-8	grimme	grim	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	5	amod	_	_
+6	-	-	PUNCT	_	_	8	punct	_	_
+7	ikke	ikke	ADV	_	_	8	neg	_	_
+8	grimme	grim	AUX	_	Degree=Pos|Number=Plur|Variant=Long	5	cop	_	_
 9	.	.	PUNCT	_	_	1	punct	_	_
 10	"	&quot;	PUNCT	_	_	1	punct	_	_
 
@@ -3119,7 +3119,7 @@
 24	næppe	næppe	ADV	_	_	26	advmod	_	_
 25	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	cop	_	_
 26	højere	høj	AUX	_	Degree=Comp|Variant=Long	21	cop	_	_
-27	end	end	SCONJ	_	_	28	mark	_	_
+27	end	end	ADP	_	_	28	mark	_	_
 28	hunden	hund	NOUN	_	Definite=Def|Gender=Com|Number=Sing	26	dep	_	_
 29	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -3158,7 +3158,7 @@
 19	fortsatte	fortsætte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 20	:	:	PUNCT	_	_	19	punct	_	_
 21	"	&quot;	PUNCT	_	_	22	punct	_	_
-22	Se	se	VERB	_	Mood=Imp|VerbForm=Fin	19	expl	_	_
+22	Se	se	VERB	_	Mood=Imp|VerbForm=Fin	19	dep	_	_
 23	mor	mor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	vocative	_	_
 24	,	,	PUNCT	_	_	22	punct	_	_
 25	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
@@ -3177,7 +3177,7 @@
 7	inden	inden	SCONJ	_	_	9	mark	_	_
 8	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	dep	_	_
-10	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	11	nmod:poss	_	_
+10	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_
 11	gennembrud	gennembrud	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	dobj	_	_
 12	hos	hos	ADP	_	AdpType=Prep	15	case	_	_
 13	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
@@ -3185,13 +3185,13 @@
 15	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	_
 16	med	med	ADP	_	AdpType=Prep	17	case	_	_
 17	albummet	album	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_
-18	"	&quot;	PUNCT	_	_	19	punct	_	_
+18	"	&quot;	PUNCT	_	_	9	punct	_	_
 19	The	The	PROPN	_	_	17	appos	_	_
 20	Healer	Healer	PROPN	_	_	19	dep	_	_
 21	"	&quot;	PUNCT	_	_	19	punct	_	_
 22	.	.	PUNCT	_	_	5	punct	_	_
 
-1	Hans	hans	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+1	Hans	hans	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
 2	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	John	John	PROPN	_	_	0	root	_	_
@@ -3200,7 +3200,7 @@
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	født	føde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	4	dep	_	_
 9	22.	22.	ADJ	_	NumType=Ord	10	amod	_	_
-10	august	august	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	dep	_	_
+10	august	august	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	nmod:temp	_	_
 11	1917	1917	NUM	_	NumType=Card	10	nmod	_	_
 12	i	i	ADP	_	AdpType=Prep	14	case	_	_
 13	bluesmusikkens	bluesmusik	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	14	nmod:poss	_	_
@@ -3217,7 +3217,7 @@
 7	afgørende	afgørende	ADJ	_	Degree=Pos|Variant=Long	8	amod	_	_
 8	gennembrud	gennembrud	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	dobj	_	_
 9	i	i	ADP	_	AdpType=Prep	3	dep	_	_
-10	1989	1989	NUM	_	NumType=Card	9	dep	_	_
+10	1989	1989	NUM	_	NumType=Card	9	nummod	_	_
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	hvor	hvor	ADV	_	_	14	advmod	_	_
 13	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -3225,7 +3225,7 @@
 15	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	16	det	_	_
 16	Grammy	Grammy	PROPN	_	_	14	dobj	_	_
 17	for	for	ADP	_	AdpType=Prep	19	case	_	_
-18	"	&quot;	PUNCT	_	_	19	punct	_	_
+18	"	&quot;	PUNCT	_	_	14	punct	_	_
 19	The	The	PROPN	_	_	14	nmod	_	_
 20	Healer	Healer	PROPN	_	_	19	dep	_	_
 21	"	&quot;	PUNCT	_	_	19	punct	_	_
@@ -3258,7 +3258,7 @@
 48	Keith	Keith	PROPN	_	_	45	appos	_	_
 49	Richards	Richard	PROPN	_	Case=Gen	48	name	_	_
 50	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	54	aux	_	_
-51	roligt	rolig	ADJ	_	Degree=Pos|Variant=Short	54	amod	_	_
+51	roligt	roligt	ADV	_	Degree=Pos	54	advmod	_	_
 52	lige	lige	ADV	_	_	53	advmod	_	_
 53	nu	nu	ADV	_	_	54	advmod	_	_
 54	kaste	kaste	VERB	_	VerbForm=Inf|Voice=Act	3	conj	_	_
@@ -3267,9 +3267,9 @@
 57	støvet	støv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	54	nmod	_	_
 58	og	og	CONJ	_	_	54	cc	_	_
 59	takke	takke	VERB	_	VerbForm=Inf|Voice=Act	54	conj	_	_
-60	inderligt	inderlig	ADJ	_	Degree=Pos|Variant=Short	59	amod	_	_
+60	inderligt	inderligt	ADV	_	Degree=Pos	59	advmod	_	_
 61	og	og	CONJ	_	_	60	cc	_	_
-62	intenst	intens	ADJ	_	Degree=Pos|Variant=Short	60	conj	_	_
+62	intenst	intenst	ADV	_	Degree=Pos	60	conj	_	_
 63	for	for	ADP	_	AdpType=Prep	59	dep	_	_
 64	,	,	PUNCT	_	_	69	punct	_	_
 65	at	at	SCONJ	_	_	69	mark	_	_
@@ -3281,7 +3281,7 @@
 71	verden	verden	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	69	nmod	_	_
 72	dengang	dengang	ADV	_	_	69	advmod	_	_
 73	i	i	ADP	_	AdpType=Prep	72	dep	_	_
-74	1917	1917	NUM	_	NumType=Card	73	dep	_	_
+74	1917	1917	NUM	_	NumType=Card	73	nummod	_	_
 75	.	.	PUNCT	_	_	1	punct	_	_
 
 1	John	John	PROPN	_	_	4	nmod:poss	_	_
@@ -3301,7 +3301,7 @@
 15	været	være	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	19	cop	_	_
 16	intet	ingen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	17	det	_	_
 17	mindre	lille	ADJ	_	Degree=Comp|Variant=Long	19	amod	_	_
-18	end	end	SCONJ	_	_	17	dep	_	_
+18	end	end	ADP	_	_	17	dep	_	_
 19	monumental	monumental	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	0	root	_	_
 20	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -3309,7 +3309,7 @@
 2	Hooker	Hooker	PROPN	_	_	1	name	_	_
 3	opfandt	opfinde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	8	det	_	_
-5	sejt	sej	ADJ	_	Degree=Pos|Variant=Short	7	amod	_	_
+5	sejt	sejt	ADV	_	Degree=Pos	7	advmod	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	swingende	swingende	ADJ	_	Degree=Pos|Variant=Long	8	amod	_	_
 8	boogie-guitarstil	boogie-guitarstil	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	dobj	_	_
@@ -3329,9 +3329,9 @@
 22	Quo	Quo	PROPN	_	_	21	dep	_	_
 23	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	_
 24	levet	leve	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	8	aux	_	_
-25	fedt	fed	ADJ	_	Degree=Pos|Variant=Short	24	amod	_	_
+25	fedt	fedt	ADV	_	Degree=Pos	24	advmod	_	_
 26	og	og	CONJ	_	_	25	cc	_	_
-27	fremragende	fremragende	ADJ	_	Degree=Pos|Variant=Short	25	conj	_	_
+27	fremragende	fremragende	ADV	_	Degree=Pos	25	conj	_	_
 28	af	af	ADP	_	AdpType=Prep	24	dep	_	_
 29	gennem	gennem	ADP	_	AdpType=Prep	31	case	_	_
 30	fire	fire	NUM	_	NumType=Card	31	nummod	_	_
@@ -3362,14 +3362,14 @@
 8	plejes	pleje	VERB	_	VerbForm=Inf|Voice=Pass	4	conj	_	_
 9	og	og	CONJ	_	_	4	cc	_	_
 10	forkæles	forkæle	VERB	_	VerbForm=Inf|Voice=Pass	4	conj	_	_
-11	af	af	ADP	_	AdpType=Prep	4	dep	_	_
-12	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	11	dep	_	_
+11	af	af	ADP	_	AdpType=Prep	12	case	_	_
+12	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	4	nmod	_	_
 13	danskere	dansker	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	12	dep	_	_
 14	.	.	PUNCT	_	_	4	punct	_	_
 
 1	Den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	vores	vores	PRON	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	vores	vores	DET	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	egenart	egenart	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
 5	og	og	CONJ	_	_	4	cc	_	_
 6	livsstil	livsstil	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	conj	_	_
@@ -3385,7 +3385,7 @@
 2	debatten	debat	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	nmod	_	_
 3	tordnes	tordne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	der	der	PART	_	PartType=Inf	3	expl	_	_
-5	løs	løs	ADJ	_	Degree=Pos|Variant=Short	3	amod	_	_
+5	løs	løs	ADV	_	Degree=Pos	3	advmod	_	_
 6	mod	mod	ADP	_	AdpType=Prep	10	case	_	_
 7	Det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
 8	kgl.	kongelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	9	amod	_	_
@@ -3404,8 +3404,8 @@
 9	forfatterne	forfatter	NOUN	_	Definite=Def|Gender=Com|Number=Plur	10	nsubj	_	_
 10	flår	flå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	dep	_	_
 11	hovedet	hoved	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	dobj	_	_
-12	af	af	ADP	_	AdpType=Prep	10	dep	_	_
-13	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	12	dep	_	_
+12	af	af	ADP	_	AdpType=Prep	13	case	_	_
+13	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	10	nmod	_	_
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Samtidig	samtidig	ADV	_	_	2	advmod	_	_
@@ -3433,7 +3433,7 @@
 23	teatret	teater	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	_
 24	.	.	PUNCT	_	_	2	punct	_	_
 
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	dep	_	_
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	der	der	PART	_	PartType=Inf	2	expl	_	_
 4	for	for	ADP	_	AdpType=Prep	2	dep	_	_
@@ -3442,8 +3442,8 @@
 7	ikke	ikke	ADV	_	_	2	neg	_	_
 8	noget	nogen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	9	det	_	_
 9	nyt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Variant=Long	2	dobj	_	_
-10	i	i	ADP	_	AdpType=Prep	2	dep	_	_
-11	,	,	PUNCT	_	_	2	punct	_	_
+10	i	i	ADP	_	AdpType=Prep	1	case	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
 12	bortset_fra	bortset_fra	ADP	_	AdpType=Prep	2	dep	_	_
 13	at	at	SCONJ	_	_	17	mark	_	_
 14	kulturkrigen	kulturkrig	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	_
@@ -3454,7 +3454,7 @@
 19	karakter	karakter	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	dep	_	_
 20	af	af	ADP	_	AdpType=Prep	21	case	_	_
 21	Røde_Kro-løjer	Røde_Kro-løjer	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	19	nmod	_	_
-22	end	end	SCONJ	_	_	23	mark	_	_
+22	end	end	ADP	_	_	23	mark	_	_
 23	af	af	ADP	_	AdpType=Prep	25	case	_	_
 24	seriøs	seriøs	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	25	amod	_	_
 25	debat	debat	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	_
@@ -3500,7 +3500,7 @@
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 1	Den	den	PRON	_	Gender=Com|Number=Sing|PronType=Dem	5	nsubj	_	_
-2	anden	anden	PRON	_	Gender=Com|Number=Sing|PronType=Ind	1	dep	_	_
+2	anden	anden	PRON	_	Gender=Com|Number=Sing|PronType=Ind	1	nmod	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	så	så	ADV	_	_	5	advmod	_	_
 5	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	0	root	_	_
@@ -3509,11 +3509,11 @@
 8	aldrig	aldrig	ADV	_	_	9	advmod	_	_
 9	taler	tale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 10	om	om	ADP	_	AdpType=Prep	9	dep	_	_
-11	,	,	PUNCT	_	_	9	punct	_	_
+11	,	,	PUNCT	_	_	16	punct	_	_
 12	nemlig	nemlig	ADV	_	_	16	advmod	_	_
-13	dit	din	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+13	dit	din	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	16	det	_	_
 14	og	og	CONJ	_	_	16	dep	_	_
-15	mit	min	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	mit	min	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	_
 16	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	appos	_	_
 17	som	som	PART	_	PartType=Inf	16	dep	_	_
 18	almindelige	almindelig	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	19	amod	_	_
@@ -3525,8 +3525,8 @@
 3	ikke	ikke	ADV	_	_	5	neg	_	_
 4	god	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	5	amod	_	_
 5	tone	tone	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
-6	blandt	blandt	ADP	_	AdpType=Prep	5	dep	_	_
-7	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	6	dep	_	_
+6	blandt	blandt	ADP	_	AdpType=Prep	7	case	_	_
+7	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
 8	kulturformidlere	kulturformidler	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	dep	_	_
 9	at	at	PART	_	PartType=Inf	1	dep	_	_
 10	sige	sige	VERB	_	VerbForm=Inf|Voice=Act	9	dep	_	_
@@ -3605,7 +3605,7 @@
 15	og	og	CONJ	_	_	14	cc	_	_
 16	aviser	avis	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	14	conj	_	_
 17	med	med	ADP	_	AdpType=Prep	21	case	_	_
-18	"	&quot;	PUNCT	_	_	21	punct	_	_
+18	"	&quot;	PUNCT	_	_	9	punct	_	_
 19	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	21	det	_	_
 20	specielle	speciel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	21	amod	_	_
 21	form	form	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
@@ -3627,7 +3627,7 @@
 37	hidtil	hidtil	ADV	_	_	38	advmod	_	_
 38	bedste	god	ADJ	_	Definite=Def|Degree=Sup|Variant=Long	41	amod	_	_
 39	,	,	PUNCT	_	_	41	punct	_	_
-40	mest	meget	ADJ	_	Degree=Sup|Variant=Short	41	amod	_	_
+40	mest	mest	ADV	_	Degree=Sup	41	advmod	_	_
 41	ærlige	ærlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	35	amod	_	_
 42	og	og	CONJ	_	_	41	cc	_	_
 43	oprigtige	oprigtig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	41	conj	_	_
@@ -3672,7 +3672,7 @@
 23	overhovedet	overhovedet	ADV	_	_	24	advmod	_	_
 24	at	at	PART	_	PartType=Inf	22	dep	_	_
 25	huske	huske	VERB	_	VerbForm=Inf|Voice=Act	24	dep	_	_
-26	,	,	PUNCT	_	_	27	punct	_	_
+26	,	,	PUNCT	_	_	19	punct	_	_
 27	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	25	dobj	_	_
 28	der	der	PART	_	PartType=Inf	32	nsubj	_	_
 29	fra	fra	ADP	_	AdpType=Prep	30	case	_	_
@@ -3691,11 +3691,11 @@
 
 1	DER	der	PART	_	PartType=Inf	2	expl	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	meget	meget	ADJ	_	Degree=Pos|Variant=Short	2	dobj	_	_
+3	meget	meget	ADV	_	Degree=Pos	2	dobj	_	_
 4	mere	meget	ADJ	_	Definite=Ind|Degree=Comp|Number=Sing|Variant=Long	3	amod	_	_
-5	af	af	ADP	_	AdpType=Prep	4	dep	_	_
-6	samme	samme	ADJ	_	Degree=Pos|Variant=Long	5	amod	_	_
-7	skuffe	skuffe	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	dep	_	_
+5	af	af	ADP	_	AdpType=Prep	7	case	_	_
+6	samme	samme	ADJ	_	Degree=Pos|Variant=Long	7	amod	_	_
+7	skuffe	skuffe	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
 8	i	i	ADP	_	AdpType=Prep	9	case	_	_
 9	bogen	bog	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -3710,7 +3710,7 @@
 8	ROCKMUSIK	rockmusik	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nsubj	_	_
 9	i	i	ADP	_	AdpType=Prep	10	case	_	_
 10	Danmark	Danmark	PROPN	_	_	8	nmod	_	_
-11	defineres	definere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	expl	_	_
+11	defineres	definere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	dep	_	_
 12	ved	ved	ADP	_	AdpType=Prep	14	case	_	_
 13	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
 14	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	_
@@ -3721,22 +3721,22 @@
 19	givet	give	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	20	dep	_	_
 20	tidspunkt	tidspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	31	nmod	_	_
 21	via	via	ADP	_	AdpType=Prep	29	case	_	_
-22	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	29	nmod:poss	_	_
+22	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	29	det	_	_
 23	blikfang	blikfang	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	dep	_	_
 24	,	,	PUNCT	_	_	29	punct	_	_
-25	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	26	nmod:poss	_	_
+25	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	26	det	_	_
 26	privatliv	privatliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	dep	_	_
 27	og	og	CONJ	_	_	29	dep	_	_
-28	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	29	nmod:poss	_	_
+28	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	29	det	_	_
 29	popularitet	popularitet	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	31	nmod	_	_
 30	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	_
 31	sælge	sælge	AUX	_	VerbForm=Inf|Voice=Act	14	aux	_	_
-32	flest	mange	ADJ	_	Degree=Sup|Number=Plur|Variant=Long	31	dobj	_	_
-33	aviser	avis	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	32	dep	_	_
+32	flest	mange	ADJ	_	Degree=Sup|Number=Plur|Variant=Long	33	amod	_	_
+33	aviser	avis	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	31	dobj	_	_
 34	og	og	CONJ	_	_	31	cc	_	_
 35	trække	trække	VERB	_	VerbForm=Inf|Voice=Act	31	conj	_	_
-36	flest	mange	ADJ	_	Degree=Sup|Number=Plur|Variant=Long	35	dobj	_	_
-37	seere	seer	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	36	dep	_	_
+36	flest	mange	ADJ	_	Degree=Sup|Number=Plur|Variant=Long	37	amod	_	_
+37	seere	seer	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	35	dobj	_	_
 38	til	til	ADP	_	AdpType=Prep	39	case	_	_
 39	skærmen	skærm	NOUN	_	Definite=Def|Gender=Com|Number=Sing	35	nmod	_	_
 40	.	.	PUNCT	_	_	11	punct	_	_
@@ -3777,21 +3777,21 @@
 14	tre-årige	tre-årig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	15	amod	_	_
 15	Pernille	Pernille	PROPN	_	_	19	nsubj	_	_
 16	atter	atter	ADV	_	_	19	advmod	_	_
-17	helt	hel	ADJ	_	Degree=Pos|Variant=Short	18	amod	_	_
-18	legalt	legal	ADJ	_	Degree=Pos|Variant=Short	19	amod	_	_
+17	helt	helt	ADV	_	Degree=Pos	18	advmod	_	_
+18	legalt	legalt	ADV	_	Degree=Pos	19	advmod	_	_
 19	sammen	sammen	ADV	_	_	0	root	_	_
 20	med	med	ADP	_	AdpType=Prep	30	case	_	_
-21	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	30	nmod:poss	_	_
+21	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	30	det	_	_
 22	mor	mor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	30	dep	_	_
 23	,	,	PUNCT	_	_	30	punct	_	_
 24	Yvonne	Yvonne	PROPN	_	_	30	dep	_	_
 25	Sølyst	Sølyst	PROPN	_	_	24	name	_	_
-26	,	,	PUNCT	_	_	24	punct	_	_
-27	22	22	NUM	_	NumType=Card	24	dep	_	_
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	22	22	NUM	_	NumType=Card	24	nummod	_	_
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	og	og	CONJ	_	_	30	dep	_	_
 30	bedsteforældre	bedsteforælder	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	19	nmod	_	_
-31	,	,	PUNCT	_	_	30	punct	_	_
+31	,	,	PUNCT	_	_	34	punct	_	_
 32	Ulla	Ulla	PROPN	_	_	34	name	_	_
 33	og	og	CONJ	_	_	32	cc	_	_
 34	Leif	Leif	PROPN	_	_	30	appos	_	_
@@ -3805,9 +3805,9 @@
 5	lov	lov	NOUN	_	_	2	dobj	_	_
 6	at	at	PART	_	PartType=Inf	5	nmod	_	_
 7	bo	bo	VERB	_	VerbForm=Inf|Voice=Act	6	dep	_	_
-8	hjemme	hjemme	ADV	_	_	7	dep	_	_
+8	hjemme	hjemme	ADV	_	_	7	nmod:loc	_	_
 9	hos	hos	ADP	_	AdpType=Prep	11	case	_	_
-10	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	11	nmod:poss	_	_
+10	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	_
 11	mor	mor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
 12	,	,	PUNCT	_	_	20	punct	_	_
 13	selvom	selvom	SCONJ	_	_	20	mark	_	_
@@ -3831,9 +3831,9 @@
 2	omstødte	omstøde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Odense	Odense	PROPN	_	_	2	nsubj	_	_
 4	kommune	kommune	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	dep	_	_
-5	kort	kort	ADJ	_	Degree=Pos|Variant=Short	2	amod	_	_
+5	kort	kort	ADV	_	Degree=Pos	2	advmod	_	_
 6	og	og	CONJ	_	_	5	cc	_	_
-7	godt	god	ADJ	_	Degree=Pos|Variant=Short	5	conj	_	_
+7	godt	godt	ADV	_	Degree=Pos	5	conj	_	_
 8	beslutningen	beslutning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	dobj	_	_
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3871,8 +3871,8 @@
 19	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 20	Leif	Leif	PROPN	_	_	19	nsubj	_	_
 21	Nielsen	Nielsen	PROPN	_	_	20	name	_	_
-22	,	,	PUNCT	_	_	20	punct	_	_
-23	43	43	NUM	_	NumType=Card	20	dep	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	43	43	NUM	_	NumType=Card	20	nummod	_	_
 24	.	.	PUNCT	_	_	19	punct	_	_
 
 1	I	i	ADP	_	AdpType=Prep	3	case	_	_
@@ -3886,7 +3886,7 @@
 9	i	i	ADP	_	AdpType=Prep	10	case	_	_
 10	Kolding	Kolding	PROPN	_	_	4	nmod	_	_
 11	arrest	arrest	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	dep	_	_
-12	,	,	PUNCT	_	_	4	punct	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
 13	efter	efter	ADP	_	AdpType=Prep	4	dep	_	_
 14	at	at	PART	_	PartType=Inf	13	dep	_	_
 15	være	være	AUX	_	VerbForm=Inf|Voice=Act	17	auxpass	_	_
@@ -3897,7 +3897,7 @@
 20	for	for	ADP	_	AdpType=Prep	19	dep	_	_
 21	at	at	PART	_	PartType=Inf	20	dep	_	_
 22	vide	vide	VERB	_	VerbForm=Inf|Voice=Act	21	dep	_	_
-23	,	,	PUNCT	_	_	24	punct	_	_
+23	,	,	PUNCT	_	_	13	punct	_	_
 24	hvor	hvor	ADV	_	_	22	dobj	_	_
 25	barnebarnet	barnebarn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	27	nsubjpass	_	_
 26	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	auxpass	_	_
@@ -3914,7 +3914,7 @@
 6	Østre	østre	ADJ	_	Degree=Pos|Variant=Long	7	amod	_	_
 7	Landsret	landsret	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
 8	underkendte	underkende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
-9	hurtigt	hurtig	ADJ	_	Degree=Pos|Variant=Short	8	amod	_	_
+9	hurtigt	hurtigt	ADV	_	Degree=Pos	8	advmod	_	_
 10	varetægtsfængslingen	varetægtsfængsling	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	dobj	_	_
 11	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -3931,7 +3931,7 @@
 11	nederlag	nederlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	dobj	_	_
 12	i	i	ADP	_	AdpType=Prep	16	case	_	_
 13	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	16	det	_	_
-14	meget	meget	ADJ	_	Degree=Pos|Variant=Short	15	amod	_	_
+14	meget	meget	ADV	_	Degree=Pos	15	advmod	_	_
 15	debatterede	debattere	VERB	_	Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	16	dep	_	_
 16	sag	sag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
 17	fra	fra	ADP	_	AdpType=Prep	18	case	_	_
@@ -3952,17 +3952,17 @@
 12	afprøve	afprøve	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 13	tvangsfjernelsen	tvangsfjernelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	12	dobj	_	_
 14	ud	ud	ADV	_	_	12	advmod	_	_
-15	fra	fra	ADP	_	AdpType=Prep	14	dep	_	_
-16	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	17	det	_	_
-17	samme	samme	ADJ	_	Degree=Pos|Variant=Long	15	amod	_	_
-18	materiale	materiale	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	dep	_	_
-19	,	,	PUNCT	_	_	17	punct	_	_
+15	fra	fra	ADP	_	AdpType=Prep	18	case	_	_
+16	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
+17	samme	samme	ADJ	_	Degree=Pos|Variant=Long	18	amod	_	_
+18	materiale	materiale	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	_
 20	som	som	PART	_	PartType=Inf	27	dep	_	_
 21	socialudvalget	socialudvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	nsubj	_	_
 22	i	i	ADP	_	AdpType=Prep	23	case	_	_
 23	Ejby	Ejby	PROPN	_	_	21	nmod	_	_
 24	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	aux	_	_
-25	vurderet	vurdere	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	17	aux	_	_
+25	vurderet	vurdere	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	18	aux	_	_
 26	ud	ud	ADV	_	_	25	advmod	_	_
 27	fra	fra	ADP	_	AdpType=Prep	26	dep	_	_
 28	.	.	PUNCT	_	_	12	punct	_	_
@@ -4003,7 +4003,7 @@
 4	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
 5	fanger	fange	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	dep	_	_
 6	dig	du	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=2|PronType=Prs	5	dobj	_	_
-7	hurtigt	hurtig	ADJ	_	Degree=Pos|Variant=Short	5	amod	_	_
+7	hurtigt	hurtigt	ADV	_	Degree=Pos	5	advmod	_	_
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	så	så	SCONJ	_	_	12	mark	_	_
 10	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
@@ -4013,16 +4013,16 @@
 14	krænke	krænke	VERB	_	VerbForm=Inf|Voice=Act	13	dep	_	_
 15	andre	anden	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	piger	pige	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	14	dobj	_	_
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	12	punct	_	_
 18	som	som	PART	_	PartType=Inf	21	nsubj	_	_
 19	måske	måske	ADV	_	_	21	advmod	_	_
 20	ikke	ikke	ADV	_	_	21	neg	_	_
 21	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	dep	_	_
-22	samme	samme	ADJ	_	Degree=Pos|Variant=Long	21	dobj	_	_
-23	familiemæssige	familiemæssig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	22	amod	_	_
-24	støtte	støtte	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	dep	_	_
-25	som	som	PART	_	PartType=Inf	22	dep	_	_
-26	min	min	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+22	samme	samme	ADJ	_	Degree=Pos|Variant=Long	24	amod	_	_
+23	familiemæssige	familiemæssig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	24	amod	_	_
+24	støtte	støtte	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	21	dobj	_	_
+25	som	som	PART	_	PartType=Inf	24	dep	_	_
+26	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	27	det	_	_
 27	pige	pige	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	dep	_	_
 28	,	,	PUNCT	_	_	21	punct	_	_
 29	og	og	CONJ	_	_	21	cc	_	_
@@ -4030,9 +4030,9 @@
 31	risikerer	risikere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
 32	at	at	PART	_	PartType=Inf	31	dobj	_	_
 33	knække	knække	VERB	_	VerbForm=Inf|Voice=Act	32	dep	_	_
-34	helt	hel	ADJ	_	Degree=Pos|Variant=Short	35	amod	_	_
+34	helt	helt	ADV	_	Degree=Pos	35	advmod	_	_
 35	sammen	sammen	ADV	_	_	33	advmod	_	_
-36	psykisk	psykisk	ADJ	_	Degree=Pos|Variant=Short	33	amod	_	_
+36	psykisk	psykisk	ADV	_	Degree=Pos	33	advmod	_	_
 37	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
@@ -4079,7 +4079,7 @@
 13	pige	pige	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	dep	_	_
 14	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 15	rammer	ramme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
-16	,	,	PUNCT	_	_	15	punct	_	_
+16	,	,	PUNCT	_	_	13	punct	_	_
 17	men	men	CONJ	_	_	15	cc	_	_
 18	i	i	ADP	_	AdpType=Prep	23	case	_	_
 19	næsten	næsten	ADV	_	_	20	advmod	_	_
@@ -4087,7 +4087,7 @@
 21	så	så	ADV	_	_	22	advmod	_	_
 22	høj	høj	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	23	amod	_	_
 23	grad	grad	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
-24	forældre	forælder	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	dep	_	_
+24	forældre	forælder	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	dobj	_	_
 25	og	og	CONJ	_	_	24	cc	_	_
 26	søskende	søskende	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	24	conj	_	_
 27	,	,	PUNCT	_	_	24	punct	_	_
@@ -4098,11 +4098,11 @@
 32	"	&quot;	PUNCT	_	_	3	punct	_	_
 
 1	REJS	rejse	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
-2	HJEM	hjem	ADV	_	_	1	dep	_	_
+2	HJEM	hjem	ADV	_	_	1	nmod:loc	_	_
 3	IGEN	igen	ADV	_	_	1	advmod	_	_
 
 1	"	&quot;	PUNCT	_	_	6	punct	_	_
-2	Vort	vores	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	3	nmod:poss	_	_
+2	Vort	vores	DET	_	Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	3	det	_	_
 3	samfund	samfund	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	_
 4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 5	for	for	ADV	_	_	6	advmod	_	_
@@ -4110,15 +4110,15 @@
 7	til	til	ADP	_	AdpType=Prep	8	case	_	_
 8	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	_
 9	som	som	PART	_	PartType=Inf	8	dep	_	_
-10	dig	du	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=2|PronType=Prs	9	dep	_	_
+10	dig	du	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=2|PronType=Prs	9	nmod	_	_
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 1	Rejs	rejse	VERB	_	Mood=Imp|VerbForm=Fin	38	dep	_	_
-2	tilbage	tilbage	ADV	_	_	1	dep	_	_
+2	tilbage	tilbage	ADV	_	_	1	nmod:loc	_	_
 3	hvor	hvor	ADV	_	_	6	dep	_	_
 4	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 5	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
-6	fra	fra	ADP	_	AdpType=Prep	5	dep	_	_
+6	fra	fra	ADP	_	AdpType=Prep	5	nmod:loc	_	_
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	12	nsubjpass	_	_
 9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	auxpass	_	_
@@ -4132,7 +4132,7 @@
 17	til	til	ADP	_	AdpType=Prep	18	case	_	_
 18	personer	person	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	nmod	_	_
 19	som	som	PART	_	PartType=Inf	18	dep	_	_
-20	dig	du	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=2|PronType=Prs	19	dep	_	_
+20	dig	du	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=2|PronType=Prs	19	nmod	_	_
 21	,	,	PUNCT	_	_	25	punct	_	_
 22	der	der	PART	_	PartType=Inf	25	nsubj	_	_
 23	ikke	ikke	ADV	_	_	25	neg	_	_
@@ -4143,11 +4143,11 @@
 28	aller	aller	X	_	_	29	dep	_	_
 29	simpleste	simpleste	ADJ	_	Definite=Def|Degree=Sup|Variant=Long	30	amod	_	_
 30	adfærdsnormer	adfærdsnorm	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	25	dep	_	_
-31	,	,	PUNCT	_	_	30	punct	_	_
+31	,	,	PUNCT	_	_	25	punct	_	_
 32	nemlig	nemlig	ADV	_	_	33	advmod	_	_
 33	respekten	respekt	NOUN	_	Definite=Def|Gender=Com|Number=Sing	30	dep	_	_
-34	for	for	ADP	_	AdpType=Prep	33	dep	_	_
-35	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	34	dep	_	_
+34	for	for	ADP	_	AdpType=Prep	35	case	_	_
+35	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	33	nmod	_	_
 36	,	,	PUNCT	_	_	33	punct	_	_
 37	"	&quot;	PUNCT	_	_	1	punct	_	_
 38	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4163,7 +4163,7 @@
 2	Henning	Henning	PROPN	_	_	6	nsubj	_	_
 3	Dyremose	Dyremose	PROPN	_	_	2	name	_	_
 4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-5	vores	vores	PRON	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	vores	vores	DET	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 6	mand	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -4206,9 +4206,9 @@
 6	men	men	CONJ	_	_	2	cc	_	_
 7	indholdet	indhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	_
 8	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
-9	fra	fra	ADP	_	AdpType=Prep	8	dep	_	_
-10	samme	samme	ADJ	_	Degree=Pos|Variant=Long	9	amod	_	_
-11	kedel	kedel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	dep	_	_
+9	fra	fra	ADP	_	AdpType=Prep	11	case	_	_
+10	samme	samme	ADJ	_	Degree=Pos|Variant=Long	11	amod	_	_
+11	kedel	kedel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
@@ -4229,13 +4229,13 @@
 4	have	have	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 5	borgerlige	borgerlig	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	6	amod	_	_
 6	regeringer	regering	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	dobj	_	_
-7	end	end	SCONJ	_	_	8	mark	_	_
+7	end	end	ADP	_	_	8	mark	_	_
 8	socialdemokratiske	socialdemokratisk	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	3	amod	_	_
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	men	men	CONJ	_	_	4	cc	_	_
 11	KV-regeringen	KV-regering	NOUN	_	Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
 12	regerer	regere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
-13	helt	hel	ADJ	_	Degree=Pos|Variant=Short	14	amod	_	_
+13	helt	helt	ADV	_	Degree=Pos	14	advmod	_	_
 14	på	på	ADP	_	AdpType=Prep	16	case	_	_
 15	Socialdemokratiets	socialdemokrati	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	16	nmod:poss	_	_
 16	nåde	nåde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
@@ -4244,11 +4244,11 @@
 1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	dep	_	_
 3	derfor	derfor	ADV	_	_	2	advmod	_	_
-4	få	få	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	2	dobj	_	_
-5	stærke	stærk	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	4	amod	_	_
-6	følelser	følelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	dep	_	_
-7	specielt	speciel	ADJ	_	Degree=Pos|Variant=Short	8	amod	_	_
-8	forbundet	forbinde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	4	dep	_	_
+4	få	få	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	6	amod	_	_
+5	stærke	stærk	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	6	amod	_	_
+6	følelser	følelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	dobj	_	_
+7	specielt	specielt	ADV	_	Degree=Pos	8	advmod	_	_
+8	forbundet	forbinde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	6	dep	_	_
 9	med	med	ADP	_	AdpType=Prep	8	dep	_	_
 10	at	at	PART	_	PartType=Inf	9	dep	_	_
 11	holde	holde	VERB	_	VerbForm=Inf|Voice=Act	10	dep	_	_
@@ -4262,7 +4262,7 @@
 19	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 20	Fremskridtspartiets	fremskridtsparti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	_
 21	gruppeformand	gruppeformand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	nmod:poss	_	_
-22	,	,	PUNCT	_	_	20	punct	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
 23	Aage	Aage	PROPN	_	_	20	appos	_	_
 24	Brusgaard	Brusgaard	PROPN	_	_	23	name	_	_
 25	.	.	PUNCT	_	_	2	punct	_	_
@@ -4353,7 +4353,7 @@
 15	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	_
 16	få	få	AUX	_	VerbForm=Inf|Voice=Act	11	aux	_	_
 17	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	20	det	_	_
-18	langt	lang	ADJ	_	Degree=Pos|Variant=Short	19	amod	_	_
+18	langt	langt	ADV	_	Degree=Pos	19	advmod	_	_
 19	skarpere	skarp	ADJ	_	Degree=Comp|Variant=Long	20	amod	_	_
 20	profil	profil	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	16	dobj	_	_
 21	,	,	PUNCT	_	_	16	punct	_	_
@@ -4363,7 +4363,7 @@
 25	Brusgaard	Brusgaard	PROPN	_	_	24	name	_	_
 26	.	.	PUNCT	_	_	23	punct	_	_
 
-1	Senere	sen	ADJ	_	Degree=Comp|Variant=Short	4	amod	_	_
+1	Senere	senere	ADV	_	Degree=Comp	4	advmod	_	_
 2	på	på	ADP	_	AdpType=Prep	3	case	_	_
 3	dagen	dag	NOUN	_	Definite=Def|Gender=Com|Number=Sing	1	nmod	_	_
 4	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4395,7 +4395,7 @@
 9	Bjarne	Bjarne	PROPN	_	_	6	conj	_	_
 10	Riis	Riis	PROPN	_	_	9	name	_	_
 11	på	på	ADP	_	AdpType=Prep	3	dep	_	_
-12	41,31	41,31	NUM	_	NumType=Card	11	dep	_	_
+12	41,31	41,31	NUM	_	NumType=Card	11	nummod	_	_
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 1	Så	så	ADV	_	_	2	advmod	_	_
@@ -4449,13 +4449,13 @@
 12	klare	klare	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 13	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	14	det	_	_
 14	topplacering	topplacering	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	dobj	_	_
-15	,	,	PUNCT	_	_	14	punct	_	_
+15	,	,	PUNCT	_	_	12	punct	_	_
 16	hvorved	hvorved	ADV	_	_	19	advmod	_	_
 17	Skibby	Skibby	PROPN	_	_	19	nsubjpass	_	_
 18	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	auxpass	_	_
 19	kommet	komme	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	14	cop	_	_
-20	langt	lang	ADJ	_	Degree=Pos|Variant=Short	21	amod	_	_
-21	op	op	ADV	_	_	19	dep	_	_
+20	langt	langt	ADV	_	Degree=Pos	21	advmod	_	_
+21	op	op	ADV	_	_	19	nmod:loc	_	_
 22	i	i	ADP	_	AdpType=Prep	25	case	_	_
 23	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	25	det	_	_
 24	samlede	samle	VERB	_	Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	25	dep	_	_
@@ -4554,11 +4554,11 @@
 4	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubjpass	_	_
 5	blevet	blive	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	6	auxpass	_	_
 6	banket	banke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
-7	ind	ind	ADV	_	_	6	dep	_	_
+7	ind	ind	ADV	_	_	6	nmod:loc	_	_
 8	i	i	ADP	_	AdpType=Prep	9	case	_	_
 9	hovederne	hoved	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nmod	_	_
-10	på	på	ADP	_	AdpType=Prep	9	dep	_	_
-11	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	10	dep	_	_
+10	på	på	ADP	_	AdpType=Prep	11	case	_	_
+11	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	9	nmod	_	_
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	at	at	SCONJ	_	_	16	mark	_	_
 14	noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	16	nsubj	_	_
@@ -4570,8 +4570,8 @@
 20	og	og	CONJ	_	_	16	cc	_	_
 21	kultur	kultur	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	16	conj	_	_
 22	-	-	PUNCT	_	_	16	punct	_	_
-23	noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	16	dep	_	_
-24	andet	anden	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	23	dep	_	_
+23	noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	16	nsubj	_	_
+24	andet	anden	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	23	nmod	_	_
 25	ikke	ikke	ADV	_	_	16	neg	_	_
 26	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -4579,7 +4579,7 @@
 2	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
 3	unægtelig	unægtelig	ADV	_	_	11	advmod	_	_
 4	været	være	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	6	cop	_	_
-5	mere	meget	ADJ	_	Degree=Comp|Variant=Short	6	amod	_	_
+5	mere	mere	ADV	_	Degree=Comp	6	advmod	_	_
 6	hensigtsmæssigt	hensigtsmæssig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Variant=Long	11	amod	_	_
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	om	om	SCONJ	_	_	11	mark	_	_
@@ -4590,9 +4590,9 @@
 13	at	at	SCONJ	_	_	15	mark	_	_
 14	kulturen	kultur	NOUN	_	Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	_
 15	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	dobj	_	_
-16	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	15	dobj	_	_
-17	facetter	facet	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	16	dep	_	_
-18	,	,	PUNCT	_	_	17	punct	_	_
+16	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	17	amod	_	_
+17	facetter	facet	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	dobj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
 19	strækkende	strække	VERB	_	Tense=Pres|VerbForm=Part,Trans	15	dep	_	_
 20	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	dobj	_	_
 21	fra	fra	ADP	_	AdpType=Prep	22	case	_	_
@@ -4610,7 +4610,7 @@
 5	at	at	PART	_	PartType=Inf	4	dobj	_	_
 6	værdsætte	værdsætte	VERB	_	VerbForm=Inf|Voice=Act	5	dep	_	_
 7	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	6	dobj	_	_
-8	selv	selv	PRON	_	PronType=Dem	7	dep	_	_
+8	selv	selv	PRON	_	PronType=Dem	7	nmod	_	_
 9	og	og	CONJ	_	_	7	cc	_	_
 10	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	7	conj	_	_
 11	,	,	PUNCT	_	_	6	punct	_	_
@@ -4623,7 +4623,7 @@
 18	brug	brug	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	dobj	_	_
 19	for	for	ADP	_	AdpType=Prep	20	case	_	_
 20	bøger	bog	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	18	nmod	_	_
-21	,	,	PUNCT	_	_	20	punct	_	_
+21	,	,	PUNCT	_	_	17	punct	_	_
 22	blade	blad	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	conj	_	_
 23	,	,	PUNCT	_	_	20	punct	_	_
 24	klassisk	klassisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing|Variant=Long	25	amod	_	_
@@ -4646,8 +4646,8 @@
 
 1	For	for	CONJ	_	_	0	root	_	_
 2	ingen	ingen	PRON	_	Gender=Com|Number=Sing|PronType=Ind	7	nsubj	_	_
-3	af	af	ADP	_	AdpType=Prep	2	dep	_	_
-4	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	3	dep	_	_
+3	af	af	ADP	_	AdpType=Prep	4	case	_	_
+4	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
 5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 6	intellektuelle	intellektuel	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	7	amod	_	_
 7	dyr	dyr	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	conj	_	_
@@ -4687,7 +4687,7 @@
 6	næb	næb	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
 7	og	og	CONJ	_	_	6	cc	_	_
 8	kløer	klo	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	conj	_	_
-9	,	,	PUNCT	_	_	4	punct	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
 10	for	for	ADP	_	AdpType=Prep	4	dep	_	_
 11	at	at	PART	_	PartType=Inf	10	dep	_	_
 12	få	få	VERB	_	VerbForm=Inf|Voice=Act	11	dep	_	_
@@ -4695,11 +4695,11 @@
 14	til	til	ADP	_	AdpType=Prep	12	dep	_	_
 15	at	at	PART	_	PartType=Inf	14	dep	_	_
 16	tage	tage	VERB	_	VerbForm=Inf|Voice=Act	15	dep	_	_
-17	"	&quot;	PUNCT	_	_	19	punct	_	_
+17	"	&quot;	PUNCT	_	_	10	punct	_	_
 18	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	_
 19	lette	let	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	16	dobj	_	_
 20	"	&quot;	PUNCT	_	_	19	punct	_	_
-21	alvorligt	alvorlig	ADJ	_	Degree=Pos|Variant=Short	16	amod	_	_
+21	alvorligt	alvorligt	ADV	_	Degree=Pos	16	amod	_	_
 22	og	og	CONJ	_	_	16	cc	_	_
 23	behandle	behandle	VERB	_	VerbForm=Inf|Voice=Act	16	conj	_	_
 24	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	dobj	_	_
@@ -4708,7 +4708,7 @@
 27	fuldgyldig	fuldgyldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	28	amod	_	_
 28	del	del	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	dep	_	_
 29	af	af	ADP	_	AdpType=Prep	31	case	_	_
-30	vort	vores	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	31	nmod:poss	_	_
+30	vort	vores	DET	_	Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	31	det	_	_
 31	programudbud	programudbud	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	28	nmod	_	_
 32	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4736,7 +4736,7 @@
 16	vigtig	vigtig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	17	amod	_	_
 17	del	del	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	dep	_	_
 18	af	af	ADP	_	AdpType=Prep	21	case	_	_
-19	vor	vores	PRON	_	Gender=Com|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	21	nmod:poss	_	_
+19	vor	vores	DET	_	Gender=Com|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	21	det	_	_
 20	fælles	fælles	ADJ	_	Degree=Pos|Variant=Long	21	amod	_	_
 21	nutidskultur	nutidskultur	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	_
 22	,	,	PUNCT	_	_	8	punct	_	_
@@ -4747,9 +4747,9 @@
 27	om	om	SCONJ	_	_	29	mark	_	_
 28	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 29	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	dep	_	_
-30	professionelt	professionel	ADJ	_	Degree=Pos|Variant=Short	33	amod	_	_
+30	professionelt	professionelt	ADV	_	Degree=Pos	33	advmod	_	_
 31	og	og	CONJ	_	_	30	cc	_	_
-32	ærligt	ærlig	ADJ	_	Degree=Pos|Variant=Short	30	conj	_	_
+32	ærligt	ærligt	ADV	_	Degree=Pos	30	conj	_	_
 33	udført	udføre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	29	dep	_	_
 34	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -4816,11 +4816,11 @@
 8	Urd	Urd	PROPN	_	_	11	nsubj	_	_
 9	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
 10	i_går_eftermiddags	i_går_eftermiddags	ADV	_	_	11	advmod	_	_
-11	have	have	VERB	_	VerbForm=Inf|Voice=Act	4	expl	_	_
+11	have	have	VERB	_	VerbForm=Inf|Voice=Act	4	dep	_	_
 12	Århus	Århus	PROPN	_	_	11	dobj	_	_
 13	Havns	havn	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	12	dep	_	_
 14	bugserbåd	bugserbåd	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	nmod:poss	_	_
-15	,	,	PUNCT	_	_	12	punct	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
 16	Hermes	Hermes	PROPN	_	_	12	appos	_	_
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	til	til	ADP	_	AdpType=Prep	11	dep	_	_
@@ -4839,7 +4839,7 @@
 4	:	:	PUNCT	_	_	2	punct	_	_
 5	"	&quot;	PUNCT	_	_	7	punct	_	_
 6	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-7	ved	vide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	expl	_	_
+7	ved	vide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	dep	_	_
 8	ikke	ikke	ADV	_	_	7	neg	_	_
 9	hvorfor	hvorfor	ADV	_	_	7	dobj	_	_
 10	.	.	PUNCT	_	_	7	punct	_	_
@@ -4857,7 +4857,7 @@
 11	måde	måde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	dep	_	_
 12	at	at	PART	_	PartType=Inf	11	nmod	_	_
 13	komme	komme	VERB	_	VerbForm=Inf|Voice=Act	12	dep	_	_
-14	rundt	rundt	ADV	_	_	13	dep	_	_
+14	rundt	rundt	ADV	_	_	13	nmod:loc	_	_
 15	om	om	ADP	_	AdpType=Prep	16	case	_	_
 16	hjørnet	hjørne	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	_
 17	på	på	ADP	_	AdpType=Prep	13	dep	_	_
@@ -4908,11 +4908,11 @@
 3	maskine	maskine	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
 4	brød	bryde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	sammen	sammen	ADV	_	_	4	compound:prt	_	_
-6	,	,	PUNCT	_	_	4	punct	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
 7	hvorefter	hvorefter	ADV	_	_	4	advmod	_	_
 8	Urd	Urd	PROPN	_	_	9	nsubj	_	_
 9	vendte	vende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	dep	_	_
-10	om	om	ADV	_	_	9	dep	_	_
+10	om	om	ADV	_	_	9	nmod:loc	_	_
 11	og	og	CONJ	_	_	9	cc	_	_
 12	humpede	humpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
 13	til	til	ADP	_	AdpType=Prep	14	case	_	_
@@ -4932,7 +4932,7 @@
 5	kajen	kaj	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nmod	_	_
 6	i	i	ADP	_	AdpType=Prep	7	case	_	_
 7	Kalundborg	Kalundborg	PROPN	_	_	2	nmod	_	_
-8	,	,	PUNCT	_	_	2	punct	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
 9	hvorefter	hvorefter	ADV	_	_	2	advmod	_	_
 10	enhver	enhver	PRON	_	Gender=Com|Number=Sing|PronType=Ind	12	nsubj	_	_
 11	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -4971,7 +4971,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	gik	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 8	maskinchefen	maskinchef	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
-9	hjem	hjem	ADV	_	_	7	dep	_	_
+9	hjem	hjem	ADV	_	_	7	nmod:loc	_	_
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 1	Forslaget	forslag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	_
@@ -4984,11 +4984,11 @@
 8	K	K	PROPN	_	_	6	conj	_	_
 9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
 10	ikke	ikke	ADV	_	_	12	neg	_	_
-11	helt	hel	ADJ	_	Degree=Pos|Variant=Short	12	amod	_	_
+11	helt	helt	ADV	_	Degree=Pos	12	advmod	_	_
 12	nyt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Variant=Long	0	root	_	_
 13	.	.	PUNCT	_	_	12	punct	_	_
 
-1	Faktisk	faktisk	ADJ	_	Degree=Pos|Variant=Short	4	amod	_	_
+1	Faktisk	faktisk	ADV	_	Degree=Pos	4	advmod	_	_
 2	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	auxpass	_	_
 3	der	der	PART	_	PartType=Inf	4	expl	_	_
 4	holdt	holde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	0	root	_	_
@@ -5002,17 +5002,17 @@
 12	af	af	ADP	_	AdpType=Prep	13	case	_	_
 13	KV-planen	KV-plan	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	_
 14	i	i	ADP	_	AdpType=Prep	4	dep	_	_
-15	1964	1964	NUM	_	NumType=Card	14	dep	_	_
+15	1964	1964	NUM	_	NumType=Card	14	nummod	_	_
 16	,	,	PUNCT	_	_	4	punct	_	_
 17	og	og	CONJ	_	_	4	cc	_	_
 18	i	i	ADP	_	AdpType=Prep	20	dep	_	_
-19	1965	1965	NUM	_	NumType=Card	18	dep	_	_
+19	1965	1965	NUM	_	NumType=Card	18	nummod	_	_
 20	kostede	koste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 21	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 22	Venstres	venstre	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	24	nmod:poss	_	_
 23	daværende	daværende	ADJ	_	Degree=Pos|Variant=Long	24	amod	_	_
 24	leder	leder	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	iobj	_	_
-25	,	,	PUNCT	_	_	24	punct	_	_
+25	,	,	PUNCT	_	_	28	punct	_	_
 26	tidl.	tidligere	ADJ	_	Degree=Comp|Variant=Long	27	amod	_	_
 27	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	28	name	_	_
 28	Erik	Erik	PROPN	_	_	24	appos	_	_
@@ -5020,13 +5020,13 @@
 30	,	,	PUNCT	_	_	28	punct	_	_
 31	rollen	rolle	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	dobj	_	_
 32	som	som	PART	_	PartType=Inf	31	dep	_	_
-33	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	34	nmod:poss	_	_
+33	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	34	det	_	_
 34	partis	parti	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	32	dep	_	_
 35	frontfigur	frontfigur	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	34	nmod:poss	_	_
 36	,	,	PUNCT	_	_	40	punct	_	_
 37	at	at	SCONJ	_	_	40	mark	_	_
 38	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
-39	direkte	direkte	ADJ	_	Degree=Pos|Variant=Short	40	amod	_	_
+39	direkte	direkte	ADV	_	Degree=Pos	40	advmod	_	_
 40	gik	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	dep	_	_
 41	ind	ind	ADV	_	_	40	advmod	_	_
 42	for	for	ADP	_	AdpType=Prep	44	case	_	_
@@ -5050,7 +5050,7 @@
 10	skridt	skridt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
 11	:	:	PUNCT	_	_	5	punct	_	_
 12	"	&quot;	PUNCT	_	_	13	punct	_	_
-13	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+13	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	dep	_	_
 14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
 15	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 16	for	for	ADP	_	AdpType=Prep	13	dep	_	_
@@ -5102,10 +5102,10 @@
 1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	hindre	hindre	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
-4	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	3	dobj	_	_
-5	misforståelser	misforståelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	dep	_	_
+4	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	5	amod	_	_
+5	misforståelser	misforståelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	dobj	_	_
 6	mellem	mellem	ADP	_	AdpType=Prep	9	case	_	_
-7	vore	vores	PRON	_	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	9	nmod:poss	_	_
+7	vore	vores	DET	_	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	9	det	_	_
 8	to	to	NUM	_	NumType=Card	9	nummod	_	_
 9	partier	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	_
 10	.	.	PUNCT	_	_	3	punct	_	_
@@ -5173,7 +5173,7 @@
 9	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	dobj	_	_
 10	nogen	nogen	DET	_	Gender=Com|Number=Sing|PronType=Ind	11	det	_	_
 11	markedsudvalgs-medlemmer	markedsudvalgs-medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	dobj	_	_
-12	,	,	PUNCT	_	_	11	punct	_	_
+12	,	,	PUNCT	_	_	9	punct	_	_
 13	som	som	PART	_	PartType=Inf	15	nsubj	_	_
 14	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
 15	overskue	overskue	AUX	_	VerbForm=Inf|Voice=Act	11	aux	_	_
@@ -5229,7 +5229,7 @@
 19	at	at	PART	_	PartType=Inf	16	dobj	_	_
 20	slagte	slagte	VERB	_	VerbForm=Inf|Voice=Act	19	dep	_	_
 21	mere	meget	ADJ	_	Definite=Ind|Degree=Comp|Number=Sing|Variant=Long	20	dobj	_	_
-22	end	end	SCONJ	_	_	24	dep	_	_
+22	end	end	ADP	_	_	24	dep	_	_
 23	12	12	NUM	_	NumType=Card	24	nummod	_	_
 24	kreaturer	kreatur	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	dep	_	_
 25	om	om	ADP	_	AdpType=Prep	26	case	_	_
@@ -5290,8 +5290,8 @@
 3	opdagede	opdage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 4	ikke	ikke	ADV	_	_	3	neg	_	_
 5	konsekvensen	konsekvens	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	dobj	_	_
-6	af	af	ADP	_	AdpType=Prep	5	dep	_	_
-7	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	dep	_	_
+6	af	af	ADP	_	AdpType=Prep	7	case	_	_
+7	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
 8	før	før	ADP	_	AdpType=Prep	3	dep	_	_
 9	i	i	ADP	_	AdpType=Prep	11	case	_	_
 10	sidste	sidste	ADJ	_	Degree=Pos|Variant=Long	11	amod	_	_
@@ -5301,7 +5301,7 @@
 1	Duetoft	Duetoft	PROPN	_	_	2	nsubj	_	_
 2	redegør	redegøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	for	for	ADP	_	AdpType=Prep	6	case	_	_
-4	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	6	nmod:poss	_	_
+4	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
 5	kontroversielle	kontroversiel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	6	amod	_	_
 6	synspunkt	synspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
 7	i	i	ADP	_	AdpType=Prep	10	case	_	_
@@ -5349,7 +5349,7 @@
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-5	begge	begge	PRON	_	Number=Plur|PronType=Dem	6	dep	_	_
+5	begge	begge	PRON	_	Number=Plur|PronType=Dem	6	nmod	_	_
 6	fædre	fader	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	list	_	_
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	31	31	NUM	_	NumType=Card	9	nummod	_	_
@@ -5389,7 +5389,7 @@
 7	af	af	ADP	_	AdpType=Prep	12	case	_	_
 8	Odense	Odense	PROPN	_	_	12	nmod:poss	_	_
 9	Teaters	teater	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	8	dep	_	_
-10	mest	meget	ADJ	_	Degree=Sup|Variant=Short	11	amod	_	_
+10	mest	mest	ADV	_	Degree=Sup	11	advmod	_	_
 11	talentfulde	talentfuld	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	8	amod	_	_
 12	skuespillere	skuespiller	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nmod	_	_
 13	.	.	PUNCT	_	_	1	punct	_	_
@@ -5425,7 +5425,7 @@
 10	med	med	ADP	_	AdpType=Prep	6	dep	_	_
 11	at	at	PART	_	PartType=Inf	10	dep	_	_
 12	genfinde	genfinde	VERB	_	VerbForm=Inf|Voice=Act	11	dep	_	_
-13	deres	deres	PRON	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+13	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
 14	barndommelige	barndommelig	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	15	amod	_	_
 15	sindelag	sindelag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	dobj	_	_
 16	.	.	PUNCT	_	_	6	punct	_	_
@@ -5443,7 +5443,7 @@
 11	prøve	prøve	VERB	_	VerbForm=Inf|Voice=Act	7	conj	_	_
 12	at	at	PART	_	PartType=Inf	11	dobj	_	_
 13	huske	huske	VERB	_	VerbForm=Inf|Voice=Act	12	dep	_	_
-14	,	,	PUNCT	_	_	15	punct	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
 15	hvordan	hvordan	ADV	_	_	13	dobj	_	_
 16	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
 17	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
@@ -5465,7 +5465,7 @@
 10	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 11	hjælpe	hjælpe	VERB	_	VerbForm=Inf|Voice=Act	1	conj	_	_
 12	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	11	dobj	_	_
-13	lidt	lidt	ADJ	_	Degree=Pos|Variant=Short	14	amod	_	_
+13	lidt	lidt	ADV	_	Degree=Pos	14	advmod	_	_
 14	på	på	ADP	_	AdpType=Prep	15	case	_	_
 15	gled	gled	NOUN	_	_	11	nmod	_	_
 16	.	.	PUNCT	_	_	1	punct	_	_
@@ -5496,18 +5496,18 @@
 2	Dengang	dengang	ADV	_	_	3	advmod	_	_
 3	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-5	på	på	ADP	_	AdpType=Prep	3	dep	_	_
-6	samme	samme	ADJ	_	Degree=Pos|Variant=Long	5	amod	_	_
-7	fodbold-hold	fodbold-hold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	dep	_	_
+5	på	på	ADP	_	AdpType=Prep	7	case	_	_
+6	samme	samme	ADJ	_	Degree=Pos|Variant=Long	7	amod	_	_
+7	fodbold-hold	fodbold-hold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	_
 8	i	i	ADP	_	AdpType=Prep	9	case	_	_
-9	Vedbæk	Vedbæk	PROPN	_	_	6	nmod	_	_
+9	Vedbæk	Vedbæk	PROPN	_	_	7	nmod	_	_
 10	Boldklub	boldklub	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	dep	_	_
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	tilbragte	tilbringe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	dep	_	_
-3	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	2	dobj	_	_
-4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	dep	_	_
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	4	amod	_	_
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	dobj	_	_
 5	sammen	sammen	ADV	_	_	2	advmod	_	_
 6	på	på	ADP	_	AdpType=Prep	8	case	_	_
 7	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
@@ -5529,7 +5529,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 7	røg	ryge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	dep	_	_
-8	vores	vores	PRON	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+8	vores	vores	DET	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
 9	første	første	ADJ	_	Degree=Pos|Variant=Long	10	amod	_	_
 10	smøger	smøg	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	dobj	_	_
 11	sammen	sammen	ADV	_	_	7	advmod	_	_
@@ -5554,15 +5554,15 @@
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	83	83	NUM	_	NumType=Card	0	root	_	_
 5	og	og	CONJ	_	_	4	cc	_	_
-6	minsandten	minsandten	ADV	_	_	5	dep	_	_
+6	minsandten	minsandten	ADV	_	_	5	advmod	_	_
 7	i	i	ADP	_	AdpType=Prep	10	case	_	_
-8	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	nmod:poss	_	_
+8	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
 9	høje	høj	ADJ	_	Definite=Def|Degree=Pos|Number=Sing|Variant=Long	10	amod	_	_
 10	alder	alder	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
-11	stadig	stadig	ADV	_	_	5	dep	_	_
+11	stadig	stadig	ADV	_	_	5	advmod	_	_
 12	aktiv	aktiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	5	amod	_	_
 13	i	i	ADP	_	AdpType=Prep	15	case	_	_
-14	sin	sin	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	15	nmod:poss	_	_
+14	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
 15	jagt	jagt	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
 16	på	på	ADP	_	AdpType=Prep	18	case	_	_
 17	tidligere	tidlig	ADJ	_	Degree=Comp|Variant=Long	18	amod	_	_
@@ -5604,7 +5604,7 @@
 27	forfatteren	forfatter	NOUN	_	Definite=Def|Gender=Com|Number=Sing	28	nmod	_	_
 28	regnes	regne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	_
 29	som	som	PART	_	PartType=Inf	28	dep	_	_
-30	hans	hans	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+30	hans	hans	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	32	det	_	_
 31	sidste	sidste	ADJ	_	Degree=Pos|Variant=Long	32	amod	_	_
 32	bog	bog	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	29	dep	_	_
 33	.	.	PUNCT	_	_	5	punct	_	_
@@ -5612,12 +5612,12 @@
 1	Her	her	ADV	_	_	2	advmod	_	_
 2	beskriver	beskrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	5	nmod:poss	_	_
+4	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
 5	arbejde	arbejde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	dobj	_	_
-6	helt	hel	ADJ	_	Degree=Pos|Variant=Short	7	amod	_	_
+6	helt	helt	ADV	_	Degree=Pos	7	advmod	_	_
 7	op	op	ADV	_	_	5	advmod	_	_
 8	til	til	ADP	_	AdpType=Prep	7	dep	_	_
-9	1989	1989	NUM	_	NumType=Card	8	dep	_	_
+9	1989	1989	NUM	_	NumType=Card	8	nummod	_	_
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 1	Og	og	CONJ	_	_	0	root	_	_
@@ -5640,7 +5640,7 @@
 3	blandt_andet	blandt_andet	ADV	_	_	4	advmod	_	_
 4	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	i	i	ADP	_	AdpType=Prep	7	case	_	_
-6	sit	sin	PRON	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	nmod:poss	_	_
+6	sit	sin	DET	_	Gender=Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
 7	forord	forord	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
 8	:	:	PUNCT	_	_	4	punct	_	_
 
@@ -5666,7 +5666,7 @@
 20	til	til	ADP	_	AdpType=Prep	19	dep	_	_
 21	at	at	PART	_	PartType=Inf	20	dep	_	_
 22	dominere	dominere	VERB	_	VerbForm=Inf|Voice=Act	21	dep	_	_
-23	vores	vores	PRON	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+23	vores	vores	DET	_	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	24	det	_	_
 24	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	dobj	_	_
 25	-	-	PUNCT	_	_	17	punct	_	_
 26	i	i	ADP	_	AdpType=Prep	28	case	_	_
@@ -5696,33 +5696,33 @@
 6	forskellige	forskellig	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	7	amod	_	_
 7	koncentrationslejre	koncentrationslejr	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	nmod	_	_
 8	i_alt	i_alt	ADV	_	_	7	advmod	_	_
-9	,	,	PUNCT	_	_	3	punct	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
 10	heriblandt	heriblandt	ADV	_	_	3	advmod	_	_
 11	Lvov	Lvov	PROPN	_	_	10	dep	_	_
-12	,	,	PUNCT	_	_	20	punct	_	_
-13	hvor	hvor	ADV	_	_	20	advmod	_	_
+12	,	,	PUNCT	_	_	19	punct	_	_
+13	hvor	hvor	ADV	_	_	19	advmod	_	_
 14	kun	kun	ADV	_	_	18	advmod	_	_
 15	34	34	NUM	_	NumType=Card	18	nummod	_	_
 16	af	af	ADP	_	AdpType=Prep	18	dep	_	_
-17	149.000	149.000	NUM	_	NumType=Card	16	dep	_	_
-18	jøder	jøde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	20	nsubj	_	_
-19	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
-20	i	i	ADP	_	AdpType=Prep	11	acl:relcl	_	_
-21	live	live	ADJ	_	Degree=Pos|Variant=Long	20	amod	_	_
+17	149.000	149.000	NUM	_	NumType=Card	16	nummod	_	_
+18	jøder	jøde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	19	nsubj	_	_
+19	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+20	i	i	ADP	_	AdpType=Prep	21	case	_	_
+21	live	live	ADJ	_	Degree=Pos|Variant=Long	19	nmod	_	_
 22	efter	efter	ADP	_	AdpType=Prep	23	case	_	_
-23	krigen	krig	NOUN	_	Definite=Def|Gender=Com|Number=Sing	20	nmod	_	_
+23	krigen	krig	NOUN	_	Definite=Def|Gender=Com|Number=Sing	19	nmod	_	_
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 1	Og	og	CONJ	_	_	0	root	_	_
 2	når	når	SCONJ	_	_	5	mark	_	_
 3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-5	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	dep	_	_
+5	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	skyldtes	skyldes	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
 8	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 9	ganske	ganske	ADV	_	_	10	advmod	_	_
-10	enkelt	enkel	ADJ	_	Degree=Pos|Variant=Short	7	amod	_	_
+10	enkelt	enkelt	ADV	_	Degree=Pos	7	advmod	_	_
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	at	at	SCONJ	_	_	14	mark	_	_
 13	fangevogterne	fangevogter	NOUN	_	Definite=Def|Gender=Com|Number=Plur	14	nsubj	_	_
@@ -5764,7 +5764,7 @@
 23	Svend	Svend	PROPN	_	_	30	nsubj	_	_
 24	Erik	Erik	PROPN	_	_	23	name	_	_
 25	Hovmand	Hovmand	PROPN	_	_	23	name	_	_
-26	(	(	PUNCT	_	_	27	punct	_	_
+26	(	(	PUNCT	_	_	21	punct	_	_
 27	V	V	PROPN	_	_	23	dep	_	_
 28	)	)	PUNCT	_	_	27	punct	_	_
 29	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	_
@@ -5784,7 +5784,7 @@
 1	Dermed	dermed	ADV	_	_	2	advmod	_	_
 2	tager	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	bogstavelig	bogstavelig	ADJ	_	Degree=Pos|Variant=Short	5	amod	_	_
+4	bogstavelig	bogstavelig	ADV	_	Degree=Pos	5	advmod	_	_
 5	talt	tale	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	2	dep	_	_
 6	Ungbos	Ungbo	PROPN	_	Case=Gen	8	nmod:poss	_	_
 7	tidligere	tidlig	ADJ	_	Degree=Comp|Variant=Long	8	amod	_	_
@@ -5807,7 +5807,7 @@
 24	TV_2-Nyhederne	TV_2-nyhed	NOUN	_	Definite=Def|Gender=Com|Number=Plur	22	nmod	_	_
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	at	at	SCONJ	_	_	30	mark	_	_
-27	"	&quot;	PUNCT	_	_	30	punct	_	_
+27	"	&quot;	PUNCT	_	_	26	punct	_	_
 28	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 29	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	30	cop	_	_
 30	op	op	ADV	_	_	22	dobj	_	_
@@ -5825,7 +5825,7 @@
 42	i	i	ADP	_	AdpType=Prep	43	case	_	_
 43	Ungbos	Ungbo	PROPN	_	Case=Gen	40	nmod	_	_
 44	administration	administration	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	43	nmod:poss	_	_
-45	.	.	PUNCT	_	_	30	punct	_	_
+45	.	.	PUNCT	_	_	40	punct	_	_
 46	"	&quot;	PUNCT	_	_	30	punct	_	_
 
 1	Kirsten	Kirsten	PROPN	_	_	6	nsubj	_	_
@@ -5843,7 +5843,7 @@
 13	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	begået	begå	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	8	dobj	_	_
 15	mandatsvig	mandatsvig	NOUN	_	Definite=Ind|Number=Sing	14	dobj	_	_
-16	,	,	PUNCT	_	_	15	punct	_	_
+16	,	,	PUNCT	_	_	14	punct	_	_
 17	underslæb	underslæb	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	conj	_	_
 18	og	og	CONJ	_	_	15	cc	_	_
 19	bedrageri	bedrageri	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	conj	_	_
@@ -5924,18 +5924,18 @@
 7	fyreseddel	fyreseddel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	dobj	_	_
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	og	og	CONJ	_	_	5	cc	_	_
-10	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	22	nsubj	_	_
-11	lejere	lejer	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	10	dep	_	_
-12	,	,	PUNCT	_	_	10	punct	_	_
-13	flere	mange	ADJ	_	Degree=Comp|Number=Plur|Variant=Long	10	conj	_	_
-14	kommuner	kommune	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	13	dep	_	_
-15	,	,	PUNCT	_	_	10	punct	_	_
-16	fagbevægelsen	fagbevægelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	conj	_	_
-17	,	,	PUNCT	_	_	10	punct	_	_
+10	mange	mange	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	21	amod	_	_
+11	lejere	lejer	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	21	dep	_	_
+12	,	,	PUNCT	_	_	21	punct	_	_
+13	flere	mange	ADJ	_	Degree=Comp|Number=Plur|Variant=Long	14	amod	_	_
+14	kommuner	kommune	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	21	amod	_	_
+15	,	,	PUNCT	_	_	21	punct	_	_
+16	fagbevægelsen	fagbevægelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	21	dep	_	_
+17	,	,	PUNCT	_	_	21	punct	_	_
 18	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	19	det	_	_
-19	bank	bank	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	conj	_	_
-20	og	og	CONJ	_	_	10	cc	_	_
-21	staten	stat	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	conj	_	_
+19	bank	bank	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	21	dep	_	_
+20	og	og	CONJ	_	_	21	dep	_	_
+21	staten	stat	NOUN	_	Definite=Def|Gender=Com|Number=Sing	22	nsubj	_	_
 22	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 23	alle	al	ADJ	_	Degree=Pos|Number=Plur|Variant=Long	22	amod	_	_
 24	penge	penge	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	22	dobj	_	_
@@ -5945,7 +5945,7 @@
 1	I_går	i_går	ADV	_	_	2	advmod	_	_
 2	hævdede	hævde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	de	den	PRON	_	Number=Plur|PronType=Dem	2	nsubj	_	_
-4	to	to	NUM	_	NumType=Card	3	dep	_	_
+4	to	to	NUM	_	NumType=Card	3	nummod	_	_
 5	tiltalte	tiltale	VERB	_	Number=Plur|Tense=Past|VerbForm=Part	4	dep	_	_
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	at	at	SCONJ	_	_	10	mark	_	_
@@ -5973,22 +5973,22 @@
 5	der	der	PART	_	PartType=Inf	6	nsubj	_	_
 6	mentes	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	_
 7	med	med	ADP	_	AdpType=Prep	9	case	_	_
-8	"	&quot;	PUNCT	_	_	9	punct	_	_
+8	"	&quot;	PUNCT	_	_	6	punct	_	_
 9	kunder	kunde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nmod	_	_
 10	"	&quot;	PUNCT	_	_	9	punct	_	_
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-1	Klokken	klokke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	dep	_	_
+1	Klokken	klokke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	dep	_	_
 2	17.05	17.05	NUM	_	NumType=Card	1	nmod	_	_
-3	samme	samme	ADJ	_	Degree=Pos|Variant=Long	5	amod	_	_
-4	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	dep	_	_
+3	samme	samme	ADJ	_	Degree=Pos|Variant=Long	4	amod	_	_
+4	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	dep	_	_
 5	ringede	ringe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 7	igen	igen	ADV	_	_	5	advmod	_	_
 8	:	:	PUNCT	_	_	5	punct	_	_
 9	"	&quot;	PUNCT	_	_	11	punct	_	_
 10	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
-11	regnede	regne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	expl	_	_
+11	regnede	regne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	dep	_	_
 12	med	med	ADP	_	AdpType=Prep	11	dep	_	_
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	at	at	SCONJ	_	_	16	mark	_	_
@@ -6035,8 +6035,8 @@
 22	ringe	ringe	VERB	_	VerbForm=Inf|Voice=Act	18	conj	_	_
 23	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	25	det	_	_
 24	halv	halv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Variant=Long	25	amod	_	_
-25	time	time	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	26	dep	_	_
-26	senere	sen	ADJ	_	Degree=Comp|Variant=Short	22	amod	_	_
+25	time	time	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	26	nmod:temp	_	_
+26	senere	senere	ADV	_	Degree=Comp	22	advmod	_	_
 27	.	.	PUNCT	_	_	1	punct	_	_
 
 1	"	&quot;	PUNCT	_	_	2	punct	_	_
@@ -6049,7 +6049,7 @@
 8	telefonen	telefon	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
 9	blev	blive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	dep	_	_
 10	aflyttet	aflytte	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part,Trans	9	dep	_	_
-11	?	?	PUNCT	_	_	2	punct	_	_
+11	?	?	PUNCT	_	_	9	punct	_	_
 12	"	&quot;	PUNCT	_	_	2	punct	_	_
 13	spurgte	spørge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 14	anklager	anklager	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	name	_	_
@@ -6071,8 +6071,8 @@
 3	bare	bare	ADV	_	_	5	advmod	_	_
 4	ikke	ikke	ADV	_	_	5	neg	_	_
 5	snakke	snakke	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
-6	med	med	ADP	_	AdpType=Prep	5	dep	_	_
-7	ham	han	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	6	dep	_	_
+6	med	med	ADP	_	AdpType=Prep	7	case	_	_
+7	ham	han	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	hvis	hvis	SCONJ	_	_	11	mark	_	_
 10	der	der	PART	_	PartType=Inf	11	expl	_	_
@@ -6084,7 +6084,7 @@
 
 1	Så	så	ADV	_	_	6	advmod	_	_
 2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
-3	min	min	PRON	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	kone	kone	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	_
 5	måske	måske	ADV	_	_	6	advmod	_	_
 6	få	få	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
@@ -6103,7 +6103,7 @@
 19	bordel	bordel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	_
 20	i	i	ADP	_	AdpType=Prep	21	case	_	_
 21	Holland	Holland	PROPN	_	_	17	nmod	_	_
-22	.	.	PUNCT	_	_	6	punct	_	_
+22	.	.	PUNCT	_	_	17	punct	_	_
 23	"	&quot;	PUNCT	_	_	6	punct	_	_
 
 1	"	&quot;	PUNCT	_	_	2	punct	_	_
@@ -6124,11 +6124,11 @@
 16	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	fortælle	fortælle	VERB	_	VerbForm=Inf|Voice=Act	2	dep	_	_
 18	om	om	ADP	_	AdpType=Prep	20	case	_	_
-19	sine	sin	PRON	_	Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	20	nmod:poss	_	_
+19	sine	sin	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	_
 20	udskejelser	udskejelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	17	nmod	_	_
 21	i	i	ADP	_	AdpType=Prep	22	case	_	_
 22	Holland	Holland	PROPN	_	_	20	nmod	_	_
-23	.	.	PUNCT	_	_	2	punct	_	_
+23	.	.	PUNCT	_	_	17	punct	_	_
 24	"	&quot;	PUNCT	_	_	17	punct	_	_
 
 1	Inden	inden	SCONJ	_	_	3	mark	_	_
@@ -6147,17 +6147,17 @@
 14	"	&quot;	PUNCT	_	_	15	punct	_	_
 15	Mercedes-manden	Mercedes-mand	NOUN	_	Definite=Def|Gender=Com|Number=Sing	12	nmod	_	_
 16	"	&quot;	PUNCT	_	_	15	punct	_	_
-17	til	til	ADP	_	AdpType=Prep	13	dep	_	_
-18	én	en	PRON	_	Gender=Com|Number=Sing|PronType=Ind	17	dep	_	_
+17	til	til	ADP	_	AdpType=Prep	18	case	_	_
+18	én	en	PRON	_	Gender=Com|Number=Sing|PronType=Ind	13	nmod	_	_
 19	af	af	ADP	_	AdpType=Prep	21	case	_	_
-20	hans	hans	PRON	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+20	hans	hans	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
 21	venner	ven	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	18	nmod	_	_
 22	.	.	PUNCT	_	_	7	punct	_	_
 
 1	Han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	komme	komme	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
-4	ud	ud	ADV	_	_	3	dep	_	_
+4	ud	ud	ADV	_	_	3	nmod:loc	_	_
 5	til	til	ADP	_	AdpType=Prep	7	case	_	_
 6	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
 7	adresse	adresse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
