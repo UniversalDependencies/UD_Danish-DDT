@@ -1,5 +1,5 @@
 ### Universal Dependencies - Danish Dependency Treebank Universal
-Dependencies Danish v1.1 -- 2015-05-15
+Dependencies Danish v1.2 -- 2015-09-04
 https://github.com/UniversalDependencies/UD_Danish
 
 ## LICENSE
@@ -40,6 +40,7 @@ over 7k to only 77 remaining cases.
 
 
 ## NOTES FOR RELEASE v1.1
+Dependencies Danish v1.1 -- 2015-05-15
 
 This first release contains the original tokenization of DDT, where
 multiword units like *i_dag* (today) or *selv_om* (even though) have
