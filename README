@@ -24,10 +24,24 @@ The part-of-speech tags and labels from the original treebank have been
 partially converted using mappings, and partially using the new
 calculated tree structure as a reference to assign labels.
 
+## NOTES FOR THE CURRENT RELEASE
 
-## NOTES FOR NEXT RELEASE
+The current release contains many improvements from v1.1. In
+particular, we split multiword units, fixed issues with AUX and DET
+(some words that are not closed-class items were labeled as such),
+changed the headness of infinitive phrases (for at gøre), and added
+heuristics to introduce clausal dependency relations. Further smaller
+modifications include the change of POS for "som" and "der" from PART
+to "PRON" following the Swedish treebank, and the lemma of quotes
+(&quot => "). The prior release contained many "dep" relations for
+parts that were not yet handled in the conversion (e.g. clausal
+dependents). The current release reduces the number of "dep" rels from
+over 7k to only 77 remaining cases.
 
-The current release contains the original tokenization of DDT, where
+
+## NOTES FOR RELEASE v1.1
+
+This first release contains the original tokenization of DDT, where
 multiword units like *i_dag* (today) or *selv_om* (even though) have
 been underscored together. These units are made up of more than one
 syntactic word and need to be split, with a subsequent reattaching of
