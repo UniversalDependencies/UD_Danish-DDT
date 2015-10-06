@@ -50,3 +50,9 @@ current conversion does not assign labels like csubj.
 
 * Keson, Britt (1998). Documentation of The Danish Morpho-syntactically Tagged PAROLE Corpus.
 Technical report, DSL
+
+
+Documentation status: stub
+Data source: unknown
+Data available since: UD v1.1
+License: GNU GPL Version 2
