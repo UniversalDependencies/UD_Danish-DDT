@@ -23,7 +23,7 @@ The part-of-speech tags and labels from the original treebank have been
 partially converted using mappings, and partially using the new
 calculated tree structure as a reference to assign labels.
 
-## NOTES FOR THE CURRENT RELEASE
+## NOTES FOR THE CURRENT RELEASE (1.2)
 
 The current release contains many improvements from v1.1. In
 particular, we split multiword units, fixed issues with AUX and DET
@@ -66,7 +66,8 @@ current conversion does not assign labels like csubj.
 Technical report, DSL
 
 
-Documentation status: stub
-Data source: unknown
+Documentation status: partial
+Data source: semi-automatic
 Data available since: UD v1.1
 License: GNU GPL Version 2
+
