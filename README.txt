@@ -70,4 +70,6 @@ Documentation status: partial
 Data source: semi-automatic
 Data available since: UD v1.1
 License: GNU GPL Version 2
+Genre: news fiction spoken nonfiction
+
 
