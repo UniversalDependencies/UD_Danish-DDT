@@ -9,7 +9,7 @@ GNU Public License, version 2
 
 The Danish UD treebank has been converted from the Danish
 Dependency Treebank (Buch-Kromman,2003) into Universal Dependencies
-(UD). It consists of 5,512 sentences (100,238 words). The Danish
+(UD). It consists of 5,512 sentences (100k words). The Danish
 source texts and the Danish part-of-speech tags were created by the PAROLE-DK
 project (Keson 1998) by the Danish Society for Language and Literature.
 
@@ -23,6 +23,14 @@ The part-of-speech tags and labels from the original treebank have been
 partially converted using mappings, and partially using the new
 calculated tree structure as a reference to assign labels.
 
+## BASIC STATISTICS
+
+Tree count:  5512
+Word count:  100733
+Token count: 100733
+Dep. relations: 39 of which 5 language specific
+POS tags: 17
+Category=value feature pairs: 46
 
 ## CHANGELOG
 
