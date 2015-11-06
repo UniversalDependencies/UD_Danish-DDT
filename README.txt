@@ -1,5 +1,5 @@
 ### Universal Dependencies - Danish Dependency Treebank Universal
-Dependencies Danish v1.2 BETA -- 2015-09-04
+Dependencies Danish v1.2 -- 2015-11-01
 
 ## LICENSE
 
@@ -23,23 +23,25 @@ The part-of-speech tags and labels from the original treebank have been
 partially converted using mappings, and partially using the new
 calculated tree structure as a reference to assign labels.
 
-## NOTES FOR THE CURRENT RELEASE (1.2)
 
-The current release contains many improvements from v1.1. In
-particular, we split multiword units, fixed issues with AUX and DET
-(some words that are not closed-class items were labeled as such),
-changed the headness of infinitive phrases (for at gøre), and added
-heuristics to introduce clausal dependency relations. Further smaller
-modifications include the change of POS for "som" and "der" from PART
-to "PRON" following the Swedish treebank, and the lemma of quotes
-(&quot => "). The prior release contained many "dep" relations for
-parts that were not yet handled in the conversion (e.g. clausal
-dependents). The current release reduces the number of "dep" rels from
-over 7k to only 77 remaining cases.
+## CHANGELOG
 
+### NOTES FOR THE CURRENT RELEASE (1.2)
 
-## NOTES FOR RELEASE v1.1
-Dependencies Danish v1.1 -- 2015-05-15
+From v1.1 to v1.2, many improvements were made and integrated in the
+conversion scripts. In particular, we split multiword units, fixed
+issues with AUX and DET (some words that are not closed-class items
+were labeled as such), changed the headness of infinitive phrases (for
+at gøre), and added heuristics to introduce clausal dependency
+relations. Further smaller modifications include the change of POS for
+"som" and "der" from PART to "PRON" following the Swedish treebank,
+and the lemma of quotes (&quot => "). The prior release contained many
+"dep" relations for parts that were not yet handled in the conversion
+(e.g. clausal dependents). The current release reduces the number of
+"dep" rels significantly, from over 7k in v1.1 to only 77 remaining
+cases in v1.2.
+
+### NOTES FOR RELEASE v1.1 (first release for UD_Danish) -- 2015-05-15
 
 This first release contains the original tokenization of DDT, where
 multiword units like *i_dag* (today) or *selv_om* (even though) have
@@ -48,7 +50,7 @@ syntactic word and need to be split, with a subsequent reattaching of
 the dependency tree, for the treebank to be fully compliant with UD
 tokenization.
 
-Relations across clauses are not labeled in this scheme, i.e. the
+Relations across clauses are not labeled in this scheme, i.e., the
 current conversion does not assign labels like csubj.
 
 ## CONTRIBUTORS (in order of last names)
@@ -65,6 +67,7 @@ current conversion does not assign labels like csubj.
 * Keson, Britt (1998). Documentation of The Danish Morpho-syntactically Tagged PAROLE Corpus.
 Technical report, DSL
 
+--- Machine readable metadata ---
 
 Documentation status: partial
 Data source: semi-automatic
