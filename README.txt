@@ -42,12 +42,12 @@ issues with AUX and DET (some words that are not closed-class items
 were labeled as such), changed the headness of infinitive phrases (for
 at gøre), and added heuristics to introduce clausal dependency
 relations. Further smaller modifications include the change of POS for
-"som" and "der" from PART to "PRON" following the Swedish treebank,
-and the lemma of quotes (&quot => "). The prior release contained many
-"dep" relations for parts that were not yet handled in the conversion
-(e.g. clausal dependents). The current release reduces the number of
-"dep" rels significantly, from over 7k in v1.1 to only 77 remaining
-cases in v1.2.
+"som" and "der" from PART to "PRON", and fixing the lemma of quotes
+from HTML-escaping to plain quotes (&quot => "). Release v1.1
+contained many "dep" relations for constructions that were not yet
+labeled in the first release (e.g. clausal dependents). The current
+release reduces the number of "dep" rels significantly, from over 7k
+in v1.1 to only 77 remaining cases in v1.2.
 
 ### NOTES FOR RELEASE v1.1 (first release for UD_Danish) -- 2015-05-15
 
