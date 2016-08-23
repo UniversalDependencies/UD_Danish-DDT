@@ -83,5 +83,5 @@ Data available since: UD v1.1
 License: GNU GPL 2.0
 Genre: news fiction spoken nonfiction
 Contributors: Johannsen, Anders; Martínez Alonso, Héctor; Plank, Barbara
-
+Contact:
 
