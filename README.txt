@@ -52,7 +52,18 @@ Category=value feature pairs: 46
 
 ## CHANGELOG
 
-### NOTES FOR THE CURRENT RELEASE (1.2)
+### NOTES FOR LAST RELEASE v2.0
+Changes for this version include:
+- CCONJ attach to the second conjunct
+- harmonized POS and labels to v2.0
+- added obl / nmod distinction
+- resolved punctuation bugs
+
+next release should improve the labels of subordinate clauses,
+and resolve the attachment of relative clauses dependending 
+on pronouns like "det".
+
+### NOTES FOR RELEASE v1.2
 
 From v1.1 to v1.2, many improvements were made and integrated in the
 conversion scripts. In particular, we split multiword units, fixed
@@ -81,11 +92,14 @@ current conversion does not assign labels like csubj.
 
 ## CONTRIBUTORS (in order of last names)
 
-- Anders Johannsen <ajohannsen@hum.ku.dk>
-- Héctor Martínez Alonso <alonso@hum.ku.dk>
-- Barbara Plank <bplank@cst.dk>
+- Anders Johannsen 
+- Héctor Martínez Alonso 
+- Barbara Plank 
 
 ## REFERENCES
+
+* Johannsen, Anders, Martínez Alonso, Héctor and Plank, Barbara.
+  "Universal Dependencies for Danish". TLT14, 2015.
 
 * Buch-Kromann, Matthias T., Line Mikkelsen, and Stine Kern Lynge.
   "Danish dependency treebank.". TLT. 2003.
