@@ -58,6 +58,8 @@ Changes for this version include:
 - harmonized POS and labels to v2.0
 - added obl / nmod distinction
 - resolved punctuation bugs
+- included ~4K words from the trailing train section into test and dev, marked with
+  dev2 and test2 in the sentence comments 
 
 next release should improve the labels of subordinate clauses,
 and resolve the attachment of relative clauses dependending 
