@@ -82,7 +82,7 @@
 17	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	18	det	_	_
 18	jernnæve	jernnæve	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	16	nsubj	_	_
 19	"	"	PUNCT	_	_	16	punct	_	_
-20	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 21	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = test-4
@@ -149,7 +149,7 @@
 
 # sent_id = test-7
 # text = Det kunne den ikke helt objektivt .
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	kunne	kunne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	ikke	ikke	ADV	_	_	2	advmod	_	_
@@ -263,7 +263,7 @@
 
 # sent_id = test-15
 # text = Det mener Socialdemokratiets næstformand Birte Weiss og foreslår , at de politiske ledere kommer med i det ligebehandlingsnævn , som Folketinget kort før sommerferien besluttede at nedsætte .
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Socialdemokratiets	socialdemokrati	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod:poss	_	_
 4	næstformand	næstformand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
@@ -702,7 +702,7 @@
 5	forsvarsministeren	forsvarsminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
 6	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	vidst	vide	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
-8	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = test-40
@@ -2704,7 +2704,7 @@
 33	ved	ved	ADP	_	AdpType=Prep	35	mark	_	_
 34	at	at	PART	_	PartType=Inf	35	mark	_	_
 35	kaste	kaste	VERB	_	VerbForm=Inf|Voice=Act	28	advcl	_	_
-36	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+36	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
 37	i	i	ADP	_	AdpType=Prep	38	case	_	_
 38	havnen	havn	NOUN	_	Definite=Def|Gender=Com|Number=Sing	35	obl	_	_
 39	.	.	PUNCT	_	_	24	punct	_	_
@@ -2757,7 +2757,7 @@
 3	Baadsgaard	Baadsgaard	PROPN	_	_	2	flat	_	_
 4	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	hende	hun	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
-6	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 7	før	før	ADP	_	AdpType=Prep	8	case	_	_
 8	interviewet	interview	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	_
 9	,	,	PUNCT	_	_	4	punct	_	_
@@ -2776,7 +2776,7 @@
 22	ikke	ikke	ADV	_	_	24	advmod	_	_
 23	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	_	_
 24	set	se	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
-25	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+25	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
 26	før	før	ADV	_	_	24	advmod	_	_
 27	og	og	CCONJ	_	_	28	cc	_	_
 28	spørge	spørge	VERB	_	VerbForm=Inf|Voice=Act	24	conj	_	_
@@ -2800,7 +2800,7 @@
 7	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	8	det	_	_
 8	side	side	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
 9	-	-	PUNCT	_	_	8	punct	_	_
-10	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+10	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
 11	med	med	ADP	_	AdpType=Prep	13	case	_	_
 12	hendes	hendes	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	forklaring	forklaring	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	_
@@ -3248,7 +3248,7 @@
 
 # sent_id = test-162
 # text = Det gør røde ruskindssko med ankelremme også , li'som op-art lak i sort med hvid hæl .
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	gør	gøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	røde	rød	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
 4	ruskindssko	ruskindssko	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	nsubj	_	_
@@ -3324,7 +3324,7 @@
 10	fordi	fordi	SCONJ	_	_	8	mark	_	_
 11	Brian	Brian	PROPN	_	_	12	nsubj	_	_
 12	iklædte	iklæde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
-13	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+13	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
 14	halstørklæde	halstørklæde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	_
 15	og	og	CCONJ	_	_	18	cc	_	_
 16	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	18	det	_	_
@@ -3503,7 +3503,7 @@
 
 # sent_id = test-175
 # text = Det syntes mor ikke , hun så den anden vej , men han trak hende i frakken og fortsatte : " Se mor , den ligner en hund . "
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	syntes	synes	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	mor	mor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	_
 4	ikke	ikke	ADV	_	_	2	advmod	_	_
@@ -3825,7 +3825,7 @@
 
 # sent_id = test-188
 # text = Det er der for så vidt ikke noget nyt i , bortset fra at kulturkrigen efterhånden har fået mere karakter af Røde-Kro-løjer end af seriøs debat .
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	der	der	ADV	_	PartType=Inf	2	expl	_	_
 4	for	for	ADP	_	AdpType=Prep	6	case	_	_
@@ -3902,7 +3902,7 @@
 2	anden	anden	PRON	_	Gender=Com|Number=Sing|PronType=Ind	1	nmod	_	_
 3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	så	så	ADV	_	_	5	advmod	_	_
-5	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+5	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	9	nsubj	_	_
 8	aldrig	aldrig	ADV	_	_	9	advmod	_	_
@@ -4687,7 +4687,7 @@
 7	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 8	fortsat	fortsat	ADV	_	_	9	advmod	_	_
 9	gøre	gøre	VERB	_	VerbForm=Inf|Voice=Act	4	conj	_	_
-10	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-224
@@ -5016,7 +5016,7 @@
 4	til	til	ADP	_	AdpType=Prep	6	mark	_	_
 5	at	at	PART	_	PartType=Inf	6	mark	_	_
 6	stramme	stramme	VERB	_	VerbForm=Inf|Voice=Act	2	advcl	_	_
-7	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+7	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 8	over	over	ADP	_	AdpType=Prep	9	case	_	_
 9	evne	evne	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	obl	_	_
 10	i	i	ADP	_	AdpType=Prep	16	case	_	_
@@ -5217,7 +5217,7 @@
 21	alvorligt	alvorligt	ADV	_	Degree=Pos	16	amod	_	_
 22	og	og	CCONJ	_	_	23	cc	_	_
 23	behandle	behandle	VERB	_	VerbForm=Inf|Voice=Act	16	conj	_	_
-24	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+24	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 25	som	som	ADP	_	PartType=Inf	28	case	_	_
 26	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	28	det	_	_
 27	fuldgyldig	fuldgyldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	28	amod	_	_
@@ -5604,7 +5604,7 @@
 10	skridt	skridt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
 11	:	:	PUNCT	_	_	5	punct	_	_
 12	"	"	PUNCT	_	_	13	punct	_	_
-13	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+13	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
 15	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 16	for	for	ADP	_	AdpType=Prep	18	case	_	_
@@ -5877,7 +5877,7 @@
 4	ikke	ikke	ADV	_	_	3	advmod	_	_
 5	konsekvensen	konsekvens	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	obj	_	_
 6	af	af	ADP	_	AdpType=Prep	7	case	_	_
-7	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nmod	_	_
 8	før	før	ADP	_	AdpType=Prep	11	case	_	_
 9	i	i	ADP	_	AdpType=Prep	11	case	_	_
 10	sidste	sidste	ADJ	_	Degree=Pos	11	amod	_	_
@@ -6352,7 +6352,7 @@
 2	når	når	SCONJ	_	_	5	mark	_	_
 3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-5	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	advmod	_	_
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	advmod	_	_
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	skyldtes	skyldes	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -6386,7 +6386,7 @@
 8	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	gøre	gøre	VERB	_	VerbForm=Inf|Voice=Act	14	advmod	_	_
-11	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	"	"	PUNCT	_	_	10	punct	_	_
 14	siger	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6729,7 +6729,7 @@
 4	Hvorfor	hvorfor	ADV	_	_	5	advmod	_	_
 5	skulle	skulle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 6	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-7	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 8	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = test-317
@@ -7191,7 +7191,7 @@
 # sent_id = test2-15
 # text = " Det har bankerne erkendt , og derfor går Østlandepuljen ind med individuel støtte til danske rådgiveres forundersøgelser for både Verdensbanken og EBRD , " siger Jens Erik Staalby .
 1	"	"	PUNCT	_	_	5	punct	_	_
-2	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	bankerne	bank	NOUN	_	Definite=Def|Gender=Com|Number=Plur	5	nsubj	_	_
 5	erkendt	erkende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	26	ccomp	_	_
@@ -7608,7 +7608,7 @@
 
 # sent_id = test2-37
 # text = Det er det , fordi Rushdie åbenbart læser Orwell gennem den britiske venstreorienterede tradition .
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -7898,7 +7898,7 @@
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Gør	gøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 3	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
-4	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 5	?	?	PUNCT	_	_	2	punct	_	_
 6	spurgte	spørge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -8137,7 +8137,7 @@
 2	Vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	kalde	kalde	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
-5	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 6	...	...	PUNCT	_	_	4	punct	_	_
 7	kærlighed	kærlighed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
 8	?	?	PUNCT	_	_	4	punct	_	_
@@ -8217,7 +8217,7 @@
 # text = Jeg holdt den gående med en cigaret .
 1	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	holdt	holde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+3	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	gående	gå	VERB	_	Tense=Pres|VerbForm=Part	2	xcomp	_	_
 5	med	med	ADP	_	AdpType=Prep	7	case	_	_
 6	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
@@ -8268,7 +8268,7 @@
 1	Måske	måske	ADV	_	_	2	advmod	_	_
 2	sagde	sige	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
-4	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 5	kun	kun	ADV	_	_	2	advmod	_	_
 6	for	for	ADP	_	AdpType=Prep	8	mark	_	_
 7	at	at	PART	_	PartType=Inf	8	mark	_	_
@@ -8848,7 +8848,7 @@
 # text = Og for den , som på sin ungdoms naive overbevisning om menneskeåndens fundamentale godhed grundede en forhåbning om et menneskerettighedernes retfærdige samfund , og som nu ser det " virkeliggjort " i stedse mere kompromitterede skikkelser .
 1	Og	og	CCONJ	_	_	3	cc	_	_
 2	for	for	ADP	_	AdpType=Prep	3	case	_	_
-3	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	som	som	PRON	_	PartType=Inf	15	nsubj	_	_
 6	på	på	ADP	_	AdpType=Prep	10	case	_	_
@@ -8873,7 +8873,7 @@
 25	som	som	ADP	_	PartType=Inf	27	nsubj	_	_
 26	nu	nu	ADV	_	_	27	advmod	_	_
 27	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
-28	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+28	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 29	"	"	PUNCT	_	_	30	punct	_	_
 30	virkeliggjort	virkeliggøre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
 31	"	"	PUNCT	_	_	30	punct	_	_
@@ -9409,7 +9409,7 @@
 7	når	når	SCONJ	_	_	9	mark	_	_
 8	frosten	frost	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
 9	gjorde	gøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advmod	_	_
-10	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 11	lettere	let	ADJ	_	Degree=Cmp	9	amod	_	_
 12	at	at	PART	_	PartType=Inf	13	mark	_	_
 13	forcere	forcere	VERB	_	VerbForm=Inf|Voice=Act	10	acl:relcl	_	_
@@ -9755,7 +9755,7 @@
 
 # sent_id = test2-147
 # text = Det var europæerne , da de første gang stiftede bekendtskab med fænomenet , og ikke anede , at " i morgen " kunne betyde et hvilket som helst tidspunkt ud i fremtiden !
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
 3	europæerne	europæer	NOUN	_	Definite=Def|Gender=Com|Number=Plur	1	nsubj	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -9860,7 +9860,7 @@
 # text = Depeche har det selv morsomt mens de indspiller pladen , hvor Martin f.eks. går på " Jungle Club " og ser på mandestrip , men bortset fra en samplet optagelse af Dave der drejer tændingsnøglen i sin nyindkøbte Porsche , er der ikke meget at grine af på " Black Celebration " .
 1	Depeche	Depeche	PROPN	_	_	2	nsubj	_	_
 2	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	selv	selv	PRON	_	PronType=Dem	2	obl	_	_
 5	morsomt	morsomt	ADV	_	Degree=Pos	2	amod	_	_
 6	mens	mens	SCONJ	_	_	8	mark	_	_
@@ -10192,7 +10192,7 @@
 3	censor	censor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
 4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	have	have	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
-6	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 7	ligesådan	ligesådan	ADV	_	_	5	amod	_	_
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	og	og	CCONJ	_	_	16	cc	_	_
@@ -10349,7 +10349,7 @@
 2	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	skrevet	skrive	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
-5	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 6	om	om	ADV	_	_	4	compound:prt	_	_
 7	tusind	tusind	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	_
 8	gange	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	nmod	_	_
@@ -10475,7 +10475,7 @@
 
 # sent_id = test2-180
 # text = Den modtog han i øvrigt Kulturministeriets børnebogspris for i 1990 .
-1	Den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+1	Den	den	PRON	_	Gender=Com|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
 2	modtog	modtage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	i	i	ADP	_	AdpType=Prep	2	advmod	_	_
@@ -10490,7 +10490,7 @@
 # sent_id = test2-181
 # text = Alt det , vi kan sammenstykke stumperne af .
 1	Alt	al	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
-2	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
@@ -10966,7 +10966,7 @@
 17	P-pillerne	P-pille	NOUN	_	Definite=Def|Gender=Com|Number=Plur	15	nmod	_	_
 18	,	,	PUNCT	_	_	6	punct	_	_
 19	men	men	CCONJ	_	_	21	cc	_	_
-20	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 21	ønskede	ønske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
 22	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 23	under	under	ADP	_	AdpType=Prep	25	case	_	_
@@ -10988,7 +10988,7 @@
 # text = Hun gjorde det , og hun forstod , hvorfor det var nødvendigt .
 1	Hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gjorde	gøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	og	og	CCONJ	_	_	7	cc	_	_
 6	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -11010,7 +11010,7 @@
 
 # sent_id = test2-210
 # text = Det var der vel nok .
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	der	der	ADV	_	PartType=Inf	2	expl	_	_
 4	vel	vel	ADV	_	_	2	advmod	_	_
@@ -11111,7 +11111,7 @@
 15	ellers	ellers	ADV	_	_	17	advmod	_	_
 16	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	se	se	VERB	_	VerbForm=Inf|Voice=Act	12	acl:relcl	_	_
-18	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 19	i	i	ADP	_	AdpType=Prep	21	case	_	_
 20	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	21	det	_	_
 21	tv-udsendelse	tv-udsendelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	obl	_	_
@@ -11323,7 +11323,7 @@
 
 # sent_id = test2-224
 # text = Det vurderer ledelsen i Accumulator Invest og henviser til en bekræftelse fra advokat Ebbe Mogensen af 17. september , hvori det bekræftes , at anmodningen er trukket tilbage .
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	vurderer	vurdere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
 4	i	i	ADP	_	AdpType=Prep	5	case	_	_
@@ -11545,7 +11545,7 @@
 6	godt	godt	ADV	_	Degree=Pos	7	advmod	_	_
 7	tale	tale	VERB	_	VerbForm=Inf|Voice=Act	2	conj	_	_
 8	om	om	ADP	_	AdpType=Prep	9	case	_	_
-9	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 10	,	,	PUNCT	_	_	7	punct	_	_
 11	hvis	hvis	SCONJ	_	_	13	mark	_	_
 12	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
