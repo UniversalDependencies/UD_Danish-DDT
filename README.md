@@ -1,23 +1,8 @@
-=== Machine-readable metadata =================================================
-Documentation status: partial
-Data source: semi-automatic
-Data available since: UD v1.1
-License: CC BY-SA 4.0
-Genre: news fiction spoken nonfiction
-Contributors: Johannsen, Anders; Martínez Alonso, Héctor; Plank, Barbara
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
+# Summary
 
+The Danish UD treebank is a conversion of the Danish Dependency Treebank.
 
-
-### Universal Dependencies - Danish Dependency Treebank Universal
-Dependencies Danish v1.2 -- 2015-11-01
-
-## LICENSE
-
-GNU Public License, version 2
-
-## DESCRIPTION
+# Introduction
 
 The Danish UD treebank has been converted from the Danish
 Dependency Treebank (Buch-Kromman,2003) into Universal Dependencies
@@ -41,7 +26,31 @@ data (see https://github.com/UniversalDependencies/docs/issues/296 for a discuss
 for and Matthias Buch-Kromann was kind enough to grant the permission to use the Creative Commons
 license as an alternative.
 
-## BASIC STATISTICS
+# Acknowledgments
+
+Contributors (in order of last names)
+
+- Anders Johannsen
+- Héctor Martínez Alonso
+- Barbara Plank
+
+## References
+
+* Johannsen, Anders, Martínez Alonso, Héctor and Plank, Barbara.
+  "Universal Dependencies for Danish". TLT14, 2015.
+
+* Buch-Kromann, Matthias T., Line Mikkelsen, and Stine Kern Lynge.
+  "Danish dependency treebank.". TLT. 2003.
+
+* Keson, Britt (1998). Documentation of The Danish Morpho-syntactically Tagged PAROLE Corpus.
+Technical report, DSL
+
+# License
+
+GNU Public License, version 2 OR
+CC BY-SA 4.0
+
+# BASIC STATISTICS
 
 Tree count:  5512
 Word count:  100733
@@ -50,7 +59,7 @@ Dep. relations: 39 of which 5 language specific
 POS tags: 17
 Category=value feature pairs: 46
 
-## CHANGELOG
+# CHANGELOG
 
 ### NOTES FOR LAST RELEASE v2.0
 Changes for this version include:
@@ -59,10 +68,10 @@ Changes for this version include:
 - added obl / nmod distinction
 - resolved punctuation bugs
 - included ~4K words from the trailing train section into test and dev, marked with
-  dev2 and test2 in the sentence comments 
+  dev2 and test2 in the sentence comments
 
 next release should improve the labels of subordinate clauses,
-and resolve the attachment of relative clauses dependending 
+and resolve the attachment of relative clauses dependending
 on pronouns like "det".
 
 ### NOTES FOR RELEASE v1.2
@@ -92,27 +101,11 @@ tokenization.
 Relations across clauses are not labeled in this scheme, i.e., the
 current conversion does not assign labels like csubj.
 
-## CONTRIBUTORS (in order of last names)
-
-- Anders Johannsen 
-- Héctor Martínez Alonso 
-- Barbara Plank 
-
-## REFERENCES
-
-* Johannsen, Anders, Martínez Alonso, Héctor and Plank, Barbara.
-  "Universal Dependencies for Danish". TLT14, 2015.
-
-* Buch-Kromann, Matthias T., Line Mikkelsen, and Stine Kern Lynge.
-  "Danish dependency treebank.". TLT. 2003.
-
-* Keson, Britt (1998). Documentation of The Danish Morpho-syntactically Tagged PAROLE Corpus.
-Technical report, DSL
 
 
+-------------------------------------------------------------------------------
+# ARCHIVE: LICENSE PERMISSION, from Matthias Buch-Kromann, 11 Sep 2016:
 
-===============================================================================
-ARCHIVE: LICENSE PERMISSION, from Matthias Buch-Kromann, 11 Sep 2016:
 Dear Dan,
 
 The GPL seemed to be the best (and possibly only) license around when we
@@ -150,3 +143,23 @@ On Fri, Sep 9, 2016 at 10:58 PM, Dan Zeman <zeman@ufal.mff.cuni.cz> wrote:
 > Thanks and all the best,
 >
 > Dan Zeman
+-------------------------------------------------------------------------------
+
+
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v1.1
+License: CC BY-SA 4.0
+Includes text: yes
+Genre: news fiction spoken nonfiction
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: not available
+Features: converted from manual
+Relations: converted from manual
+Contributors: Johannsen, Anders; Martínez Alonso, Héctor; Plank, Barbara
+Contributing: here
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+</pre>
