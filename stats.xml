@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>5512</sentences><tokens>100733</tokens><words>100733</words><fused>0</fused></total>
+    <train><sentences>4383</sentences><tokens>80378</tokens><words>80378</words><fused>0</fused></train>
+    <dev><sentences>564</sentences><tokens>10332</tokens><words>10332</words><fused>0</fused></dev>
+    <test><sentences>565</sentences><tokens>10023</tokens><words>10023</words><fused>0</fused></test>
   </size>
   <lemmas unique="13229" /><!-- ,, ., i, være, og, en, den, at, ", til, af, på, have, det, med -->
   <forms unique="17875" /><!-- ,, ., i, og, at, er, det, ", en, til, af, på, med, de, for -->
