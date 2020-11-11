@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Danish-DDT:
-commit 8ef3bc6b33a73f809966f1b55a220a4daf919c42
+commit 11778bdc74f79029d4adeaee1ce9aabd46ba5287
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:54:50 2019 +0100
+Date:   Sun May 10 17:50:10 2020 +0200
 Size: counted 100733 of 100733 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.22494690419642.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,21 +25,21 @@ Genres: found 4 out of 17 known.
 validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-dev.conllu
 [Line 61 Sent dev-3 Node 20]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (20:af:mark --> 12:som:compound)
 [Line 251 Sent dev-12 Node 25]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 379 Sent dev-19 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10]
-[Line 379 Sent dev-19 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2]
-[Line 395 Sent dev-20 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
+[Line 379 Sent dev-19 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2, 3]
 [Line 395 Sent dev-20 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8, 9, 10, 11, 12]
 [Line 438 Sent dev-21 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'VERB'
 [Line 434 Sent dev-21 Node 19]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (19:får:mark --> 15:hvis:mark)
 [Line 435 Sent dev-21 Node 19]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (19:får:mark --> 16:jeg:nsubj)
+[Line 440 Sent dev-21 Node 19]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (19:får:mark --> 21:ølmave:obj)
+[Line 476 Sent dev-22 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 ...suppressing further errors regarding Syntax
-Syntax errors: 255
-*** FAILED *** with 255 errors
+Syntax errors: 246
+*** FAILED *** with 246 errors
 Exit code: 1
 validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-test.conllu
 [Line 540 Sent test-28 Node 3]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
 [Line 674 Sent test-37 Node 7]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
-[Line 766 Sent test-43 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3]
+[Line 766 Sent test-43 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
 [Line 769 Sent test-43 Node 5]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
 [Line 792 Sent test-44 Node 4]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
 [Line 793 Sent test-44 Node 5]: [L3 Syntax rel-upos-mark] 'mark' should not be 'VERB'
@@ -47,8 +47,8 @@ validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-test.conllu
 [Line 792 Sent test-44 Node 5]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (5:findes:mark --> 4:der:expl)
 [Line 796 Sent test-44 Node 5]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (5:findes:mark --> 8:efterretningsvæsen:obj)
 ...suppressing further errors regarding Syntax
-Syntax errors: 186
-*** FAILED *** with 186 errors
+Syntax errors: 179
+*** FAILED *** with 179 errors
 Exit code: 1
 validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-train.conllu
 [Line 168 Sent train-v2-8 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
@@ -61,8 +61,8 @@ validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-train.conllu
 [Line 625 Sent train-v2-28 Node 16]: [L3 Syntax leaf-cc] 'cc' not expected to have children (16:dels:cc --> 10:på:case)
 [Line 633 Sent train-v2-28 Node 16]: [L3 Syntax leaf-cc] 'cc' not expected to have children (16:dels:cc --> 18:lærernes:obl)
 ...suppressing further errors regarding Syntax
-Syntax errors: 1987
-*** FAILED *** with 1987 errors
+Syntax errors: 1880
+*** FAILED *** with 1880 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
