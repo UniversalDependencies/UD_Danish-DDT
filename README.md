@@ -61,7 +61,10 @@ Category=value feature pairs: 46
 
 # CHANGELOG
 
-### NOTES FOR LAST RELEASE v2.0
+### NOTES FOR RELEASE v2.8
+- adverbs attach as advmod, not obl
+
+### NOTES FOR RELEASE v2.0
 Changes for this version include:
 - CCONJ attach to the second conjunct
 - harmonized POS and labels to v2.0
