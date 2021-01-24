@@ -228,7 +228,7 @@
 2	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	1	nsubj	_	_
 3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	_
 4	lange	lang	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	_
-5	ture	tur	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	obl:loc	_	SpaceAfter=No
+5	ture	tur	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 8	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	9	nsubj	_	_
@@ -983,7 +983,7 @@
 6	at	at	PART	_	PartType=Inf	7	mark	_	_
 7	få	få	VERB	_	VerbForm=Inf|Voice=Act	4	advcl	_	_
 8	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
-9	på	på	ADP	_	AdpType=Prep	7	obl:loc	_	_
+9	på	på	ADP	_	AdpType=Prep	10	case	_	_
 10	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	men	men	CCONJ	_	_	14	cc	_	_
@@ -3055,8 +3055,8 @@
 8	til	til	ADP	_	AdpType=Prep	10	mark	_	_
 9	at	at	PART	_	PartType=Inf	10	mark	_	_
 10	stige	stige	VERB	_	VerbForm=Inf|Voice=Act	4	advcl	_	_
-11	til	til	ADP	_	AdpType=Prep	10	obl:loc	_	_
-12	vejrs	vejr	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	11	fixed	_	SpaceAfter=No
+11	til	til	ADP	_	AdpType=Prep	12	case	_	_
+12	vejrs	vejr	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	10	obl:lmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-136
