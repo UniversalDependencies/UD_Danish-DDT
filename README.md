@@ -63,6 +63,7 @@ Category=value feature pairs: 46
 
 ### NOTES FOR RELEASE v2.8
 - adverbs attach as advmod, not obl
+- obl:lmod instead of obl:loc (compatibility with other languages)
 
 ### NOTES FOR RELEASE v2.0
 Changes for this version include:
