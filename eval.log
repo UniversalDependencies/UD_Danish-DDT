@@ -1,11 +1,11 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Danish-DDT:
-commit 11778bdc74f79029d4adeaee1ce9aabd46ba5287
+commit 698f4bccfcdc40658afb7da79a59b80feec279c6
+Merge: 8eeec44 9f7d239
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 17:50:10 2020 +0200
 Size: counted 100733 of 100733 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.22494690419642.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,9 @@ Features: 70142 out of 100733 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 2261 bugs.
+Udapi:
+               TOTAL       2260
+Udapi: found 2260 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 100733 words.
 Genres: found 4 out of 17 known.
 validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-dev.conllu
@@ -41,14 +43,14 @@ validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-test.conllu
 [Line 674 Sent test-37 Node 7]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
 [Line 766 Sent test-43 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
 [Line 769 Sent test-43 Node 5]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
+[Line 784 Sent test-43 Node 17]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (17:af:case --> 20:selvmordsmissioner:nmod)
 [Line 792 Sent test-44 Node 4]: [L3 Syntax rel-upos-expl] 'expl' should normally be 'PRON' but it is 'ADV'
 [Line 793 Sent test-44 Node 5]: [L3 Syntax rel-upos-mark] 'mark' should not be 'VERB'
 [Line 791 Sent test-44 Node 5]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (5:findes:mark --> 3:Hvis:mark)
 [Line 792 Sent test-44 Node 5]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (5:findes:mark --> 4:der:expl)
-[Line 796 Sent test-44 Node 5]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (5:findes:mark --> 8:efterretningsvæsen:obj)
 ...suppressing further errors regarding Syntax
-Syntax errors: 179
-*** FAILED *** with 179 errors
+Syntax errors: 180
+*** FAILED *** with 180 errors
 Exit code: 1
 validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-train.conllu
 [Line 168 Sent train-v2-8 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
@@ -71,8 +73,8 @@ Validity: 0.01
 (weight=0.256410256410256) * (score{size}=0.667723922723832) = 0.17121126223688
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.77554525329336) = 0.238629308705649
+(weight=0.307692307692308) * (score{udapi}=0.775644525627153) = 0.238659854039124
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.718723209236932) * (availability=1) * (validity=0.01) = 0.00718723209236932
+(TOTAL score=0.718753754570407) * (availability=1) * (validity=0.01) = 0.00718753754570407
 STARS = 0
-UD_Danish-DDT	0.00718723209236932	0
+UD_Danish-DDT	0.00718753754570407	0
