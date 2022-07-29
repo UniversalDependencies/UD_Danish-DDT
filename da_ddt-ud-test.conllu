@@ -3012,11 +3012,11 @@
 1	De	den	DET	_	Number=Plur|PronType=Dem	2	det	_	_
 2	handicappede	handicappet	ADJ	_	Degree=Pos|Number=Plur	10	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
-4	der	der	PRON	_	PartType=Inf	6	nsubj	_	_
-5	ikke	ikke	ADV	_	_	6	advmod	_	_
+4	der	der	PRON	_	PartType=Inf	2	nsubj	_	_
+5	ikke	ikke	ADV	_	_	2	advmod	_	_
 6	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 7	noget	nogen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	_
-8	sprog	sprog	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	sprog	sprog	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	sidder	sidde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	sammen	sammen	ADV	_	_	10	advmod	_	_
@@ -3761,7 +3761,7 @@
 # text = Det bedste vi har.
 1	Det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	bedste	god	ADJ	_	Definite=Def|Degree=Sup	0	root	_	_
-3	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -10078,10 +10078,10 @@
 10	de	den	DET	_	Number=Plur|PronType=Dem	11	det	_	_
 11	områder	område	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
-13	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
-14	selv	selv	PRON	_	PronType=Dem	15	nmod	_	_
+13	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+14	selv	selv	PRON	_	PronType=Dem	11	nmod	_	_
 15	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
-16	vanskeligt	vanskeligt	ADV	_	Degree=Pos	15	amod	_	_
+16	vanskeligt	vanskeligt	ADV	_	Degree=Pos	11	amod	_	_
 17	ved	ved	ADP	_	AdpType=Prep	19	mark	_	_
 18	at	at	PART	_	PartType=Inf	19	mark	_	_
 19	dække	dække	VERB	_	VerbForm=Inf|Voice=Act	16	advcl	_	SpaceAfter=No

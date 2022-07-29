@@ -2977,13 +2977,13 @@
 45	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	46	det	_	_
 46	informationssamfund	informationssamfund	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	40	advcl	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	52	punct	_	_
-48	hvor	hvor	ADV	_	_	52	advmod	_	_
+48	hvor	hvor	ADV	_	_	46	advmod	_	_
 49	alle	al	ADJ	_	Degree=Pos|Number=Plur	51	amod	_	_
 50	relevante	relevant	ADJ	_	Degree=Pos|Number=Plur	51	amod	_	_
-51	oplysninger	oplysning	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	52	nsubj	_	_
+51	oplysninger	oplysning	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	46	nsubj	_	_
 52	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	46	cop	_	_
 53	til	til	ADP	_	AdpType=Prep	54	case	_	_
-54	disposition	disposition	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	52	nmod	_	SpaceAfter=No
+54	disposition	disposition	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	46	nmod	_	SpaceAfter=No
 55	,	,	PUNCT	_	_	40	punct	_	_
 56	så	så	ADV	_	_	57	advmod	_	_
 57	overraskes	overraske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	19	advcl	_	_
@@ -3644,11 +3644,11 @@
 13	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	14	det	_	_
 14	legende	legende	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	33	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
-16	som	som	PRON	_	PartType=Inf	18	nsubj	_	_
-17	nu	nu	ADV	_	_	18	advmod	_	_
+16	som	som	PRON	_	PartType=Inf	14	nsubj	_	_
+17	nu	nu	ADV	_	_	14	advmod	_	_
 18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
 19	under	under	ADP	_	AdpType=Prep	20	case	_	_
-20	opbygning	opbygning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	_
+20	opbygning	opbygning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	_
 21	om	om	ADP	_	AdpType=Prep	24	case	_	_
 22	byens	by	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	24	nmod:poss	_	_
 23	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	24	amod	_	_
@@ -9111,7 +9111,7 @@
 3	drevne	dreven	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
 4	mindretalsregering	mindretalsregering	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
@@ -9396,9 +9396,9 @@
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	de	den	DET	_	Number=Plur|PronType=Dem	8	det	_	_
 7	trætte	træt	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	_
-8	mænd	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	_
+8	mænd	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	nsubj	_	_
 9	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
-10	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	_
+10	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
 11	for	for	ADP	_	AdpType=Prep	10	case	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -9619,7 +9619,7 @@
 14	oplagsmæssigt	oplagsmæssigt	ADV	_	Degree=Pos	16	advmod	_	_
 15	mere	mere	ADV	_	Degree=Cmp	16	advmod	_	_
 16	iøjnefaldende	iøjnefaldende	ADJ	_	Degree=Pos	17	amod	_	_
-17	del	del	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	nsubj	_	_
+17	del	del	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nsubj	_	_
 18	af	af	ADP	_	AdpType=Prep	19	case	_	_
 19	pressen	presse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
 20	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	SpaceAfter=No
@@ -9928,7 +9928,7 @@
 39	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	40	det	_	_
 40	beliggenhed	beliggenhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	37	obl	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	43	punct	_	_
-42	Danmark	Danmark	PROPN	_	_	43	nsubj	_	_
+42	Danmark	Danmark	PROPN	_	_	40	nsubj	_	_
 43	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	40	aux	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	3	punct	_	_
 
