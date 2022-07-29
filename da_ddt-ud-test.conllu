@@ -8248,7 +8248,7 @@
 20	republik	republik	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	obj	_	_
 21	baseret	basere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 22	på	på	ADP	_	AdpType=Prep	23	case	_	_
-23	arbejder-	arbejder	X	_	_	21	advmod	_	_
+23	arbejder-	arbejder	ADV	_	_	21	advmod	_	_
 24	og	og	CCONJ	_	_	25	cc	_	_
 25	soldaterråd	soldaterråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
@@ -9049,7 +9049,7 @@
 4	overlever	overleve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	Esbjerg-Fanø	Esbjerg-Fanø	X	_	_	6	advmod	_	SpaceAfter=No
+7	Esbjerg-Fanø	Esbjerg-Fanø	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	Bøjden-Fynshav	Bøjden-Fynshav	X	_	_	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -10052,7 +10052,7 @@
 3	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	3	nsubj	_	_
 5	aldrig	aldrig	ADV	_	_	3	advmod	_	_
-6	hel	hel	X	_	_	7	advmod	_	_
+6	hel	hel	ADV	_	_	7	advmod	_	_
 7	klarlagt	klarlægge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	12	mark	_	_
@@ -11461,7 +11461,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	hvorledes	hvorledes	ADV	_	_	8	mark	_	_
 7	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	8	nsubj	_	_
-8	kanskabe	kanskabe	X	_	_	3	advmod	_	_
+8	kanskabe	kanskabe	ADV	_	_	3	advmod	_	_
 9	øget	øge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	10	amod	_	_
 10	samhandel	samhandel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obj	_	_
 11	gennem	gennem	ADP	_	AdpType=Prep	12	case	_	_

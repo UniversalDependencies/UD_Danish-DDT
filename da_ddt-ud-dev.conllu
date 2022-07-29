@@ -3816,7 +3816,7 @@
 # text = De snakker allesammen swahili med hinanden, og jeg går ud fra, at de har været på sprogkursus.
 1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	snakker	snakke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	allesammen	allesammen	X	_	_	2	advmod	_	_
+3	allesammen	allesammen	ADV	_	_	2	advmod	_	_
 4	swahili	swahili	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	_
 5	med	med	ADP	_	AdpType=Prep	6	case	_	_
 6	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	2	obl	_	SpaceAfter=No
@@ -3893,7 +3893,7 @@
 10	overportørens	overportør	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	9	obj	_	_
 11	ret	ret	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	nmod:poss	_	_
 12	til	til	ADP	_	AdpType=Prep	13	case	_	_
-13	sætte	sætte	X	_	_	11	advmod	_	_
+13	sætte	sætte	ADV	_	_	11	advmod	_	_
 14	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
 15	selv	selv	PRON	_	PronType=Dem	14	nmod	_	_
 16	på	på	ADP	_	AdpType=Prep	18	case	_	_
@@ -8682,7 +8682,7 @@
 5	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 6	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	været	være	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	godt	godt	X	_	_	7	advmod	_	_
+8	godt	godt	ADV	_	_	7	advmod	_	_
 9	til	til	ADP	_	AdpType=Prep	11	mark	_	_
 10	at	at	PART	_	PartType=Inf	11	mark	_	_
 11	strikke	strikke	VERB	_	VerbForm=Inf|Voice=Act	8	advcl	_	_
@@ -10024,7 +10024,7 @@
 1	Begge	begge	DET	_	Number=Plur|PronType=Dem	2	det	_	_
 2	motorer	motor	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	_
 3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	4-cyl.	4-cyl.	X	_	Abbr=Yes	3	advmod	_	_
+4	4-cyl.	4-cyl.	ADV	_	Abbr=Yes	3	advmod	_	_
 5	og	og	CCONJ	_	_	8	cc	_	_
 6	vandkølede	vandkølet	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	_
 7	2-liter	2-liter	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	8	nmod	_	_
@@ -11363,7 +11363,7 @@
 20	finde	finde	VERB	_	VerbForm=Inf|Voice=Act	15	ccomp	_	_
 21	det	den	PRON	_	Gender=Neut|Number=Sing|PronType=Dem	20	obj	_	_
 22	demonstrerede	demonstrere	VERB	_	Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
-23	afbilledet	afbilledet	X	_	_	20	advmod	_	_
+23	afbilledet	afbilledet	ADV	_	_	20	advmod	_	_
 24	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
 25	på	på	ADP	_	AdpType=Prep	26	case	_	_
 26	side	side	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	23	nmod	_	SpaceAfter=No
@@ -11765,7 +11765,7 @@
 5	kæmpe	kæmpe	ADJ	_	Degree=Pos	6	amod	_	_
 6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
 7	for	for	ADP	_	AdpType=Prep	8	case	_	_
-8	vivaldi	vivaldi	X	_	_	6	advmod	_	_
+8	vivaldi	vivaldi	ADV	_	_	6	advmod	_	_
 9	her	her	ADV	_	_	10	advmod	_	_
 10	udkom	udkomme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
 11	der	der	ADV	_	PartType=Inf	10	expl	_	_
@@ -11826,7 +11826,7 @@
 1	Dengang	dengang	ADV	_	_	2	advmod	_	_
 2	hed	hedde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	godtnok	godtnok	X	_	_	2	advmod	_	_
+4	godtnok	godtnok	ADV	_	_	2	advmod	_	_
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	building	building	X	_	Foreign=Yes	2	obj	_	SpaceAfter=No
 7	"	"	PUNCT	_	_	6	punct	_	_
@@ -11834,7 +11834,7 @@
 9	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
 10	for	for	ADP	_	AdpType=Prep	12	case	_	_
 11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	stadium	stadium	X	_	Foreign=Yes	9	advmod	_	SpaceAfter=No
+12	stadium	stadium	ADV	_	Foreign=Yes	9	advmod	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 

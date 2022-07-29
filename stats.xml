@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">6559</tag><!-- mange, stor, al, ny, dansk, god, meget, lille, hel, samme -->
     <tag name="ADP">11746</tag><!-- i, til, på, af, med, for, om, som, fra, ved -->
-    <tag name="ADV">8379</tag><!-- ikke, der, så, også, hvor, nu, ud, op, ind, meget -->
+    <tag name="ADV">8474</tag><!-- ikke, der, så, også, hvor, nu, ud, op, ind, meget -->
     <tag name="AUX">4916</tag><!-- være, have, kunne, blive, skulle, ville, måtte, burde, turde -->
     <tag name="CCONJ">3383</tag><!-- og, men, eller, for, samt, &, jamen, år -->
     <tag name="DET">5504</tag><!-- en, den, sin, anden, denne, nogen, min, deres, hans, vores -->
@@ -31,11 +31,11 @@
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
     <tag name="SYM">54</tag><!-- =, %, §, * -->
     <tag name="VERB">10712</tag><!-- være, have, få, sige, gå, komme, se, gøre, tage, give -->
-    <tag name="X">439</tag><!-- of, MEDARB, en, vivaldi, we, allesammen, are, at, frue, hel -->
+    <tag name="X">344</tag><!-- of, MEDARB, en, we, are, frue, km/t., med, the, vind. -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="44">
-    <feat name="Abbr" value="Yes" upos="X">32</feat><!-- fru, km/t., vind., B, cand.-jur., kl, o/m., 4-cyl., E, G -->
+    <feat name="Abbr" value="Yes" upos="ADV,X">32</feat><!-- fru, km/t., vind., B, cand.-jur., kl, o/m., 4-cyl., E, G -->
     <feat name="AdpType" value="Prep" upos="ADP">11095</feat><!-- i, til, på, af, med, for, om, fra, ved, efter -->
     <feat name="Case" value="Acc" upos="PRON">2301</feat><!-- det, sig, den, ham, mig, dem, os, hende, dig, jer -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">1137</feat><!-- års, Danmarks, Københavns, landets, aftes, hvis, regeringens, statens, Brøndbys, Kræftens -->
@@ -46,7 +46,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">580</feat><!-- mere, flere, tidligere, længere, bedre, mindre, senere, større, højere, ældre -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">7124</feat><!-- meget, alle, mange, danske, helt, store, godt, samme, hele, første -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">311</feat><!-- mest, fleste, bedste, mindst, største, seneste, senest, nærmest, bedst, mindste -->
-    <feat name="Foreign" value="Yes" upos="X">111</feat><!-- of, are, the, we, a, and, children, dead, in, junkmail -->
+    <feat name="Foreign" value="Yes" upos="ADV,X">111</feat><!-- of, are, the, we, a, and, children, dead, in, junkmail -->
     <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,VERB">20101</feat><!-- en, den, han, jeg, vi, man, hun, sin, du, ham -->
     <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON">9130</feat><!-- det, et, år, noget, sit, alt, andet, folk, går, dette -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">168</feat><!-- lad, rør, se, skær, brug, hold, hæld, steg, prøv, Bland -->
