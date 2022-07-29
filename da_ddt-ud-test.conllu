@@ -8627,7 +8627,7 @@
 9	samme	samme	ADJ	_	Degree=Pos	10	amod	_	_
 10	chance	chance	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	mark	_	_
+12	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	obl	_	_
 13	enten	enten	SCONJ	_	_	8	mark	_	_
 14	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_

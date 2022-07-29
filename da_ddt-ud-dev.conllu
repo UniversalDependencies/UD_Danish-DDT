@@ -1050,7 +1050,7 @@
 16	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 17	nu	nu	ADV	_	_	15	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
-19	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	21	mark	_	_
+19	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	21	obl	_	_
 20	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 21	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	obj	_	_
 22	reklamer	reklame	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	21	obj	_	_
@@ -4522,7 +4522,7 @@
 6	kernemodeller	kernemodel	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
 8	som	som	PRON	_	PartType=Inf	13	nsubj	_	_
-9	hver	hver	PRON	_	Gender=Com|Number=Sing|PronType=Ind	13	mark	_	_
+9	hver	hver	PRON	_	Gender=Com|Number=Sing|PronType=Ind	13	obl	_	_
 10	for	for	ADP	_	AdpType=Prep	11	case	_	_
 11	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	nmod	_	_
 12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
@@ -4560,7 +4560,7 @@
 9	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	kortlagt	kortlægge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
-12	hvem	hvem	PRON	_	Gender=Com|PronType=Int,Rel	14	mark	_	_
+12	hvem	hvem	PRON	_	Gender=Com|PronType=Int,Rel	14	obl	_	_
 13	der	der	ADV	_	PartType=Inf	14	nsubj	_	_
 14	stemte	stemme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	obj	_	_
 15	nej	nej	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	_
