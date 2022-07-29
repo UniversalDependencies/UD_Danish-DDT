@@ -8323,7 +8323,7 @@
 10	solgt	sælge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	knap	knap	ADV	_	_	13	advmod	_	_
 12	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	13	det	_	_
-13	halv	halv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	nummod	_	_
+13	halv	halv	NUM	_	Definite=Ind|Gender=Com|Number=Sing	14	nummod	_	_
 14	million	million	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	obj	_	_
 15	eksemplarer	eksemplar	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nmod	_	_
 16	verden	verden	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	obl	_	_
@@ -11054,7 +11054,7 @@
 6	af	af	ADP	_	AdpType=Prep	7	case	_	_
 7	kommunen	kommune	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
 8	med	med	ADP	_	AdpType=Prep	10	case	_	_
-9	flere	mange	ADJ	_	Degree=Cmp|Number=Plur	10	nummod	_	_
+9	flere	mange	NUM	_	Number=Plur	10	nummod	_	_
 10	hundrede	hundrede	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	_
 11	kilo	kilo	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	_
 12	sand	sand	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	_
