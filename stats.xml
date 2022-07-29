@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">6559</tag><!-- mange, stor, al, ny, dansk, god, meget, lille, hel, samme -->
     <tag name="ADP">11746</tag><!-- i, til, på, af, med, for, om, som, fra, ved -->
-    <tag name="ADV">8474</tag><!-- ikke, der, så, også, hvor, nu, ud, op, ind, meget -->
+    <tag name="ADV">8070</tag><!-- ikke, så, også, hvor, nu, ud, der, op, ind, meget -->
     <tag name="AUX">4731</tag><!-- være, have, kunne, skulle, ville, blive, måtte, burde, turde -->
     <tag name="CCONJ">3383</tag><!-- og, men, eller, for, samt, &, jamen, år -->
     <tag name="DET">5504</tag><!-- en, den, sin, anden, denne, nogen, min, deres, hans, vores -->
@@ -25,7 +25,7 @@
     <tag name="NOUN">18726</tag><!-- år, dag, krone, gang, tid, mand, sted, barn, land, del -->
     <tag name="NUM">1505</tag><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
     <tag name="PART">1215</tag><!-- at -->
-    <tag name="PRON">6798</tag><!-- det, han, jeg, vi, de, der, man, sig, hun, som -->
+    <tag name="PRON">7202</tag><!-- det, der, han, jeg, vi, de, man, sig, hun, som -->
     <tag name="PROPN">4978</tag><!-- Danmark, København, Nielsen, Lars, Poul, Peter, USA, Europa, Hafnia, Henrik -->
     <tag name="PUNCT">13936</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
@@ -57,7 +57,7 @@
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">614</feat><!-- sin, hans, min, sit, hendes, sine, mit, din, mine, dets -->
     <feat name="NumType" value="Card" upos="NUM">1491</feat><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
     <feat name="NumType" value="Ord" upos="ADJ">149</feat><!-- 1., anden, 2., tredje, 3., andet, 12., 17., fjerde, 10. -->
-    <feat name="PartType" value="Inf" upos="ADP,ADV,PART,PRON">3038</feat><!-- at, der, som -->
+    <feat name="PartType" value="Inf" upos="ADP,ADV,PART,PRON">2635</feat><!-- at, som, der -->
     <feat name="Person" value="1" upos="DET,PRON">1442</feat><!-- jeg, vi, mig, os, min, vores, mit, vore, mine, vor -->
     <feat name="Person" value="2" upos="DET,PRON">267</feat><!-- du, dig, din, De, I, Dem, Deres, jer, dit, jeres -->
     <feat name="Person" value="3" upos="DET,PRON">3889</feat><!-- det, han, de, sig, hun, den, sin, ham, deres, hans -->
@@ -81,17 +81,18 @@
     <feat name="Voice" value="Pass" upos="VERB">484</feat><!-- bruges, tages, ventes, gøres, nævnes, sælges, udsendes, ses, kaldes, sættes -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="40">
+    <dep name="acl">2</dep>
     <dep name="acl:relcl">1816</dep>
-    <dep name="advcl">1612</dep>
-    <dep name="advmod">6742</dep>
+    <dep name="advcl">1615</dep>
+    <dep name="advmod">6741</dep>
     <dep name="advmod:lmod">560</dep>
-    <dep name="amod">5759</dep>
+    <dep name="amod">5758</dep>
     <dep name="appos">359</dep>
     <dep name="aux">3156</dep>
     <dep name="case">9912</dep>
     <dep name="cc">3160</dep>
-    <dep name="ccomp">598</dep>
+    <dep name="ccomp">599</dep>
     <dep name="compound">2</dep>
     <dep name="compound:prt">395</dep>
     <dep name="conj">3515</dep>
@@ -109,9 +110,9 @@
     <dep name="nmod">5187</dep>
     <dep name="nmod:poss">1030</dep>
     <dep name="nsubj">9089</dep>
-    <dep name="nummod">1252</dep>
+    <dep name="nummod">1249</dep>
     <dep name="obj">5089</dep>
-    <dep name="obl">6205</dep>
+    <dep name="obl">6204</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
     <dep name="orphan">1</dep>

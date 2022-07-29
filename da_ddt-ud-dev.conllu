@@ -607,7 +607,7 @@
 
 # sent_id = dev-30
 # text = Der er ingen forskel på produkternes evne til at modvirke korrosion - hverken i små eller store motorer, om det så er diesel eller benzin gør ingen forskel, ej heller om der er anvendt aluminiums-dele i motoren - men da additiverne, som modvirker korrosion, nedbrydes, skal frostvæsken mindst udskiftes hvert andet år.
-1	Der	der	ADV	_	PartType=Inf	2	expl	_	_
+1	Der	der	PRON	_	_	2	expl	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ingen	ingen	DET	_	Gender=Com|Number=Sing|PronType=Ind	4	det	_	_
 4	forskel	forskel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
@@ -640,7 +640,7 @@
 31	ej	ej	ADV	_	_	18	advmod	_	_
 32	heller	heller	ADV	_	_	31	advmod	_	_
 33	om	om	SCONJ	_	_	36	mark	_	_
-34	der	der	ADV	_	PartType=Inf	36	expl	_	_
+34	der	der	PRON	_	_	36	expl	_	_
 35	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	aux	_	_
 36	anvendt	anvende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
 37	aluminiums-dele	aluminiums-del	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	36	obj	_	_
@@ -989,7 +989,7 @@
 12	men	men	CCONJ	_	_	14	cc	_	_
 13	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nmod	_	_
 14	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
-15	der	der	ADV	_	PartType=Inf	14	expl	_	_
+15	der	der	PRON	_	_	14	expl	_	_
 16	ingen	ingen	DET	_	Gender=Com|Number=Sing|PronType=Ind	17	det	_	_
 17	mulighed	mulighed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obj	_	_
 18	for	for	ADP	_	AdpType=Prep	13	case	_	SpaceAfter=No
@@ -1079,7 +1079,7 @@
 5	tilsyn	tilsyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	og	og	CCONJ	_	_	9	cc	_	_
-8	der	der	ADV	_	PartType=Inf	9	expl	_	_
+8	der	der	PRON	_	_	9	expl	_	_
 9	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 10	krav	krav	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	_
 11	om	om	ADP	_	AdpType=Prep	13	case	_	_
@@ -1591,7 +1591,7 @@
 6	Søren	Søren	PROPN	_	_	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
-9	der	der	ADV	_	PartType=Inf	10	expl	_	_
+9	der	der	PRON	_	_	10	expl	_	_
 10	kommet	komme	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	12	det	_	_
 12	del	del	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	obj	_	_
@@ -2193,7 +2193,7 @@
 30	på	på	ADP	_	AdpType=Prep	34	mark	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	30	punct	_	_
 32	at	at	SCONJ	_	_	34	mark	_	_
-33	der	der	ADV	_	PartType=Inf	34	expl	_	_
+33	der	der	PRON	_	_	34	expl	_	_
 34	tages	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	29	acl:relcl	_	_
 35	ordentlig	ordentlig	ADV	_	Degree=Pos	36	advmod	_	_
 36	hånd	hånd	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	34	obj	_	_
@@ -2399,7 +2399,7 @@
 # text = - Er der på landsbasis en statistisk sandsynlighed for, at det kan være en fordel, at et ben bliver længere eller kortere efter operationen, synes jeg, det kunne være interessant at vide, om man normalt tilstræber den lange eller den korte udgave.
 1	-	-	PUNCT	_	_	28	punct	_	_
 2	Er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	28	ccomp	_	_
-3	der	der	ADV	_	PartType=Inf	2	expl	_	_
+3	der	der	PRON	_	_	2	expl	_	_
 4	på	på	ADP	_	AdpType=Prep	5	case	_	_
 5	landsbasis	landsbasis	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
 6	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	8	det	_	_
@@ -2775,7 +2775,7 @@
 # text = Nu skal der jo ikke opstilles raketter i Danmark, den beslutning er taget.
 1	Nu	nu	ADV	_	_	14	advmod	_	_
 2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
-3	der	der	ADV	_	PartType=Inf	14	expl	_	_
+3	der	der	PRON	_	_	14	expl	_	_
 4	jo	jo	ADV	_	_	14	advmod	_	_
 5	ikke	ikke	ADV	_	_	14	advmod	_	_
 6	opstilles	opstille	VERB	_	VerbForm=Inf|Voice=Pass	14	xcomp	_	_
@@ -2955,7 +2955,7 @@
 23	hvor	hvor	ADV	_	_	24	advmod	_	_
 24	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	amod	_	_
 25	uvidenhed	uvidenhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	obl	_	_
-26	der	der	ADV	_	PartType=Inf	27	expl	_	_
+26	der	der	PRON	_	_	27	expl	_	_
 27	hersker	herske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
 28	her	her	ADV	_	_	27	advmod	_	SpaceAfter=No
 29	:	:	PUNCT	_	_	57	punct	_	_
@@ -3206,7 +3206,7 @@
 5	fjernet	fjerne	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	og	og	CCONJ	_	_	9	cc	_	_
-8	der	der	ADV	_	PartType=Inf	9	expl	_	_
+8	der	der	PRON	_	_	9	expl	_	_
 9	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 10	stærke	stærk	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	_
 11	forlydender	forlydende	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	_
@@ -3363,7 +3363,7 @@
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
 12	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp	_	_
-13	der	der	ADV	_	PartType=Inf	12	expl	_	_
+13	der	der	PRON	_	_	12	expl	_	_
 14	ingen	ingen	DET	_	Gender=Com|Number=Sing|PronType=Ind	15	det	_	_
 15	tvivl	tvivl	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	obj	_	_
 16	om	om	ADP	_	AdpType=Prep	11	case	_	SpaceAfter=No
@@ -3786,7 +3786,7 @@
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	som	som	ADV	_	_	8	mark	_	_
 5	om	om	ADP	_	AdpType=Prep	4	fixed	_	_
-6	der	der	ADV	_	PartType=Inf	8	expl	_	_
+6	der	der	PRON	_	_	8	expl	_	_
 7	ikke	ikke	ADV	_	_	8	advmod	_	_
 8	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 9	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	10	det	_	_
@@ -4158,7 +4158,7 @@
 
 # sent_id = dev-183
 # text = Der var en god stemning på det danske hold inden kampen.
-1	Der	der	ADV	_	PartType=Inf	2	expl	_	_
+1	Der	der	PRON	_	_	2	expl	_	_
 2	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	5	det	_	_
 4	god	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
@@ -6269,7 +6269,7 @@
 
 # sent_id = dev-295
 # text = Der eksisterer en grov skitse over andelsboligerne og en række vedtægter for bofællesskabet.
-1	Der	der	ADV	_	PartType=Inf	2	expl	_	_
+1	Der	der	PRON	_	_	2	expl	_	_
 2	eksisterer	eksistere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	5	det	_	_
 4	grov	grov	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	_
@@ -6325,7 +6325,7 @@
 3	tidspunkt	tidspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	hvor	hvor	ADV	_	_	8	advmod	_	_
-6	der	der	ADV	_	PartType=Inf	8	expl	_	_
+6	der	der	PRON	_	_	8	expl	_	_
 7	også	også	ADV	_	_	8	advmod	_	_
 8	manglede	mangle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
 9	glød	glød	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obj	_	_
@@ -6333,7 +6333,7 @@
 11	Olé-sangen	Olé-sang	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	fordi	fordi	SCONJ	_	_	15	mark	_	_
-14	der	der	ADV	_	PartType=Inf	15	expl	_	_
+14	der	der	PRON	_	_	15	expl	_	_
 15	skete	ske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
 16	for	for	ADV	_	_	17	advmod	_	_
 17	lidt	lidt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	obj	_	SpaceAfter=No
@@ -6565,7 +6565,7 @@
 12	ikke	ikke	ADV	_	_	10	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	at	at	SCONJ	_	_	17	mark	_	_
-15	der	der	ADV	_	PartType=Inf	17	expl	_	_
+15	der	der	PRON	_	_	17	expl	_	_
 16	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	foretages	foretage	VERB	_	VerbForm=Inf|Voice=Pass	10	ccomp	_	_
 18	videre	videre	ADV	_	_	17	obj	_	_
@@ -6579,7 +6579,7 @@
 26	ikke	ikke	ADV	_	_	24	advmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	at	at	SCONJ	_	_	30	mark	_	_
-29	der	der	ADV	_	PartType=Inf	30	expl	_	_
+29	der	der	PRON	_	_	30	expl	_	_
 30	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	obj	_	_
 31	grundlag	grundlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	30	obj	_	_
 32	for	for	ADP	_	AdpType=Prep	34	case	_	_
@@ -7092,7 +7092,7 @@
 19	sagt	sige	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	at	at	SCONJ	_	_	23	mark	_	_
-22	der	der	ADV	_	PartType=Inf	23	expl	_	_
+22	der	der	PRON	_	_	23	expl	_	_
 23	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	obj	_	_
 24	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	_
 25	opbakning	opbakning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	23	obj	_	_
@@ -7406,7 +7406,7 @@
 8	om	om	ADP	_	AdpType=Prep	12	mark	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	at	at	SCONJ	_	_	12	mark	_	_
-11	der	der	ADV	_	PartType=Inf	12	expl	_	_
+11	der	der	PRON	_	_	12	expl	_	_
 12	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
 13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	14	det	_	_
 14	retskrav	retskrav	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	_
@@ -7447,7 +7447,7 @@
 19	produktionsnummer	produktionsnummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	24	punct	_	_
 21	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	27	acl:relcl	_	_
-22	der	der	ADV	_	PartType=Inf	24	expl	_	_
+22	der	der	PRON	_	_	24	expl	_	_
 23	bestemt	bestemt	ADV	_	Degree=Pos	24	advmod	_	_
 24	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
 25	at	at	PART	_	PartType=Inf	27	mark	_	_
@@ -7501,7 +7501,7 @@
 2	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	ruten	rute	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
 4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	der	der	ADV	_	PartType=Inf	4	expl	_	_
+5	der	der	PRON	_	_	4	expl	_	_
 6	væskeboder	væskebod	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	hvor	hvor	ADV	_	_	11	advmod	_	_
@@ -8017,7 +8017,7 @@
 1	Næste	næste	ADJ	_	Degree=Pos	3	amod	_	_
 2	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	obl	_	_
 3	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	der	der	ADV	_	PartType=Inf	3	expl	_	_
+4	der	der	PRON	_	_	3	expl	_	_
 5	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
 6	tyk	tyk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
 7	hinde	hinde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
@@ -8637,7 +8637,7 @@
 1	I	i	ADP	_	AdpType=Prep	2	case	_	_
 2	gennemsnit	gennemsnit	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	_
 3	ryger	ryge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	der	der	ADV	_	PartType=Inf	3	expl	_	_
+4	der	der	PRON	_	_	3	expl	_	_
 5	10	10	NUM	_	NumType=Card	6	nummod	_	_
 6	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	_
 7	sko	sko	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nmod	_	_
@@ -9406,7 +9406,7 @@
 # text = Eksempelvis er der ingen omtale af en person som direktør Flemming Kristiansen med kælenavnet skrothandleren, der i perioder med en vis effekt har været Poul Schlüters fortrolige.
 1	Eksempelvis	eksempelvis	ADV	_	_	2	advmod	_	_
 2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	der	der	ADV	_	PartType=Inf	2	expl	_	_
+3	der	der	PRON	_	_	2	expl	_	_
 4	ingen	ingen	DET	_	Gender=Com|Number=Sing|PronType=Ind	5	det	_	_
 5	omtale	omtale	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
 6	af	af	ADP	_	AdpType=Prep	11	case	_	_
@@ -10208,7 +10208,7 @@
 11	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	at	at	SCONJ	_	_	15	mark	_	_
-14	der	der	ADV	_	PartType=Inf	15	expl	_	_
+14	der	der	PRON	_	_	15	expl	_	_
 15	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	obj	_	_
 16	brug	brug	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	obj	_	_
 17	for	for	ADP	_	AdpType=Prep	19	case	_	_
@@ -10381,7 +10381,7 @@
 # text = Så bor der en skør teatermaler og tre musikere, så det er i hvert fald kreativt.
 1	Så	så	ADV	_	_	2	advmod	_	_
 2	bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	der	der	ADV	_	PartType=Inf	2	expl	_	_
+3	der	der	PRON	_	_	2	expl	_	_
 4	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
 5	skør	skør	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
 6	teatermaler	teatermaler	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
@@ -10845,7 +10845,7 @@
 18	konstateret	konstatere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	1	list	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	24	punct	_	_
 20	at	at	SCONJ	_	_	24	mark	_	_
-21	der	der	ADV	_	PartType=Inf	24	expl	_	_
+21	der	der	PRON	_	_	24	expl	_	_
 22	ikke	ikke	ADV	_	_	24	advmod	_	_
 23	længere	længe	ADV	_	Degree=Cmp	24	advmod	_	_
 24	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	obj	_	_
@@ -11188,7 +11188,7 @@
 4	lækker	lække	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
 6	og	og	CCONJ	_	_	11	cc	_	_
-7	der	der	ADV	_	PartType=Inf	11	expl	_	_
+7	der	der	PRON	_	_	11	expl	_	_
 8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 9	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	_
 10	steder	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	_
@@ -11614,7 +11614,7 @@
 13	anlægsgartnerne	anlægsgartner	NOUN	_	Definite=Def|Gender=Com|Number=Plur	3	conj	_	_
 14	m.v.	med_videre	ADV	_	_	3	advmod	_	_
 15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
-16	der	der	ADV	_	PartType=Inf	17	expl	_	_
+16	der	der	PRON	_	_	17	expl	_	_
 17	udfoldet	udfolde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 18	store	stor	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	_
 19	bestræbelser	bestræbelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	17	obj	_	_
@@ -11738,7 +11738,7 @@
 
 # sent_id = dev2-225
 # text = Der stod ingen steder i Mai Buchs eksamenspapirer, at hun skulle havne på et teater.
-1	Der	der	ADV	_	PartType=Inf	2	expl	_	_
+1	Der	der	PRON	_	_	2	expl	_	_
 2	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ingen	ingen	DET	_	Gender=Com|Number=Sing|PronType=Ind	4	det	_	_
 4	steder	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	_
@@ -11768,7 +11768,7 @@
 8	vivaldi	vivaldi	ADV	_	_	6	advmod	_	_
 9	her	her	ADV	_	_	10	advmod	_	_
 10	udkom	udkomme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
-11	der	der	ADV	_	PartType=Inf	10	expl	_	_
+11	der	der	PRON	_	_	10	expl	_	_
 12	hele	hel	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	_
 13	3	3	NUM	_	NumType=Card	14	nummod	_	_
 14	opuser	opus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No
