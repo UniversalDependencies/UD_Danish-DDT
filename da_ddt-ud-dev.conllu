@@ -733,7 +733,7 @@
 
 # sent_id = dev-34
 # text = Kriminalpolitiet i Løgstør har endnu ikke kunnet konstatere, at manden har søgt lægehjælp, og man beder derfor offentligheden om hjælp til at identificere gerningsmanden.
-1	Kriminalpolitiet	kriminalpoliti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	_
+1	Kriminalpolitiet	kriminalpoliti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	_
 2	i	i	ADP	_	AdpType=Prep	3	case	_	_
 3	Løgstør	Løgstør	PROPN	_	_	1	nmod	_	_
 4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -4206,33 +4206,33 @@
 # sent_id = dev-186
 # text = Min veninde og jeg havde besluttet, at vi ville drage til København med vore fire børn, så de kunne få lov at se storbyens stråleglans...
 1	Min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
-2	veninde	veninde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	nsubj	_	_
-3	og	og	CCONJ	_	_	2	dep	_	_
+2	veninde	veninde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	_
+3	og	og	CCONJ	_	_	4	cc	_	_
 4	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	2	conj	_	_
-5	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
-6	besluttet	beslutte	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
-8	at	at	SCONJ	_	_	22	mark	_	_
-9	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
-10	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
-11	drage	drage	VERB	_	VerbForm=Inf|Voice=Act	22	xcomp	_	_
+5	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	besluttet	beslutte	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	at	at	SCONJ	_	_	11	mark	_	_
+9	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+10	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	drage	drage	VERB	_	VerbForm=Inf|Voice=Act	6	ccomp	_	_
 12	til	til	ADP	_	AdpType=Prep	13	case	_	_
 13	København	København	PROPN	_	_	11	obl	_	_
 14	med	med	ADP	_	AdpType=Prep	17	case	_	_
 15	vore	vores	DET	_	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs|Style=Form	17	det	_	_
 16	fire	fire	NUM	_	NumType=Card	17	nummod	_	_
 17	børn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	11	punct	_	_
+18	,	,	PUNCT	_	_	22	punct	_	_
 19	så	så	SCONJ	_	_	22	mark	_	_
 20	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
 21	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
-22	få	få	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
+22	få	få	VERB	_	VerbForm=Inf|Voice=Act	11	advcl	_	_
 23	lov	lov	NOUN	_	_	22	obj	_	_
 24	at	at	PART	_	PartType=Inf	25	mark	_	_
-25	se	se	VERB	_	VerbForm=Inf|Voice=Act	23	nmod	_	_
+25	se	se	VERB	_	VerbForm=Inf|Voice=Act	23	acl	_	_
 26	storbyens	storby	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	27	nmod:poss	_	_
 27	stråleglans	stråleglans	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	obj	_	SpaceAfter=No
-28	...	...	PUNCT	_	_	22	punct	_	_
+28	...	...	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-187
 # text = Det ligger ikke klart, hvornår han skal tiltræde den ny stilling.
@@ -4373,7 +4373,7 @@
 25	mindst	mindst	ADV	_	Degree=Sup	17	advmod	_	_
 26	af	af	ADP	_	AdpType=Prep	27	case	_	_
 27	alle	al	ADJ	_	Degree=Pos|Number=Plur	25	obl	_	_
-28	samfund	samfund	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	nsubj	_	SpaceAfter=No
+28	samfund	samfund	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	parataxis	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	hvis	hvis	SCONJ	_	_	31	mark	_	_
 31	fremtid	fremtid	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	32	nsubj	_	_
@@ -4651,11 +4651,11 @@
 7	på	på	ADP	_	AdpType=Prep	8	case	_	_
 8	4	4	NUM	_	NumType=Card	6	nummod	_	_
 9	børn/voksne	børn/voksne	X	_	_	8	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	31	punct	_	_
-11	og	og	CCONJ	_	_	31	cc	_	_
-12	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
-13	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	31	aux	_	_
-14	beregnet	beregne	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	31	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	og	og	CCONJ	_	_	14	cc	_	_
+12	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
+14	beregnet	beregne	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	at	at	SCONJ	_	_	19	mark	_	_
 17	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -4664,26 +4664,26 @@
 20	ved	ved	ADP	_	AdpType=Prep	22	case	_	_
 21	21	21	NUM	_	NumType=Card	22	nummod	_	_
 22	tiden	tid	NOUN	_	Definite=Def|Gender=Com|Number=Sing	19	obl	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	19	punct	_	_
+23	,	,	PUNCT	_	_	31	punct	_	_
 24	men	men	CCONJ	_	_	31	cc	_	_
 25	på	på	ADP	_	AdpType=Prep	30	case	_	_
 26	grund	grund	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	fixed	_	_
 27	af	af	ADP	_	AdpType=Prep	25	fixed	_	_
 28	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	30	det	_	_
 29	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	30	amod	_	_
-30	deltagelse	deltagelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	_
+30	deltagelse	deltagelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	31	obl	_	_
 31	blev	blive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 32	klokken	klokke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	31	nsubj	_	_
-33	henad	henad	ADP	_	AdpType=Prep	30	case	_	_
-34	22	22	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
+33	henad	henad	ADP	_	AdpType=Prep	34	case	_	_
+34	22	22	NUM	_	NumType=Card	32	obl	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	før	før	SCONJ	_	_	38	mark	_	_
 37	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	38	nsubj	_	_
 38	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	31	advcl	_	_
-39	i	i	ADP	_	AdpType=Prep	38	compound:prt	_	_
-40	gang	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	39	fixed	_	_
+39	i	i	ADP	_	AdpType=Prep	40	case	_	_
+40	gang	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	38	obl	_	_
 41	med	med	ADP	_	AdpType=Prep	42	case	_	_
-42	fakkeltoget	fakkeltog	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	39	nmod	_	SpaceAfter=No
+42	fakkeltoget	fakkeltog	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	38	obl	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-212
