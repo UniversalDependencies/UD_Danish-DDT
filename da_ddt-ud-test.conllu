@@ -794,7 +794,7 @@
 6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	_
 7	privat	privat	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
 8	efterretningsvæsen	efterretningsvæsen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	5	punct	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
 10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 11	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 12	så	så	ADV	_	_	14	advmod	_	_
@@ -3126,7 +3126,7 @@
 25	36	36	NUM	_	NumType=Card	24	nmod	_	_
 26	til	til	ADP	_	AdpType=Prep	27	case	_	_
 27	41	41	NUM	_	NumType=Card	24	nummod	_	_
-28	-	-	PUNCT	_	_	27	punct	_	_
+28	-	-	PUNCT	_	_	29	punct	_	_
 29	eller	eller	CCONJ	_	_	23	cc	_	_
 30	i	i	ADP	_	AdpType=Prep	34	advmod	_	_
 31	hvert	hver	DET	_	Gender=Com|Number=Sing|PronType=Ind	30	fixed	_	_
@@ -6064,7 +6064,7 @@
 4	kniber	knibe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	mark	_	_
 5	med	med	ADP	_	AdpType=Prep	6	case	_	_
 6	hukommelsen	hukommelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	4	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	så	så	ADV	_	_	11	advmod	_	_
 9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 10	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
@@ -8626,7 +8626,7 @@
 8	have	have	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 9	samme	samme	ADJ	_	Degree=Pos	10	amod	_	_
 10	chance	chance	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obj	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
 12	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	mark	_	_
 13	enten	enten	SCONJ	_	_	8	mark	_	_
 14	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
