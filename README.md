@@ -61,11 +61,15 @@ Category=value feature pairs: 46
 
 # CHANGELOG
 
-### NOTES FOR RELEASE v2.8
+### NOTES FOR RELEASE 2.11
+
+- reattached nonprojective punctuation using udapy ud.FixPunct
+
+### NOTES FOR RELEASE 2.8
 - adverbs attach as advmod, not obl
 - obl:lmod instead of obl:loc (compatibility with other languages)
 
-### NOTES FOR RELEASE v2.0
+### NOTES FOR RELEASE 2.0
 Changes for this version include:
 - CCONJ attach to the second conjunct
 - harmonized POS and labels to v2.0
@@ -78,7 +82,7 @@ next release should improve the labels of subordinate clauses,
 and resolve the attachment of relative clauses dependending
 on pronouns like "det".
 
-### NOTES FOR RELEASE v1.2
+### NOTES FOR RELEASE 1.2
 
 From v1.1 to v1.2, many improvements were made and integrated in the
 conversion scripts. In particular, we split multiword units, fixed
@@ -93,7 +97,7 @@ labeled in the first release (e.g. clausal dependents). The current
 release reduces the number of "dep" rels significantly, from over 7k
 in v1.1 to only 77 remaining cases in v1.2.
 
-### NOTES FOR RELEASE v1.1 (first release for UD_Danish) -- 2015-05-15
+### NOTES FOR RELEASE 1.1 (first release for UD_Danish) -- 2015-05-15
 
 This first release contains the original tokenization of DDT, where
 multiword units like *i_dag* (today) or *selv_om* (even though) have
