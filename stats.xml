@@ -23,9 +23,9 @@
     <tag name="DET">5504</tag><!-- en, den, sin, anden, denne, nogen, min, deres, hans, vores -->
     <tag name="INTJ">94</tag><!-- ja, nej, jo, åh, hej, ih, javel, la, øv, Guuud -->
     <tag name="NOUN">18725</tag><!-- år, dag, krone, gang, tid, mand, sted, barn, land, del -->
-    <tag name="NUM">1503</tag><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
+    <tag name="NUM">1505</tag><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
     <tag name="PART">1215</tag><!-- at -->
-    <tag name="PRON">6800</tag><!-- det, han, jeg, vi, de, der, man, sig, hun, som -->
+    <tag name="PRON">6798</tag><!-- det, han, jeg, vi, de, der, man, sig, hun, som -->
     <tag name="PROPN">4978</tag><!-- Danmark, København, Nielsen, Lars, Poul, Peter, USA, Europa, Hafnia, Henrik -->
     <tag name="PUNCT">13936</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
@@ -64,7 +64,7 @@
     <feat name="Polite" value="Form" upos="DET,PRON">31</feat><!-- De, Dem, Deres -->
     <feat name="Poss" value="Yes" upos="DET,PRON">813</feat><!-- sin, deres, hans, min, sit, hendes, sine, vores, mit, din -->
     <feat name="PronType" value="Dem" upos="DET,PRON">2328</feat><!-- den, de, det, selv, denne, dette, disse, begge, dén, dennes -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">3394</feat><!-- en, et, man, noget, andre, ingen, nogle, anden, andet, hver -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">3392</feat><!-- en, et, man, noget, andre, ingen, nogle, anden, andet, hver -->
     <feat name="PronType" value="Int,Rel" upos="PRON">186</feat><!-- hvad, hvilket, hvem, hvilke, hvilken, hvis, HVA', Hva -->
     <feat name="PronType" value="Prs" upos="DET,PRON">5598</feat><!-- det, han, jeg, vi, de, sig, hun, den, sin, du -->
     <feat name="PronType" value="Rcp" upos="PRON">38</feat><!-- hinanden, hinandens -->
@@ -83,20 +83,20 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
     <dep name="acl:relcl">1816</dep>
-    <dep name="advcl">1107</dep>
-    <dep name="advmod">7233</dep>
+    <dep name="advcl">1573</dep>
+    <dep name="advmod">6770</dep>
     <dep name="advmod:lmod">560</dep>
-    <dep name="amod">5760</dep>
+    <dep name="amod">5759</dep>
     <dep name="appos">358</dep>
     <dep name="aux">3156</dep>
-    <dep name="case">9913</dep>
-    <dep name="cc">3161</dep>
+    <dep name="case">9912</dep>
+    <dep name="cc">3159</dep>
     <dep name="ccomp">597</dep>
     <dep name="compound">2</dep>
     <dep name="compound:prt">395</dep>
-    <dep name="conj">3509</dep>
+    <dep name="conj">3515</dep>
     <dep name="cop">1760</dep>
-    <dep name="dep">493</dep>
+    <dep name="dep">492</dep>
     <dep name="det">5476</dep>
     <dep name="discourse">32</dep>
     <dep name="expl">441</dep>
@@ -104,13 +104,13 @@
     <dep name="flat">1644</dep>
     <dep name="iobj">156</dep>
     <dep name="list">199</dep>
-    <dep name="mark">4648</dep>
+    <dep name="mark">4649</dep>
     <dep name="nmod">5114</dep>
     <dep name="nmod:poss">1030</dep>
     <dep name="nsubj">9085</dep>
     <dep name="nummod">1252</dep>
     <dep name="obj">5010</dep>
-    <dep name="obl">6162</dep>
+    <dep name="obl">6157</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
     <dep name="orphan">1</dep>

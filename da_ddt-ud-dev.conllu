@@ -248,7 +248,7 @@
 22	ekstra	ekstra	ADJ	_	Degree=Pos	23	amod	_	_
 23	motorkraft	motorkraft	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	nsubj	_	_
 24	også	også	ADV	_	_	25	advmod	_	_
-25	betyder	betyde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advmod	_	_
+25	betyder	betyde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
 26	ringere	ringe	ADJ	_	Degree=Cmp	27	amod	_	_
 27	støjniveau	støjniveau	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obj	_	_
 28	og	og	CCONJ	_	_	30	cc	_	_
@@ -473,7 +473,7 @@
 21	når	når	SCONJ	_	_	24	mark	_	_
 22	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	24	nsubj	_	_
 23	ikke	ikke	ADV	_	_	24	advmod	_	_
-24	møder	møde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	advmod	_	_
+24	møder	møde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
 25	alvorlig	alvorlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	26	amod	_	_
 26	opposition	opposition	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	obj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	3	punct	_	_
@@ -642,7 +642,7 @@
 33	om	om	SCONJ	_	_	36	mark	_	_
 34	der	der	ADV	_	PartType=Inf	36	expl	_	_
 35	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	36	aux	_	_
-36	anvendt	anvende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	27	advmod	_	_
+36	anvendt	anvende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	_
 37	aluminiums-dele	aluminiums-del	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	36	obj	_	_
 38	i	i	ADP	_	AdpType=Prep	39	case	_	_
 39	motoren	motor	NOUN	_	Definite=Def|Gender=Com|Number=Sing	36	obl	_	_
@@ -1247,7 +1247,7 @@
 3	i	i	ADP	_	AdpType=Prep	4	case	_	_
 4	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	_
 5	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
-6	sagt	sige	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	22	advmod	_	SpaceAfter=No
+6	sagt	sige	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	15	punct	_	_
 8	at	at	SCONJ	_	_	15	mark	_	_
 9	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -1310,7 +1310,7 @@
 2	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 3	i	i	ADP	_	AdpType=Prep	4	case	_	_
 4	foråret	forår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
-5	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	advmod	_	_
+5	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	_
 6	udbetalt	udbetale	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
 7	overskuddet	overskud	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obj	_	_
 8	fra	fra	ADP	_	AdpType=Prep	11	case	_	_
@@ -1585,7 +1585,7 @@
 # text = Da vi kom ud til Søren, var der kommet en del gæster, men det var kun drenge.
 1	Da	da	SCONJ	_	_	3	mark	_	_
 2	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-3	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	advmod	_	_
+3	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
 4	ud	ud	ADV	_	_	3	advmod:lmod	_	_
 5	til	til	ADP	_	AdpType=Prep	6	case	_	_
 6	Søren	Søren	PROPN	_	_	4	obl	_	SpaceAfter=No
@@ -2227,7 +2227,7 @@
 2	disse	denne	DET	_	Number=Plur|PronType=Dem	3	det	_	_
 3	lægemidler	lægemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	_
 4	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
-5	indført	indføre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	7	advmod	_	SpaceAfter=No
+5	indført	indføre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	kostede	koste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	behandling	behandling	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	nsubj	_	_
@@ -2986,7 +2986,7 @@
 54	disposition	disposition	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	52	nmod	_	SpaceAfter=No
 55	,	,	PUNCT	_	_	40	punct	_	_
 56	så	så	ADV	_	_	57	advmod	_	_
-57	overraskes	overraske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	19	advmod	_	_
+57	overraskes	overraske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	19	advcl	_	_
 58	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	57	nsubj	_	_
 59	gang	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	57	obl	_	_
 60	på	på	ADP	_	AdpType=Prep	61	case	_	_
@@ -3022,7 +3022,7 @@
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	da	da	SCONJ	_	_	17	mark	_	_
 16	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
-17	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	advmod	_	_
+17	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
 18	maskinen	maskine	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	obj	_	_
 19	komme	komme	VERB	_	VerbForm=Inf|Voice=Act	17	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
@@ -3313,7 +3313,7 @@
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	da	da	SCONJ	_	_	18	mark	_	_
 17	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
-18	vågnede	vågne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	advmod	_	_
+18	vågnede	vågne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
 19	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	20	det	_	_
 20	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obl:tmod	_	_
 21	timer	time	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	20	nmod	_	_
@@ -3559,7 +3559,7 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	når	når	SCONJ	_	_	19	mark	_	_
 18	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
-19	drejer	dreje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advmod	_	_
+19	drejer	dreje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
 20	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	19	obj	_	_
 21	om	om	ADP	_	AdpType=Prep	22	case	_	_
 22	kulturpolitikken	kulturpolitik	NOUN	_	Definite=Def|Gender=Com|Number=Sing	19	obl	_	_
@@ -3747,7 +3747,7 @@
 2	Da	da	SCONJ	_	_	5	mark	_	_
 3	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
-5	prøve	prøve	VERB	_	VerbForm=Inf|Voice=Act	16	advmod	_	_
+5	prøve	prøve	VERB	_	VerbForm=Inf|Voice=Act	16	advcl	_	_
 6	at	at	PART	_	PartType=Inf	7	mark	_	_
 7	få	få	VERB	_	VerbForm=Inf|Voice=Act	5	obj	_	_
 8	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
@@ -4069,7 +4069,7 @@
 11	når	når	SCONJ	_	_	14	mark	_	_
 12	kødet	kød	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	_
 13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
-14	stegt	stege	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	8	advmod	_	_
+14	stegt	stege	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
 15	i	i	ADP	_	AdpType=Prep	17	case	_	_
 16	20	20	NUM	_	NumType=Card	17	nummod	_	_
 17	minutter	minut	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No
@@ -4430,7 +4430,7 @@
 12	skipper	skipper	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	_
 13	Tom	Tom	PROPN	_	_	15	nsubj	_	_
 14	Christiansen	Christiansen	PROPN	_	_	13	flat	_	_
-15	vendte	vende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advmod	_	_
+15	vendte	vende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 16	skibet	skib	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4679,7 +4679,7 @@
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	før	før	SCONJ	_	_	38	mark	_	_
 37	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	38	nsubj	_	_
-38	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	advmod	_	_
+38	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
 39	i	i	ADP	_	AdpType=Prep	38	compound:prt	_	_
 40	gang	gang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	39	fixed	_	_
 41	med	med	ADP	_	AdpType=Prep	42	case	_	_
@@ -4993,7 +4993,7 @@
 44	hotelovernatning	hotelovernatning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	39	obj	_	_
 45	fordi	fordi	SCONJ	_	_	47	mark	_	_
 46	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	47	nsubj	_	_
-47	rejser	rejse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	39	advmod	_	_
+47	rejser	rejse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	39	advcl	_	_
 48	om	om	ADP	_	AdpType=Prep	49	case	_	_
 49	natten	nat	NOUN	_	Definite=Def|Gender=Com|Number=Sing	47	obl	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	19	punct	_	_
@@ -5039,7 +5039,7 @@
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	Kaiserslautern	Kaiserslautern	PROPN	_	_	16	list	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
-22	begynder	begynde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advmod	_	_
+22	begynder	begynde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 23	kampen	kamp	NOUN	_	Definite=Def|Gender=Com|Number=Sing	22	obj	_	_
 24	på	på	ADP	_	AdpType=Prep	25	case	_	_
 25	midtbanen	midtbane	NOUN	_	Definite=Def|Gender=Com|Number=Sing	22	obl	_	SpaceAfter=No
@@ -5534,7 +5534,7 @@
 11	da	da	SCONJ	_	_	14	mark	_	_
 12	Lise	Lise	PROPN	_	_	14	nsubj	_	_
 13	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
-14	fortalt	fortælle	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	8	advmod	_	_
+14	fortalt	fortælle	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
 15	om	om	ADP	_	AdpType=Prep	16	case	_	_
 16	samtalen	samtale	NOUN	_	Definite=Def|Gender=Com|Number=Sing	14	obl	_	_
 17	med	med	ADP	_	AdpType=Prep	18	case	_	_
@@ -6334,13 +6334,13 @@
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	fordi	fordi	SCONJ	_	_	15	mark	_	_
 14	der	der	ADV	_	PartType=Inf	15	expl	_	_
-15	skete	ske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	advmod	_	_
+15	skete	ske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
 16	for	for	ADV	_	_	17	advmod	_	_
 17	lidt	lidt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	så	så	SCONJ	_	_	21	mark	_	_
 20	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
-21	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	advmod	_	_
+21	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
 22	afsmittende	afsmittende	ADJ	_	Degree=Pos	23	amod	_	_
 23	virkning	virkning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	21	obj	_	_
 24	på	på	ADP	_	AdpType=Prep	25	case	_	_
@@ -6394,7 +6394,7 @@
 # text = Når ræven roser ravnen, mister den sin ost.
 1	Når	når	SCONJ	_	_	3	mark	_	_
 2	ræven	ræv	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	nsubj	_	_
-3	roser	rose	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advmod	_	_
+3	roser	rose	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 4	ravnen	ravn	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	mister	miste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6453,7 +6453,7 @@
 16	som	som	ADP	_	PartType=Inf	18	obj	_	_
 17	rekrutterne	rekrut	NOUN	_	Definite=Def|Gender=Com|Number=Plur	18	nsubj	_	_
 18	underskriver	underskrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
-19	giver	give	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	advmod	_	_
+19	giver	give	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	_
 20	både	både	ADV	_	_	21	advmod	_	_
 21	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	iobj	_	_
 22	og	og	CCONJ	_	_	23	cc	_	_
@@ -6529,7 +6529,7 @@
 12	foran	foran	ADP	_	AdpType=Prep	14	case	_	_
 13	eget	egen	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
 14	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	_
-15	noterede	notere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	advmod	_	_
+15	noterede	notere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
 16	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
 17	for	for	ADP	_	AdpType=Prep	21	case	_	_
 18	sin	sin	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	_
@@ -6702,7 +6702,7 @@
 # text = Når vi lever i et land, hvor det er en selvfølge, at vi får oplyst udløbsdatoen på spegepølser, kan det ikke accepteres, at vi ikke har langt mere information fra sygehussektoren.
 1	Når	når	SCONJ	_	_	3	mark	_	_
 2	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-3	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	advmod	_	_
+3	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
 4	i	i	ADP	_	AdpType=Prep	6	case	_	_
 5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	6	det	_	_
 6	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
@@ -6949,7 +6949,7 @@
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	om	om	SCONJ	_	_	22	mark	_	_
 21	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	22	nsubj	_	_
-22	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	advmod	_	SpaceAfter=No
+22	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev2-5
@@ -7342,7 +7342,7 @@
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	fordi	fordi	SCONJ	_	_	12	mark	_	_
 11	flådeindsatsen	flådeindsats	NOUN	_	Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
-12	koordineres	koordinere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advmod	_	_
+12	koordineres	koordinere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl	_	_
 13	mellem	mellem	ADP	_	AdpType=Prep	14	case	_	_
 14	Vestunionen	vestunion	NOUN	_	Definite=Def|Gender=Com|Number=Sing	12	obl	_	_
 15	og	og	CCONJ	_	_	16	cc	_	_
@@ -7728,7 +7728,7 @@
 2	Jamen	jamen	CCONJ	_	_	0	root	_	SpaceAfter=No
 3	...	...	PUNCT	_	_	5	punct	_	_
 4	så	så	ADV	_	_	5	advmod	_	_
-5	tav	tie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advmod	_	_
+5	tav	tie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 6	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 7	...	...	PUNCT	_	_	5	punct	_	_
 8	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -7747,7 +7747,7 @@
 21	hvorefter	hvorefter	ADV	_	_	24	mark	_	_
 22	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
 23	nærmest	nærmest	ADV	_	Degree=Sup	24	advmod	_	_
-24	flygtede	flygte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	advmod	_	_
+24	flygtede	flygte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
 25	tilbage	tilbage	ADV	_	_	24	advmod:lmod	_	_
 26	til	til	ADP	_	AdpType=Prep	27	case	_	_
 27	barnevognen	barnevogn	NOUN	_	Definite=Def|Gender=Com|Number=Sing	25	obl	_	SpaceAfter=No
@@ -7775,7 +7775,7 @@
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	mens	mens	SCONJ	_	_	15	mark	_	_
 14	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	15	nsubj	_	_
-15	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advmod	_	_
+15	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 16	under	under	ADP	_	AdpType=Prep	19	case	_	_
 17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	19	det	_	_
 18	skyggefuldt	skyggefuld	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
@@ -7997,7 +7997,7 @@
 2	da	da	SCONJ	_	_	5	mark	_	_
 3	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	først	først	ADV	_	_	5	advmod	_	_
-5	sad	sidde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	advmod	_	_
+5	sad	sidde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	_
 6	ved	ved	ADP	_	AdpType=Prep	7	case	_	_
 7	skrivebordet	skrivebord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	_
 8	inde	inde	ADV	_	_	7	advmod	_	_
@@ -8084,7 +8084,7 @@
 22	-	-	PUNCT	_	_	17	punct	_	_
 23	inden	inden	SCONJ	_	_	25	mark	_	_
 24	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
-25	vender	vende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advmod	_	_
+25	vender	vende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
 26	hjem	hjem	ADV	_	_	25	advmod:lmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -8246,7 +8246,7 @@
 3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
 4	bistands-kroner	bistands-krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	_
 5	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
-6	medført	medføre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	31	advmod	_	_
+6	medført	medføre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	31	advcl	_	_
 7	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	8	det	_	_
 8	invasion	invasion	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	obj	_	_
 9	af	af	ADP	_	AdpType=Prep	11	case	_	_
@@ -8394,7 +8394,7 @@
 # text = Hvis Clinton har en plan til at angribe storbyernes problemer, holder han den foreløbig for sig selv.
 1	Hvis	hvis	SCONJ	_	_	3	mark	_	_
 2	Clinton	Clinton	PROPN	_	_	3	nsubj	_	_
-3	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advmod	_	_
+3	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
 4	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	5	det	_	_
 5	plan	plan	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
 6	til	til	ADP	_	AdpType=Prep	8	mark	_	_
@@ -8738,7 +8738,7 @@
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	hvis	hvis	SCONJ	_	_	16	mark	_	_
 15	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
-16	starter	starte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advmod	_	_
+16	starter	starte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
 17	med	med	ADP	_	AdpType=Prep	20	mark	_	_
 18	kort	kort	ADV	_	Degree=Pos	19	advmod	_	_
 19	at	at	PART	_	PartType=Inf	20	mark	_	_
@@ -8941,7 +8941,7 @@
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	idet	idet	SCONJ	_	_	10	mark	_	_
 9	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	smager	smage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advmod	_	_
+10	smager	smage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
 11	godt	godt	ADV	_	Degree=Pos	10	amod	_	_
 12	og	og	CCONJ	_	_	15	cc	_	_
 13	medicinindtagelsen	medicinindtagelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	_
@@ -9086,7 +9086,7 @@
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	når	når	SCONJ	_	_	26	mark	_	_
 25	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
-26	lufter	lufte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	advmod	_	_
+26	lufter	lufte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
 27	sine	sin	DET	_	Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	28	det	_	_
 28	ynder	ynde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	26	obj	_	_
 29	udendørs	udendørs	ADV	_	Degree=Pos	26	advmod	_	SpaceAfter=No
@@ -9211,7 +9211,7 @@
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	da	da	SCONJ	_	_	18	mark	_	_
 17	OBeren	OBer	NOUN	_	Definite=Def|Gender=Com|Number=Sing	18	nsubj	_	_
-18	stoppede	stoppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advmod	_	_
+18	stoppede	stoppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 19	Lars	Lars	PROPN	_	_	18	obj	_	_
 20	Larsen	Larsen	PROPN	_	_	19	flat	_	_
 21	lige	lige	ADV	_	_	22	advmod	_	_
@@ -9773,7 +9773,7 @@
 17	som	som	ADP	_	PartType=Inf	19	case	_	_
 18	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	19	det	_	_
 19	huskat	huskat	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	16	obl	_	_
-20	klemmer	klemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advmod	_	_
+20	klemmer	klemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 21	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	20	obj	_	_
 22	ind	ind	ADV	_	_	20	advmod:lmod	_	_
 23	igennem	igennem	ADP	_	AdpType=Prep	24	case	_	_
@@ -10180,7 +10180,7 @@
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	da	da	SCONJ	_	_	17	mark	_	_
 16	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
-17	søgte	søge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	advmod	_	_
+17	søgte	søge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
 18	om	om	ADP	_	AdpType=Prep	19	case	_	_
 19	tilladelse	tilladelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	obl	_	_
 20	til	til	ADP	_	AdpType=Prep	23	mark	_	_
@@ -10607,7 +10607,7 @@
 17	ned	ned	ADV	_	_	15	advmod:lmod	_	_
 18	til	til	SCONJ	_	_	20	mark	_	_
 19	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
-20	hviler	hvile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advmod	_	_
+20	hviler	hvile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
 21	over	over	ADP	_	AdpType=Prep	23	case	_	_
 22	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
 23	navle	navle	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	obl	_	SpaceAfter=No
@@ -10720,7 +10720,7 @@
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	inden	inden	SCONJ	_	_	8	mark	_	_
 7	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	låste	låse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advmod	_	_
+8	låste	låse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 9	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	ind	ind	ADV	_	_	8	advmod:lmod	_	_
 11	i	i	ADP	_	AdpType=Prep	12	case	_	_
@@ -10945,7 +10945,7 @@
 15	tiltræder	tiltræde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	mark	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	så	så	ADV	_	_	18	advmod	_	_
-18	ryger	ryge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advmod	_	_
+18	ryger	ryge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
 19	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	20	det	_	_
 20	gamle	gammel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	nsubj	_	_
 21	ud	ud	ADV	_	_	18	advmod:lmod	_	_
@@ -11143,7 +11143,7 @@
 20	flertal	flertal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	nsubj	_	_
 21	af	af	ADP	_	AdpType=Prep	22	case	_	_
 22	danskerne	dansker	NOUN	_	Definite=Def|Gender=Com|Number=Plur	20	nmod	_	_
-23	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advmod	_	_
+23	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
 24	ja	ja	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	obj	_	_
 25	til	til	ADP	_	AdpType=Prep	26	case	_	_
 26	særaftalen	særaftale	NOUN	_	Definite=Def|Gender=Com|Number=Sing	23	obl	_	_
@@ -11423,7 +11423,7 @@
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	da	da	SCONJ	_	_	16	mark	_	_
 15	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
-16	begyndte	begynde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	advmod	_	_
+16	begyndte	begynde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
 17	i	i	ADP	_	AdpType=Prep	19	case	_	_
 18	1.	1.	ADJ	_	NumType=Ord	19	amod	_	_
 19	klasse	klasse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	16	obl	_	SpaceAfter=No
@@ -11858,7 +11858,7 @@
 8	om	om	SCONJ	_	_	11	mark	_	_
 9	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	11	nsubj	_	_
 10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
-11	spise	spise	VERB	_	VerbForm=Inf|Voice=Act	3	advmod	_	_
+11	spise	spise	VERB	_	VerbForm=Inf|Voice=Act	3	advcl	_	_
 12	giftige	giftig	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	_
 13	svampe	svamp	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
@@ -11913,7 +11913,7 @@
 16	mens	mens	SCONJ	_	_	19	mark	_	_
 17	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	hjerne	hjerne	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	nsubj	_	_
-19	støtter	støtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	advmod	_	_
+19	støtter	støtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 20	EF-samarbejdet	EF-samarbejde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 

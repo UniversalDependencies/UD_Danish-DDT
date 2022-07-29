@@ -67,6 +67,7 @@ Category=value feature pairs: 46
 - replaced goeswith relations that were used wrongly between number and %
 - fixed left-headed appos relations
 - fixed numeral-like ADJ to NUM
+- fixed: clausal (VERB) adverbial modifiers should be advcl, not advmod
 
 ### NOTES FOR RELEASE 2.8
 - adverbs attach as advmod, not obl
