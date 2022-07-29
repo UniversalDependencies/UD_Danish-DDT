@@ -22,7 +22,7 @@
     <tag name="CCONJ">3383</tag><!-- og, men, eller, for, samt, &, jamen, år -->
     <tag name="DET">5504</tag><!-- en, den, sin, anden, denne, nogen, min, deres, hans, vores -->
     <tag name="INTJ">94</tag><!-- ja, nej, jo, åh, hej, ih, javel, la, øv, Guuud -->
-    <tag name="NOUN">18725</tag><!-- år, dag, krone, gang, tid, mand, sted, barn, land, del -->
+    <tag name="NOUN">18726</tag><!-- år, dag, krone, gang, tid, mand, sted, barn, land, del -->
     <tag name="NUM">1505</tag><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
     <tag name="PART">1215</tag><!-- at -->
     <tag name="PRON">6798</tag><!-- det, han, jeg, vi, de, der, man, sig, hun, som -->
@@ -31,7 +31,7 @@
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
     <tag name="SYM">54</tag><!-- =, %, §, * -->
     <tag name="VERB">10712</tag><!-- være, have, få, sige, gå, komme, se, gøre, tage, give -->
-    <tag name="X">344</tag><!-- of, MEDARB, en, we, are, frue, km/t., med, the, vind. -->
+    <tag name="X">343</tag><!-- of, MEDARB, en, we, are, frue, km/t., med, the, vind. -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="44">
@@ -81,40 +81,41 @@
     <feat name="Voice" value="Pass" upos="VERB">484</feat><!-- bruges, tages, ventes, gøres, nævnes, sælges, udsendes, ses, kaldes, sættes -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="38">
+  <deps unique="39">
     <dep name="acl:relcl">1816</dep>
-    <dep name="advcl">1573</dep>
-    <dep name="advmod">6741</dep>
+    <dep name="advcl">1610</dep>
+    <dep name="advmod">6742</dep>
     <dep name="advmod:lmod">560</dep>
-    <dep name="amod">5759</dep>
-    <dep name="appos">358</dep>
+    <dep name="amod">5760</dep>
+    <dep name="appos">359</dep>
     <dep name="aux">3156</dep>
     <dep name="case">9912</dep>
-    <dep name="cc">3159</dep>
+    <dep name="cc">3160</dep>
     <dep name="ccomp">597</dep>
     <dep name="compound">2</dep>
     <dep name="compound:prt">395</dep>
     <dep name="conj">3515</dep>
     <dep name="cop">1760</dep>
-    <dep name="dep">492</dep>
+    <dep name="dep">491</dep>
     <dep name="det">5476</dep>
     <dep name="discourse">32</dep>
+    <dep name="dislocated">2</dep>
     <dep name="expl">441</dep>
     <dep name="fixed">493</dep>
     <dep name="flat">1644</dep>
-    <dep name="iobj">156</dep>
+    <dep name="iobj">157</dep>
     <dep name="list">199</dep>
-    <dep name="mark">4472</dep>
+    <dep name="mark">4428</dep>
     <dep name="nmod">5187</dep>
     <dep name="nmod:poss">1030</dep>
     <dep name="nsubj">9089</dep>
     <dep name="nummod">1252</dep>
     <dep name="obj">5090</dep>
-    <dep name="obl">6206</dep>
+    <dep name="obl">6205</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
     <dep name="orphan">1</dep>
-    <dep name="parataxis">2</dep>
+    <dep name="parataxis">4</dep>
     <dep name="punct">13933</dep>
     <dep name="reparandum">2</dep>
     <dep name="root">5512</dep>

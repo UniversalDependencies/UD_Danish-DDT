@@ -790,7 +790,7 @@
 2	)	)	PUNCT	_	_	14	punct	_	_
 3	Hvis	hvis	SCONJ	_	_	14	mark	_	_
 4	der	der	ADV	_	PartType=Inf	14	expl	_	_
-5	findes	findes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	mark	_	_
+5	findes	findes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
 6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	_
 7	privat	privat	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
 8	efterretningsvæsen	efterretningsvæsen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
@@ -3836,7 +3836,7 @@
 9	nyt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	obj	_	_
 10	i	i	ADP	_	AdpType=Prep	1	case	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	_
-12	bortset	bortset	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	18	mark	_	_
+12	bortset	bortset	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
 13	fra	fra	ADP	_	AdpType=Prep	12	fixed	_	_
 14	at	at	SCONJ	_	_	18	mark	_	_
 15	kulturkrigen	kulturkrig	NOUN	_	Definite=Def|Gender=Com|Number=Sing	18	nsubj	_	_
@@ -6061,7 +6061,7 @@
 1	Og	og	CCONJ	_	_	11	cc	_	_
 2	hvis	hvis	SCONJ	_	_	11	mark	_	_
 3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-4	kniber	knibe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	mark	_	_
+4	kniber	knibe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
 5	med	med	ADP	_	AdpType=Prep	6	case	_	_
 6	hukommelsen	hukommelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -6380,7 +6380,7 @@
 2	Når	når	SCONJ	_	_	10	mark	_	_
 3	boligministeren	boligminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	_
 4	ikke	ikke	ADV	_	_	10	advmod	_	_
-5	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	mark	_	SpaceAfter=No
+5	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	så	så	ADV	_	_	10	advmod	_	_
 8	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_

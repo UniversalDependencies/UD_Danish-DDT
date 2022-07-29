@@ -435,7 +435,7 @@
 16	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
 17	nogen	nogen	DET	_	Gender=Com|Number=Sing|PronType=Ind	18	det	_	_
 18	sinde	sinde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	27	obl	_	_
-19	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	mark	_	_
+19	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
 20	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	21	det	_	_
 21	ølmave	ølmave	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	27	obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
@@ -2044,7 +2044,7 @@
 6	at	at	SCONJ	_	_	25	mark	_	_
 7	når	når	SCONJ	_	_	25	mark	_	_
 8	Superbrugsen	Superbrugsen	PROPN	_	_	25	nsubj	_	_
-9	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	mark	_	_
+9	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
 10	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	11	det	_	_
 11	slagvare	slagvare	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	obj	_	_
 12	med	med	ADP	_	AdpType=Prep	14	case	_	_
@@ -2169,7 +2169,7 @@
 6	af	af	ADP	_	AdpType=Prep	7	case	_	_
 7	befolkningen	befolkning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
 8	individuelt	individuelt	ADV	_	Degree=Pos	29	advmod	_	_
-9	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	mark	_	_
+9	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl	_	_
 10	aktier	aktie	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	29	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	_
 12	og	og	CCONJ	_	_	18	cc	_	_
@@ -2960,7 +2960,7 @@
 28	her	her	ADV	_	_	27	advmod	_	SpaceAfter=No
 29	:	:	PUNCT	_	_	57	punct	_	_
 30	-	-	PUNCT	_	_	57	punct	_	_
-31	Tager	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	57	mark	_	_
+31	Tager	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	57	advcl	_	_
 32	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	57	nsubj	_	_
 33	i	i	ADP	_	AdpType=Prep	34	case	_	_
 34	betragtning	betragtning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	57	obl	_	SpaceAfter=No
@@ -10942,7 +10942,7 @@
 12	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	14	det	_	_
 13	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
 14	chef	chef	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nsubj	_	_
-15	tiltræder	tiltræde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	mark	_	SpaceAfter=No
+15	tiltræder	tiltræde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	så	så	ADV	_	_	18	advmod	_	_
 18	ryger	ryge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
