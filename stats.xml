@@ -18,7 +18,7 @@
     <tag name="ADJ">6559</tag><!-- mange, stor, al, ny, dansk, god, meget, lille, hel, samme -->
     <tag name="ADP">11746</tag><!-- i, til, på, af, med, for, om, som, fra, ved -->
     <tag name="ADV">8474</tag><!-- ikke, der, så, også, hvor, nu, ud, op, ind, meget -->
-    <tag name="AUX">4916</tag><!-- være, have, kunne, blive, skulle, ville, måtte, burde, turde -->
+    <tag name="AUX">4731</tag><!-- være, have, kunne, skulle, ville, blive, måtte, burde, turde -->
     <tag name="CCONJ">3383</tag><!-- og, men, eller, for, samt, &, jamen, år -->
     <tag name="DET">5504</tag><!-- en, den, sin, anden, denne, nogen, min, deres, hans, vores -->
     <tag name="INTJ">94</tag><!-- ja, nej, jo, åh, hej, ih, javel, la, øv, Guuud -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">13936</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
     <tag name="SYM">54</tag><!-- =, %, §, * -->
-    <tag name="VERB">10712</tag><!-- være, have, få, sige, gå, komme, se, gøre, tage, give -->
+    <tag name="VERB">10897</tag><!-- være, have, få, sige, blive, gå, komme, se, gøre, tage -->
     <tag name="X">343</tag><!-- of, MEDARB, en, we, are, frue, km/t., med, the, vind. -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -49,7 +49,7 @@
     <feat name="Foreign" value="Yes" upos="ADV,X">111</feat><!-- of, are, the, we, a, and, children, dead, in, junkmail -->
     <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,VERB">20101</feat><!-- en, den, han, jeg, vi, man, hun, sin, du, ham -->
     <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON">9130</feat><!-- det, et, år, noget, sit, alt, andet, folk, går, dette -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">168</feat><!-- lad, rør, se, skær, brug, hold, hæld, steg, prøv, Bland -->
+    <feat name="Mood" value="Imp" upos="VERB">168</feat><!-- lad, rør, se, skær, brug, hold, hæld, steg, prøv, Bland -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">10010</feat><!-- er, har, var, kan, skal, vil, siger, blev, havde, kunne -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,VERB">9291</feat><!-- de, vi, år, alle, mange, andre, dem, kr., flere, os -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">27205</feat><!-- det, en, den, et, han, jeg, hun, sin, noget, du -->
@@ -83,19 +83,19 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="39">
     <dep name="acl:relcl">1816</dep>
-    <dep name="advcl">1610</dep>
+    <dep name="advcl">1612</dep>
     <dep name="advmod">6742</dep>
     <dep name="advmod:lmod">560</dep>
-    <dep name="amod">5760</dep>
+    <dep name="amod">5759</dep>
     <dep name="appos">359</dep>
     <dep name="aux">3156</dep>
     <dep name="case">9912</dep>
     <dep name="cc">3160</dep>
-    <dep name="ccomp">597</dep>
+    <dep name="ccomp">598</dep>
     <dep name="compound">2</dep>
     <dep name="compound:prt">395</dep>
     <dep name="conj">3515</dep>
-    <dep name="cop">1760</dep>
+    <dep name="cop">1575</dep>
     <dep name="dep">491</dep>
     <dep name="det">5476</dep>
     <dep name="discourse">32</dep>
@@ -110,7 +110,7 @@
     <dep name="nmod:poss">1030</dep>
     <dep name="nsubj">9089</dep>
     <dep name="nummod">1252</dep>
-    <dep name="obj">5090</dep>
+    <dep name="obj">5089</dep>
     <dep name="obl">6205</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
@@ -120,6 +120,6 @@
     <dep name="reparandum">2</dep>
     <dep name="root">5512</dep>
     <dep name="vocative">32</dep>
-    <dep name="xcomp">507</dep>
+    <dep name="xcomp">691</dep>
   </deps>
 </treebank>
