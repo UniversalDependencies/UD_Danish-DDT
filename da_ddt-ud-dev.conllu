@@ -431,14 +431,14 @@
 12	tidspunkt	tidspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	27	punct	_	_
 14	eller	eller	CCONJ	_	_	27	cc	_	_
-15	hvis	hvis	SCONJ	_	_	27	mark	_	_
-16	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+15	hvis	hvis	SCONJ	_	_	19	mark	_	_
+16	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 17	nogen	nogen	DET	_	Gender=Com|Number=Sing|PronType=Ind	18	det	_	_
-18	sinde	sinde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	27	obl	_	_
+18	sinde	sinde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	obl	_	_
 19	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
 20	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	21	det	_	_
-21	ølmave	ølmave	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	27	obj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	21	punct	_	_
+21	ølmave	ølmave	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	27	punct	_	_
 23	så	så	ADV	_	_	27	advmod	_	_
 24	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	_
 25	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
@@ -736,21 +736,21 @@
 1	Kriminalpolitiet	kriminalpoliti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	_
 2	i	i	ADP	_	AdpType=Prep	3	case	_	_
 3	Løgstør	Løgstør	PROPN	_	_	1	nmod	_	_
-4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
-5	endnu	endnu	ADV	_	_	13	advmod	_	_
-6	ikke	ikke	ADV	_	_	13	advmod	_	_
-7	kunnet	kunne	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	13	aux	_	_
-8	konstatere	konstatere	VERB	_	VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+5	endnu	endnu	ADV	_	_	8	advmod	_	_
+6	ikke	ikke	ADV	_	_	8	advmod	_	_
+7	kunnet	kunne	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+8	konstatere	konstatere	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
 10	at	at	SCONJ	_	_	13	mark	_	_
 11	manden	mand	NOUN	_	Definite=Def|Gender=Com|Number=Sing	13	nsubj	_	_
 12	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
-13	søgt	søge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	søgt	søge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
 14	lægehjælp	lægehjælp	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	13	obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	og	og	CCONJ	_	_	18	cc	_	_
 17	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	18	nsubj	_	_
-18	beder	bede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+18	beder	bede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
 19	derfor	derfor	ADV	_	_	18	advmod	_	_
 20	offentligheden	offentlighed	NOUN	_	Definite=Def|Gender=Com|Number=Sing	18	obj	_	_
 21	om	om	ADP	_	AdpType=Prep	22	case	_	_
@@ -759,7 +759,7 @@
 24	at	at	PART	_	PartType=Inf	25	mark	_	_
 25	identificere	identificere	VERB	_	VerbForm=Inf|Voice=Act	22	advcl	_	_
 26	gerningsmanden	gerningsmand	NOUN	_	Definite=Def|Gender=Com|Number=Sing	25	obj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	13	punct	_	_
+27	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = dev-35
 # text = Jeg burde se på byen, men jeg kan ikke samle mig sammen og nøjes med at se velvilligt på en englænder, der er kommet for sent til maskinen til Botswana.
@@ -1606,15 +1606,15 @@
 
 # sent_id = dev-75
 # text = Blev de det, fordi ministeren ikke var ædru, så kan man ikke gå forbi det.
-1	Blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
-2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
-3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+1	Blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	fordi	fordi	SCONJ	_	_	9	mark	_	_
 6	ministeren	minister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
 7	ikke	ikke	ADV	_	_	9	advmod	_	_
 8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
-9	ædru	ædru	ADJ	_	Degree=Pos	15	amod	_	SpaceAfter=No
+9	ædru	ædru	ADJ	_	Degree=Pos	3	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	så	så	ADV	_	_	15	advmod	_	_
 12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
@@ -1973,7 +1973,7 @@
 31	,	,	PUNCT	_	_	51	punct	_	_
 32	at	at	SCONJ	_	_	51	mark	_	_
 33	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
-34	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	51	nsubj	_	SpaceAfter=No
+34	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	43	nsubj	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	der	der	PRON	_	PartType=Inf	37	nsubj	_	_
 37	tager	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	34	acl:relcl	_	_
@@ -2043,7 +2043,7 @@
 5	,	,	PUNCT	_	_	25	punct	_	_
 6	at	at	SCONJ	_	_	25	mark	_	_
 7	når	når	SCONJ	_	_	25	mark	_	_
-8	Superbrugsen	Superbrugsen	PROPN	_	_	25	nsubj	_	_
+8	Superbrugsen	Superbrugsen	PROPN	_	_	9	nsubj	_	_
 9	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
 10	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	11	det	_	_
 11	slagvare	slagvare	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	obj	_	_
@@ -2165,12 +2165,12 @@
 2	Når	når	SCONJ	_	_	29	mark	_	_
 3	ca.	cirka	ADV	_	_	5	advmod	_	_
 4	40	40	NUM	_	NumType=Card	5	nummod	_	_
-5	pct.	procent	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	29	nsubj	_	_
+5	pct.	procent	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	_
 6	af	af	ADP	_	AdpType=Prep	7	case	_	_
 7	befolkningen	befolkning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nmod	_	_
-8	individuelt	individuelt	ADV	_	Degree=Pos	29	advmod	_	_
+8	individuelt	individuelt	ADV	_	Degree=Pos	9	advmod	_	_
 9	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl	_	_
-10	aktier	aktie	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	29	obj	_	SpaceAfter=No
+10	aktier	aktie	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	9	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	_
 12	og	og	CCONJ	_	_	18	cc	_	_
 13	lønmodtagernes	lønmodtager	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Plur	14	nmod:poss	_	_
@@ -2961,9 +2961,9 @@
 29	:	:	PUNCT	_	_	57	punct	_	_
 30	-	-	PUNCT	_	_	57	punct	_	_
 31	Tager	tage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	57	advcl	_	_
-32	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	57	nsubj	_	_
+32	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	31	nsubj	_	_
 33	i	i	ADP	_	AdpType=Prep	34	case	_	_
-34	betragtning	betragtning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	57	obl	_	SpaceAfter=No
+34	betragtning	betragtning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	31	obl	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	40	punct	_	_
 36	at	at	SCONJ	_	_	40	mark	_	_
 37	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	39	det	_	_
@@ -3608,8 +3608,8 @@
 
 # sent_id = dev-160
 # text = Jeg kunne se, at den overbordfaldne havde været under vand og var på vej op igen.
-1	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
+1	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	se	se	VERB	_	VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	at	at	SCONJ	_	_	9	mark	_	_
