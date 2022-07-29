@@ -65,6 +65,7 @@ Category=value feature pairs: 46
 
 - reattached nonprojective punctuation using udapy ud.FixPunct
 - replaced goeswith relations that were used wrongly between number and %
+- fixed left-headed appos relations
 
 ### NOTES FOR RELEASE 2.8
 - adverbs attach as advmod, not obl

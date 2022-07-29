@@ -8836,9 +8836,9 @@
 6	sendt	sende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	til	til	ADP	_	AdpType=Prep	8	case	_	_
 8	Jyllands-Posten	Jyllands-Posten	PROPN	_	_	6	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	_
-10	Berlingske	Berlingske	PROPN	_	_	11	appos	_	_
-11	Tidende	tidende	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	conj	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Berlingske	Berlingske	PROPN	_	_	8	conj	_	_
+11	Tidende	tidende	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	appos	_	_
 12	og	og	CCONJ	_	_	13	cc	_	_
 13	Århus	Århus	PROPN	_	_	8	conj	_	_
 14	Stiftstidende	stiftstidende	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	13	flat	_	SpaceAfter=No

@@ -81,7 +81,7 @@
     <feat name="Voice" value="Pass" upos="VERB">484</feat><!-- bruges, tages, ventes, gøres, nævnes, sælges, udsendes, ses, kaldes, sættes -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="38">
     <dep name="acl:relcl">1816</dep>
     <dep name="advcl">1107</dep>
     <dep name="advmod">7233</dep>
@@ -92,28 +92,29 @@
     <dep name="case">9913</dep>
     <dep name="cc">3162</dep>
     <dep name="ccomp">597</dep>
+    <dep name="compound">2</dep>
     <dep name="compound:prt">395</dep>
     <dep name="conj">3508</dep>
     <dep name="cop">1760</dep>
-    <dep name="dep">492</dep>
+    <dep name="dep">493</dep>
     <dep name="det">5476</dep>
     <dep name="discourse">32</dep>
     <dep name="expl">441</dep>
     <dep name="fixed">493</dep>
     <dep name="flat">1644</dep>
-    <dep name="goeswith">8</dep>
-    <dep name="iobj">155</dep>
+    <dep name="iobj">156</dep>
     <dep name="list">199</dep>
     <dep name="mark">4648</dep>
-    <dep name="nmod">5112</dep>
+    <dep name="nmod">5114</dep>
     <dep name="nmod:poss">1030</dep>
     <dep name="nsubj">9085</dep>
-    <dep name="nummod">1254</dep>
-    <dep name="obj">5011</dep>
-    <dep name="obl">6159</dep>
+    <dep name="nummod">1252</dep>
+    <dep name="obj">5010</dep>
+    <dep name="obl">6162</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
-    <dep name="parataxis">1</dep>
+    <dep name="orphan">1</dep>
+    <dep name="parataxis">2</dep>
     <dep name="punct">13933</dep>
     <dep name="reparandum">2</dep>
     <dep name="root">5512</dep>
