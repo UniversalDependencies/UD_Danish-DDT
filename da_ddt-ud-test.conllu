@@ -11317,7 +11317,7 @@
 27	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
 28	opslidende	opslidende	ADJ	_	Degree=Pos	31	amod	_	_
 29	omend	omend	SCONJ	_	_	30	mark	_	_
-30	forudsigelige	forudsigelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	cc	_	_
+30	forudsigelige	forudsigelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	conj	_	_
 31	tempospil	tempospil	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	7	punct	_	_
 
