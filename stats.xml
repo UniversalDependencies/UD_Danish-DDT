@@ -104,12 +104,12 @@
     <dep name="flat">1644</dep>
     <dep name="iobj">156</dep>
     <dep name="list">199</dep>
-    <dep name="mark">4629</dep>
+    <dep name="mark">4549</dep>
     <dep name="nmod">5114</dep>
     <dep name="nmod:poss">1030</dep>
     <dep name="nsubj">9085</dep>
     <dep name="nummod">1252</dep>
-    <dep name="obj">5010</dep>
+    <dep name="obj">5090</dep>
     <dep name="obl">6206</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>

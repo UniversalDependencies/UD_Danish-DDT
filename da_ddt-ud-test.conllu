@@ -866,7 +866,7 @@
 3	ligeledes	ligeledes	ADV	_	_	4	advmod	_	_
 4	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	43	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	mark	_	_
+6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	obj	_	_
 7	regeringen	regering	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
 8	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 9	med	med	ADP	_	AdpType=Prep	10	case	_	_
@@ -896,7 +896,7 @@
 33	gennemgang	gennemgang	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	29	nmod	_	_
 34	af	af	ADP	_	AdpType=Prep	38	mark	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	34	punct	_	_
-36	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	38	mark	_	_
+36	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	38	obj	_	_
 37	FET	FET	PROPN	_	_	38	nsubj	_	_
 38	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl	_	_
 39	og	og	CCONJ	_	_	40	cc	_	_
@@ -1629,7 +1629,7 @@
 
 # sent_id = test-83
 # text = Hvad der skal ske efter sommerferien tager Divisionsforeningen først stilling til på generalforsamlingen den 26. januar.
-1	Hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	4	mark	_	_
+1	Hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	4	obj	_	_
 2	der	der	ADV	_	PartType=Inf	4	nsubj	_	_
 3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	ske	ske	VERB	_	VerbForm=Inf|Voice=Act	10	acl:relcl	_	_
@@ -4087,7 +4087,7 @@
 25	at	at	PART	_	PartType=Inf	26	mark	_	_
 26	huske	huske	VERB	_	VerbForm=Inf|Voice=Act	22	advcl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	33	punct	_	_
-28	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	33	mark	_	_
+28	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	33	obj	_	_
 29	der	der	ADV	_	PartType=Inf	33	nsubj	_	_
 30	fra	fra	ADP	_	AdpType=Prep	31	case	_	_
 31	begyndelsen	begyndelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	33	nmod	_	_
@@ -6624,7 +6624,7 @@
 # text = Det var hvad, der mentes med "kunder".
 1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	6	mark	_	SpaceAfter=No
+3	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	6	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	der	der	PRON	_	PartType=Inf	6	nsubj	_	_
 6	mentes	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	_
@@ -10055,7 +10055,7 @@
 6	hel	hel	ADV	_	_	7	advmod	_	_
 7	klarlagt	klarlægge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	12	mark	_	_
+9	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	12	obj	_	_
 10	der	der	ADV	_	PartType=Inf	12	nsubj	_	_
 11	virkelig	virkelig	ADV	_	_	12	advmod	_	_
 12	lå	ligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	obj	_	_

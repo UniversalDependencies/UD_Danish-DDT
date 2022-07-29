@@ -1608,7 +1608,7 @@
 # text = Blev de det, fordi ministeren ikke var ædru, så kan man ikke gå forbi det.
 1	Blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
 2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
-3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	mark	_	SpaceAfter=No
+3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	fordi	fordi	SCONJ	_	_	9	mark	_	_
 6	ministeren	minister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
@@ -2629,7 +2629,7 @@
 3	opfattelse	opfattelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	nsubj	_	_
 4	af	af	ADP	_	AdpType=Prep	8	mark	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	mark	_	_
+6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	obj	_	_
 7	børn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	_
 8	har	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 9	godt	godt	ADV	_	Degree=Pos	8	amod	_	_
@@ -2870,7 +2870,7 @@
 
 # sent_id = dev-128
 # text = Hvem der skal spille op til dans, skal helst være en overraskelse.
-1	Hvem	hvem	PRON	_	Gender=Com|PronType=Int,Rel	4	mark	_	_
+1	Hvem	hvem	PRON	_	Gender=Com|PronType=Int,Rel	4	obj	_	_
 2	der	der	ADV	_	PartType=Inf	4	nsubj	_	_
 3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	spille	spille	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
@@ -7120,7 +7120,7 @@
 12	2	2	NUM	_	NumType=Card	11	nmod	_	_
 13	offentliggør	offentliggøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	22	punct	_	_
-15	hvem	hvem	PRON	_	Gender=Com|PronType=Int,Rel	22	mark	_	_
+15	hvem	hvem	PRON	_	Gender=Com|PronType=Int,Rel	22	obj	_	_
 16	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	18	det	_	_
 17	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
 18	overboss	overboss	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	nsubj	_	_
@@ -9071,7 +9071,7 @@
 8	halsrem	halsrem	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	og	og	CCONJ	_	_	15	cc	_	_
-11	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	15	mark	_	_
+11	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	15	obj	_	_
 12	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	nu	nu	ADV	_	_	15	advmod	_	_
 14	ellers	ellers	ADV	_	_	15	advmod	_	_
@@ -9227,7 +9227,7 @@
 3	spørger	spørge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	mark	_	_
+6	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	obj	_	_
 7	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	obj	_	_
 9	om	om	ADP	_	AdpType=Prep	10	case	_	_
@@ -11716,7 +11716,7 @@
 5	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 6	forstår	forstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	10	mark	_	_
+8	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	10	obj	_	_
 9	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
