@@ -781,19 +781,19 @@
 17	af	af	ADP	_	AdpType=Prep	18	case	_	_
 18	sted	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl:lmod	_	_
 19	på	på	ADP	_	AdpType=Prep	20	case	_	_
-20	selvmordsmissioner	selvmordsmission	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	17	nmod	_	SpaceAfter=No
+20	selvmordsmissioner	selvmordsmission	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	18	nmod	_	SpaceAfter=No
 21	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = test-44
 # text = 7) Hvis der findes et privat efterretningsvæsen, kan vi så være sikre på, at de ikke også render rundt og snager i almindelige danskeres forhold?
 1	7	7	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
 2	)	)	PUNCT	_	_	14	punct	_	_
-3	Hvis	hvis	SCONJ	_	_	5	mark	_	_
-4	der	der	ADV	_	PartType=Inf	5	expl	_	_
+3	Hvis	hvis	SCONJ	_	_	14	mark	_	_
+4	der	der	ADV	_	PartType=Inf	14	expl	_	_
 5	findes	findes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	mark	_	_
 6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	_
 7	privat	privat	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	_
-8	efterretningsvæsen	efterretningsvæsen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	efterretningsvæsen	efterretningsvæsen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 11	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
@@ -3125,14 +3125,14 @@
 24	str.	størrelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	obl	_	_
 25	36	36	NUM	_	NumType=Card	24	nmod	_	_
 26	til	til	ADP	_	AdpType=Prep	27	case	_	_
-27	41	41	NUM	_	NumType=Card	23	nummod	_	_
+27	41	41	NUM	_	NumType=Card	24	nummod	_	_
 28	-	-	PUNCT	_	_	27	punct	_	_
 29	eller	eller	CCONJ	_	_	23	cc	_	_
 30	i	i	ADP	_	AdpType=Prep	34	advmod	_	_
 31	hvert	hver	DET	_	Gender=Com|Number=Sing|PronType=Ind	30	fixed	_	_
 32	fald	fald	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	30	fixed	_	_
 33	til	til	ADP	_	AdpType=Prep	30	case	_	_
-34	str.	størrelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	23	nmod	_	_
+34	str.	størrelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	nmod	_	_
 35	40	40	NUM	_	NumType=Card	34	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3690,7 +3690,7 @@
 7	swingende	swingende	ADJ	_	Degree=Pos	8	amod	_	_
 8	boogie-guitarstil	boogie-guitarstil	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	24	punct	_	_
-10	som	som	ADP	_	PartType=Inf	28	compound:prt	_	_
+10	som	som	ADP	_	PartType=Inf	24	compound:prt	_	_
 11	Keith	Keith	PROPN	_	_	24	nsubj	_	_
 12	Richards	Richard	PROPN	_	Case=Gen	11	flat	_	_
 13	og	og	CCONJ	_	_	14	cc	_	_
@@ -3847,7 +3847,7 @@
 20	karakter	karakter	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	obl	_	_
 21	af	af	ADP	_	AdpType=Prep	22	case	_	_
 22	Røde-Kro-løjer	Røde-Kro-løjer	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	20	nmod	_	_
-23	end	end	ADP	_	_	24	mark	_	_
+23	end	end	ADP	_	_	26	mark	_	_
 24	af	af	ADP	_	AdpType=Prep	26	case	_	_
 25	seriøs	seriøs	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	26	amod	_	_
 26	debat	debat	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	obl	_	SpaceAfter=No
@@ -4083,7 +4083,7 @@
 21	i	i	ADP	_	AdpType=Prep	22	case	_	_
 22	stand	stand	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	obl	_	_
 23	til	til	ADP	_	AdpType=Prep	26	mark	_	_
-24	overhovedet	overhovedet	ADV	_	_	25	advmod	_	_
+24	overhovedet	overhovedet	ADV	_	_	26	advmod	_	_
 25	at	at	PART	_	PartType=Inf	26	mark	_	_
 26	huske	huske	VERB	_	VerbForm=Inf|Voice=Act	22	advcl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	33	punct	_	_
@@ -5175,7 +5175,7 @@
 4	sammen	sammen	ADV	_	_	3	advmod	_	_
 5	brug	brug	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
 6	for	for	ADP	_	AdpType=Prep	9	mark	_	_
-7	også	også	ADV	_	_	8	advmod	_	_
+7	også	også	ADV	_	_	9	advmod	_	_
 8	at	at	PART	_	PartType=Inf	9	mark	_	_
 9	slappe	slappe	VERB	_	VerbForm=Inf|Voice=Act	5	advcl	_	_
 10	af	af	ADV	_	_	9	compound:prt	_	_
@@ -5317,7 +5317,7 @@
 3	været	være	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
 4	med	med	ADV	_	_	0	root	_	_
 5	til	til	ADP	_	AdpType=Prep	10	mark	_	_
-6	over	over	ADV	_	_	9	advmod	_	_
+6	over	over	ADV	_	_	10	advmod	_	_
 7	for	for	ADP	_	AdpType=Prep	8	case	_	_
 8	DSB	DSB	PROPN	_	_	6	obl	_	_
 9	at	at	PART	_	PartType=Inf	10	mark	_	_
@@ -6059,11 +6059,11 @@
 # sent_id = test-288
 # text = Og hvis det kniber med hukommelsen, så kan de hjælpe hinanden lidt på gled.
 1	Og	og	CCONJ	_	_	11	cc	_	_
-2	hvis	hvis	SCONJ	_	_	4	mark	_	_
-3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	hvis	hvis	SCONJ	_	_	11	mark	_	_
+3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 4	kniber	knibe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	mark	_	_
 5	med	med	ADP	_	AdpType=Prep	6	case	_	_
-6	hukommelsen	hukommelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obl	_	SpaceAfter=No
+6	hukommelsen	hukommelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	så	så	ADV	_	_	11	advmod	_	_
 9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
@@ -6366,7 +6366,7 @@
 16	som	som	ADP	_	PartType=Inf	17	case	_	_
 17	undskyldning	undskyldning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	obl	_	_
 18	for	for	ADP	_	AdpType=Prep	22	mark	_	_
-19	ikke	ikke	ADV	_	_	20	advmod	_	_
+19	ikke	ikke	ADV	_	_	22	advmod	_	_
 20	at	at	PART	_	PartType=Inf	22	mark	_	_
 21	blive	blive	AUX	_	VerbForm=Inf|Voice=Act	22	aux	_	_
 22	sendt	sende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
@@ -6377,9 +6377,9 @@
 # sent_id = test-303
 # text = "Når boligministeren ikke vil, så må jeg gøre det," siger Kirsten Jacobsen med henvisning til, at boligminister Svend Erik Hovmand (V) har afvist at foretage sig noget, før kammeradvokaten har vurderet sagen.
 1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-2	Når	når	SCONJ	_	_	5	mark	_	_
-3	boligministeren	boligminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
-4	ikke	ikke	ADV	_	_	5	advmod	_	_
+2	Når	når	SCONJ	_	_	10	mark	_	_
+3	boligministeren	boligminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	_
+4	ikke	ikke	ADV	_	_	10	advmod	_	_
 5	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	mark	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	så	så	ADV	_	_	10	advmod	_	_
@@ -7727,11 +7727,11 @@
 
 # sent_id = test2-45
 # text = Med pistolen rettet mod hovedet blev postchaufføren dirigeret ud ad Enghavevej, forbi Sydhavn S-station mod Sjællandsbroen.
-1	Med	med	ADP	_	AdpType=Prep	3	mark	_	_
+1	Med	med	ADP	_	AdpType=Prep	2	mark	_	_
 2	pistolen	pistol	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	obl	_	_
 3	rettet	rette	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	2	case	_	_
 4	mod	mod	ADP	_	AdpType=Prep	5	case	_	_
-5	hovedet	hoved	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	_
+5	hovedet	hoved	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
 6	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	postchaufføren	postchauffør	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
 8	dirigeret	dirigere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -7743,7 +7743,7 @@
 14	Sydhavn	Sydhavn	PROPN	_	_	9	obl	_	_
 15	S-station	S-station	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	flat	_	_
 16	mod	mod	ADP	_	AdpType=Prep	17	case	_	_
-17	Sjællandsbroen	Sjællandsbroen	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	Sjællandsbroen	Sjællandsbroen	PROPN	_	_	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = test2-46
@@ -8627,14 +8627,14 @@
 9	samme	samme	ADJ	_	Degree=Pos	10	amod	_	_
 10	chance	chance	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	13	mark	_	_
+12	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	8	mark	_	_
 13	enten	enten	SCONJ	_	_	8	mark	_	_
 14	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
 16	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	19	det	_	_
 17	helt	helt	ADV	_	Degree=Pos	18	advmod	_	_
 18	nyt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
-19	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	dep	_	SpaceAfter=No
+19	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	dep	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	25	punct	_	_
 21	der	der	PRON	_	PartType=Inf	25	nsubj	_	_
 22	aldrig	aldrig	ADV	_	_	25	advmod	_	_
@@ -9008,7 +9008,7 @@
 12	og	og	CCONJ	_	_	7	cc	_	_
 13	af	af	ADP	_	AdpType=Prep	15	case	_	_
 14	direktør	direktør	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	nmod	_	_
-15	Jens	Jens	PROPN	_	_	7	nmod	_	_
+15	Jens	Jens	PROPN	_	_	11	nmod	_	_
 16	Sejersen	Sejersen	PROPN	_	_	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	der	der	PRON	_	PartType=Inf	20	nsubj	_	_
@@ -9579,7 +9579,7 @@
 10	sider	side	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nmod	_	_
 11	ved	ved	ADP	_	AdpType=Prep	15	mark	_	_
 12	med	med	ADP	_	AdpType=Prep	13	case	_	_
-13	omhu	omhu	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	_
+13	omhu	omhu	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	nmod	_	_
 14	at	at	PART	_	PartType=Inf	15	mark	_	_
 15	sende	sende	VERB	_	VerbForm=Inf|Voice=Act	3	advcl	_	_
 16	blomsterhilsner	blomsterhilsen	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	obj	_	_
@@ -9721,7 +9721,7 @@
 2	Læg	lægge	VERB	_	Mood=Imp	9	ccomp	_	_
 3	hende	hun	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	dér	der	ADV	_	_	7	mark	_	_
-5	i	i	ADP	_	AdpType=Prep	4	case	_	_
+5	i	i	ADP	_	AdpType=Prep	7	case	_	_
 6	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	seng	seng	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
@@ -10789,7 +10789,7 @@
 10	over	over	ADP	_	AdpType=Prep	12	case	_	_
 11	samme	samme	ADJ	_	Degree=Pos	12	amod	_	_
 12	spillerstab	spillerstab	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
-13	som	som	ADP	_	PartType=Inf	14	case	_	_
+13	som	som	ADP	_	PartType=Inf	15	case	_	_
 14	i	i	ADP	_	AdpType=Prep	15	case	_	_
 15	firserne	firser	NOUN	_	Definite=Def|Gender=Com|Number=Plur	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	1	punct	_	_

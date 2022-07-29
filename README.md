@@ -69,6 +69,7 @@ Category=value feature pairs: 46
 - fixed numeral-like ADJ to NUM
 - fixed: clausal (VERB) adverbial modifiers should be advcl, not advmod
 - fixed: nominal (NOUN|PROPN|PRON|DET|NUM) adverbial modifiers should be obl, not advmod
+- fixed non-leaf case and mark
 
 ### NOTES FOR RELEASE 2.8
 - adverbs attach as advmod, not obl
