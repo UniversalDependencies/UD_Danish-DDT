@@ -438,7 +438,7 @@
 19	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	_
 20	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	21	det	_	_
 21	ølmave	ølmave	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	obj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	27	punct	_	_
+22	,	,	PUNCT	_	_	19	punct	_	_
 23	så	så	ADV	_	_	27	advmod	_	_
 24	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	_
 25	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
