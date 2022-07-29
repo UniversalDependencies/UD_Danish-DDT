@@ -630,7 +630,7 @@
 21	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 22	så	så	ADV	_	_	24	advmod	_	_
 23	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_
-24	diesel	diesel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	27	advmod	_	_
+24	diesel	diesel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	27	obl	_	_
 25	eller	eller	CCONJ	_	_	26	cc	_	_
 26	benzin	benzin	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	conj	_	_
 27	gør	gøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	case	_	_

@@ -889,7 +889,7 @@
 26	om	om	SCONJ	_	_	29	mark	_	_
 27	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 28	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	_
-29	begyndelsen	begyndelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	19	advmod	_	_
+29	begyndelsen	begyndelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	19	obl	_	_
 30	til	til	ADP	_	AdpType=Prep	33	case	_	_
 31	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	33	det	_	_
 32	egentlig	egentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	33	amod	_	_
@@ -4640,7 +4640,7 @@
 8	om	om	SCONJ	_	_	11	mark	_	_
 9	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
-11	finansminister	finansminister	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	21	advmod	_	SpaceAfter=No
+11	finansminister	finansminister	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	21	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	eller	eller	CCONJ	_	_	16	cc	_	_
 14	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
@@ -5389,7 +5389,7 @@
 8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
 9	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	11	det	_	_
 10	nemmeste	nem	ADJ	_	Definite=Def|Degree=Sup	11	amod	_	_
-11	måde	måde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	advmod	_	_
+11	måde	måde	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
 12	at	at	PART	_	PartType=Inf	13	mark	_	_
 13	komme	komme	VERB	_	VerbForm=Inf|Voice=Act	11	nmod	_	_
 14	rundt	rundt	ADV	_	_	13	advmod:lmod	_	_
@@ -6053,7 +6053,7 @@
 18	da	da	SCONJ	_	_	21	mark	_	_
 19	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
 20	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
-21	børn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	advmod	_	SpaceAfter=No
+21	børn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-288
@@ -6352,7 +6352,7 @@
 2	når	når	SCONJ	_	_	5	mark	_	_
 3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-5	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	advmod	_	SpaceAfter=No
+5	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	skyldtes	skyldes	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -7097,7 +7097,7 @@
 # text = Ligesom Italiens politichef Vincenzo Parisi måtte statens overhoved finde sig i vrede tilråb, og dukke sig for folk, der slog ud efter og sparkede efter ham.
 1	Ligesom	ligesom	SCONJ	_	_	3	mark	_	_
 2	Italiens	Italien	PROPN	_	Case=Gen	3	nmod:poss	_	_
-3	politichef	politichef	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	advmod	_	_
+3	politichef	politichef	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
 4	Vincenzo	Vicenzo	PROPN	_	_	3	appos	_	_
 5	Parisi	Parisi	PROPN	_	_	4	flat	_	_
 6	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
@@ -9830,7 +9830,7 @@
 3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
 4	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
 5	bedste	god	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	_
-6	kamp	kamp	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	advmod	_	_
+6	kamp	kamp	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	obl	_	_
 7	nogensinde	nogensinde	ADV	_	_	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -10951,7 +10951,7 @@
 2	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	40	40	NUM	_	NumType=Card	5	nummod	_	_
-5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	advmod	_	_
+5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	_
 6	talte	tale	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 8	med	med	ADP	_	AdpType=Prep	9	case	_	_
