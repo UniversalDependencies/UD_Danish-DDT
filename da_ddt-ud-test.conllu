@@ -9821,7 +9821,7 @@
 5	OPLÆSER	oplæser	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
 6	=	=	SYM	_	_	8	cc	_	_
 7	=	=	SYM	_	_	8	dep	_	_
-8	ER	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+8	ER	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 
 # sent_id = test2-150
 # text = Om det var min bedste kamp nogensinde, må jeg lige analysere noget nærmere.
