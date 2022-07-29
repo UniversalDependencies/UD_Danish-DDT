@@ -2976,7 +2976,7 @@
 44	være	være	AUX	_	VerbForm=Inf|Voice=Act	46	cop	_	_
 45	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	46	det	_	_
 46	informationssamfund	informationssamfund	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	40	advcl	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	52	punct	_	_
+47	,	,	PUNCT	_	_	48	punct	_	_
 48	hvor	hvor	ADV	_	_	46	advmod	_	_
 49	alle	al	ADJ	_	Degree=Pos|Number=Plur	51	amod	_	_
 50	relevante	relevant	ADJ	_	Degree=Pos|Number=Plur	51	amod	_	_
@@ -3643,7 +3643,7 @@
 12	ifølge	ifølge	ADP	_	AdpType=Prep	14	case	_	_
 13	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	14	det	_	_
 14	legende	legende	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	33	obl	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	18	punct	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
 16	som	som	PRON	_	PartType=Inf	14	nsubj	_	_
 17	nu	nu	ADV	_	_	14	advmod	_	_
 18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
@@ -9110,7 +9110,7 @@
 2	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	4	det	_	_
 3	drevne	dreven	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
 4	mindretalsregering	mindretalsregering	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	obl	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
 6	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -9393,7 +9393,7 @@
 2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	4	det	_	_
 4	doping	doping	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	9	punct	_	_
+5	,	,	PUNCT	_	_	8	punct	_	_
 6	de	den	DET	_	Number=Plur|PronType=Dem	8	det	_	_
 7	trætte	træt	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	_
 8	mænd	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	nsubj	_	_
@@ -9614,7 +9614,7 @@
 9	med	med	ADP	_	AdpType=Prep	11	case	_	_
 10	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	11	det	_	_
 11	farve	farve	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	20	punct	_	_
+12	,	,	PUNCT	_	_	17	punct	_	_
 13	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	17	det	_	_
 14	oplagsmæssigt	oplagsmæssigt	ADV	_	Degree=Pos	16	advmod	_	_
 15	mere	mere	ADV	_	Degree=Cmp	16	advmod	_	_
@@ -9927,7 +9927,7 @@
 38	med	med	ADP	_	AdpType=Prep	40	case	_	_
 39	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	40	det	_	_
 40	beliggenhed	beliggenhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	37	obl	_	SpaceAfter=No
-41	,	,	PUNCT	_	_	43	punct	_	_
+41	,	,	PUNCT	_	_	42	punct	_	_
 42	Danmark	Danmark	PROPN	_	_	40	nsubj	_	_
 43	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	40	aux	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	3	punct	_	_
