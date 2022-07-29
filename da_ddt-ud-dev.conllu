@@ -8982,7 +8982,7 @@
 
 # sent_id = dev2-97
 # text = * Selv vejrliget forsøges nu styret af videnskabsmændene.
-1	*	*	SYM	_	_	4	punct	_	_
+1	*	*	PUNCT	_	_	4	punct	_	_
 2	Selv	selv	ADV	_	_	3	advmod	_	_
 3	vejrliget	vejrlig	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
 4	forsøges	forsøge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_

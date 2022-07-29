@@ -27,9 +27,9 @@
     <tag name="PART">1215</tag><!-- at -->
     <tag name="PRON">6800</tag><!-- det, han, jeg, vi, de, der, man, sig, hun, som -->
     <tag name="PROPN">4978</tag><!-- Danmark, København, Nielsen, Lars, Poul, Peter, USA, Europa, Hafnia, Henrik -->
-    <tag name="PUNCT">13929</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
+    <tag name="PUNCT">13936</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
-    <tag name="SYM">61</tag><!-- =, *, %, § -->
+    <tag name="SYM">54</tag><!-- =, %, §, * -->
     <tag name="VERB">10712</tag><!-- være, have, få, sige, gå, komme, se, gøre, tage, give -->
     <tag name="X">439</tag><!-- of, MEDARB, en, vivaldi, we, allesammen, are, at, frue, hel -->
   </tags>
