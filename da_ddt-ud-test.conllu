@@ -9820,7 +9820,7 @@
 4	1600	1600	NUM	_	NumType=Card	3	conj	_	_
 5	OPLÆSER	oplæser	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
 6	=	=	SYM	_	_	5	cc	_	_
-7	=	=	SYM	_	_	6	goeswith	_	_
+7	=	=	SYM	_	_	6	dep	_	_
 8	ER	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 
 # sent_id = test2-150
@@ -11644,10 +11644,10 @@
 12	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	8	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	8	punct	_	_
 14	i	i	ADP	_	AdpType=Prep	15	case	_	_
-15	1992	1992	NUM	_	NumType=Card	2	nummod	_	_
-16	11	11	NUM	_	NumType=Card	2	obj	_	_
-17	2/3	2/3	NUM	_	NumType=Card	16	nummod	_	_
-18	%	%	SYM	_	_	16	goeswith	_	_
+15	1992	1992	NUM	_	NumType=Card	2	parataxis	_	_
+16	11	11	NUM	_	NumType=Card	18	nummod	_	_
+17	2/3	2/3	NUM	_	NumType=Card	16	compound	_	_
+18	%	%	SYM	_	_	15	orphan	_	_
 19	af	af	ADP	_	AdpType=Prep	20	case	_	_
 20	husstandsindkomsten	husstandsindkomst	NOUN	_	Definite=Def|Gender=Com|Number=Sing	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
