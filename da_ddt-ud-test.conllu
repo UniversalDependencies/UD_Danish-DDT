@@ -3717,7 +3717,7 @@
 # sent_id = test-181
 # text = Og hvad mere er: han opfandt stilen allerede først i 40'erne.
 1	Og	og	CCONJ	_	_	4	cc	_	_
-2	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	3	mark	_	_
+2	hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	3	nmod	_	_
 3	mere	meget	ADJ	_	Definite=Ind|Degree=Cmp|Number=Sing	4	nsubj	_	_
 4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	_	_	7	punct	_	_
@@ -7805,7 +7805,7 @@
 2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	indlysende	indlysende	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	hvilken	hvilken	PRON	_	Gender=Com|Number=Sing|PronType=Int,Rel	6	mark	_	_
+5	hvilken	hvilken	PRON	_	Gender=Com|Number=Sing|PronType=Int,Rel	6	nmod	_	_
 6	kø	kø	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
 7	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 8	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
@@ -8578,7 +8578,7 @@
 
 # sent_id = test2-89
 # text = Hvilken lydkulisse.
-1	Hvilken	hvilken	PRON	_	Gender=Com|Number=Sing|PronType=Int,Rel	2	mark	_	_
+1	Hvilken	hvilken	PRON	_	Gender=Com|Number=Sing|PronType=Int,Rel	2	nmod	_	_
 2	lydkulisse	lydkulisse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -8616,7 +8616,7 @@
 
 # sent_id = test2-91
 # text = Hvert parti, der opstiller, skal have samme chance, hvad enten det er et helt nyt parti, der aldrig har været repræsenteret i parlamentet, eller det er landets største parti eller regeringspartiet.
-1	Hvert	hver	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	2	mark	_	_
+1	Hvert	hver	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	2	nmod	_	_
 2	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	der	der	PRON	_	PartType=Inf	5	nsubj	_	_
