@@ -3405,8 +3405,8 @@
 27	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	_
 28	banehalvdel	banehalvdel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	obl	_	_
 29	-	-	PUNCT	_	_	30	punct	_	_
-30	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	24	det	_	_
-31	spillefacon	spillefacon	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	mark	_	_
+30	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	31	det	_	_
+31	spillefacon	spillefacon	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	parataxis	_	_
 32	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	_
 33	ikke	ikke	ADV	_	_	35	advmod	_	_
 34	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	cop	_	_
@@ -7956,8 +7956,8 @@
 14	bøjede	bøje	VERB	_	Number=Plur|Tense=Past|VerbForm=Part	13	amod	_	_
 15	ribben	ribben	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	_
 16	-	-	PUNCT	_	_	17	punct	_	_
-17	Finn	Finn	PROPN	_	_	11	mark	_	_
-18	altså	altså	ADV	_	_	11	advmod	_	SpaceAfter=No
+17	Finn	Finn	PROPN	_	_	11	parataxis	_	_
+18	altså	altså	ADV	_	_	17	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev2-48
@@ -9719,14 +9719,14 @@
 
 # sent_id = dev2-128
 # text = Er det sportslige tilbud ikke godt nok, ja så bliver sportens meget troløse tilskuere væk.
-1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 2	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 3	sportslige	sportslig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	_
-4	tilbud	tilbud	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nsubj	_	_
-5	ikke	ikke	ADV	_	_	16	advmod	_	_
-6	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	mark	_	_
-7	nok	nok	ADV	_	_	16	advmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+4	tilbud	tilbud	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	ikke	ikke	ADV	_	_	6	advmod	_	_
+6	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advcl	_	_
+7	nok	nok	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
 9	ja	ja	INTJ	_	_	16	discourse	_	_
 10	så	så	ADV	_	_	16	advmod	_	_
 11	bliver	blive	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
@@ -10859,11 +10859,11 @@
 2	trænger	trænge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	til	til	ADP	_	AdpType=Prep	4	case	_	_
 4	inspiration	inspiration	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
-7	dejlige	dejlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	_
-8	pige	pige	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	mark	_	_
-9	og	og	CCONJ	_	_	2	dep	_	_
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	min	min	DET	_	Gender=Com|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
+7	dejlige	dejlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	_
+8	pige	pige	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	appos	_	_
+9	og	og	CCONJ	_	_	10	cc	_	_
 10	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
