@@ -4926,10 +4926,10 @@
 
 # sent_id = test-235
 # text = Man havde endda troet, at TVM med Jesper Skibby kunne klare en topplacering, hvorved Skibby var kommet langt op i den samlede stilling, men holdet havde uheld og fandt aldrig rytmen.
-1	Man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	12	nsubj	_	_
-2	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
-3	endda	endda	ADV	_	_	12	advmod	_	_
-4	troet	tro	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	SpaceAfter=No
+1	Man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	4	nsubj	_	_
+2	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	endda	endda	ADV	_	_	4	advmod	_	_
+4	troet	tro	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	at	at	SCONJ	_	_	12	mark	_	_
 7	TVM	TVM	PROPN	_	_	12	nsubj	_	_
