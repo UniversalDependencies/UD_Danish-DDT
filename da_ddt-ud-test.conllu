@@ -3230,9 +3230,9 @@
 12	399	399	NUM	_	NumType=Card	13	nummod	_	_
 13	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	obj	_	_
 14	-	-	PUNCT	_	_	15	punct	_	_
-15	støvletterne	støvlet	NOUN	_	Definite=Def|Gender=Com|Number=Plur	11	nsubj	_	_
+15	støvletterne	støvlet	NOUN	_	Definite=Def|Gender=Com|Number=Plur	11	parataxis	_	_
 16	499	499	NUM	_	NumType=Card	17	nummod	_	_
-17	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	obj	_	SpaceAfter=No
+17	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	orphan	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = test-161
