@@ -5076,11 +5076,11 @@
 2	de	den	DET	_	Number=Plur|PronType=Dem	5	det	_	_
 3	sidste	sidste	ADJ	_	Degree=Pos	5	amod	_	_
 4	fem-seks	fem-seks	NUM	_	NumType=Card	5	nummod	_	_
-5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	obl	_	_
-6	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	_
+5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	_
+6	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 7	Deres	Deres	DET	_	Person=2|Polite=Form|Poss=Yes|PronType=Prs	8	det	_	_
-8	malerier	maleri	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	nsubj	_	_
-9	fået	få	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	_
+8	malerier	maleri	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nsubj	_	_
+9	fået	få	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	ToDo=check-xcomp
 10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	16	det	_	_
 11	langt	langt	ADV	_	Degree=Pos	12	advmod	_	_
 12	voldsommere	voldsom	ADJ	_	Degree=Cmp	16	amod	_	SpaceAfter=No
@@ -6097,14 +6097,14 @@
 11	to	to	NUM	_	NumType=Card	12	nsubj	_	_
 12	tog	tage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
 13	ordet	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	27	punct	_	_
-15	efter	efter	ADP	_	AdpType=Prep	27	mark	_	_
-16	at	at	SCONJ	_	_	27	mark	_	_
-17	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
-18	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	aux	_	_
-19	beroliget	berolige	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	_
-20	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	obj	_	_
-21	med	med	ADP	_	AdpType=Prep	27	mark	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	efter	efter	ADP	_	AdpType=Prep	19	mark	_	_
+16	at	at	SCONJ	_	_	19	mark	_	_
+17	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	beroliget	berolige	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	27	xcomp	_	ToDo=check-xcomp
+20	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	_
+21	med	med	ADP	_	AdpType=Prep	19	mark	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	at	at	SCONJ	_	_	27	mark	_	_
 24	ikke	ikke	ADV	_	_	25	advmod	_	_
@@ -6624,19 +6624,19 @@
 # sent_id = dev-313
 # text = For ejerne af Scania-lastbiler kan en omstilling til at møde det kommende lovkrav klares for omkring en "tusse", idet Scania-bilernes EDC-motorer er forberedt via elektronisk styret tilførsel af diesel.
 1	For	for	ADP	_	AdpType=Prep	2	case	_	_
-2	ejerne	ejer	NOUN	_	Definite=Def|Gender=Com|Number=Plur	26	obl	_	_
+2	ejerne	ejer	NOUN	_	Definite=Def|Gender=Com|Number=Plur	14	obl	_	_
 3	af	af	ADP	_	AdpType=Prep	4	case	_	_
 4	Scania-lastbiler	Scania-lastbil	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	nmod	_	_
-5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 6	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	7	det	_	_
-7	omstilling	omstilling	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	26	nsubj	_	_
+7	omstilling	omstilling	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	nsubj	_	_
 8	til	til	ADP	_	AdpType=Prep	10	mark	_	_
 9	at	at	PART	_	PartType=Inf	10	mark	_	_
 10	møde	møde	VERB	_	VerbForm=Inf|Voice=Act	7	advcl	_	_
 11	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	_
 12	kommende	komme	VERB	_	Tense=Pres|VerbForm=Part	13	amod	_	_
 13	lovkrav	lovkrav	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	_
-14	klares	klare	VERB	_	VerbForm=Inf|Voice=Pass	26	xcomp	_	_
+14	klares	klare	VERB	_	VerbForm=Inf|Voice=Pass	26	xcomp	_	ToDo=check-xcomp
 15	for	for	ADP	_	AdpType=Prep	19	case	_	_
 16	omkring	omkring	ADP	_	AdpType=Prep	19	case	_	_
 17	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	19	det	_	_
@@ -7240,15 +7240,15 @@
 15	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	_
 16	forsøgt	forsøge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
 17	kvalt	kvæle	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	16	xcomp	_	SpaceAfter=No
-18	;	;	PUNCT	_	_	40	punct	_	_
-19	men	men	CCONJ	_	_	40	cc	_	_
+18	;	;	PUNCT	_	_	26	punct	_	_
+19	men	men	CCONJ	_	_	26	cc	_	_
 20	kort	kort	ADV	_	Degree=Pos	21	obl:tmod	_	_
-21	efter	efter	ADV	_	_	40	advmod	_	_
-22	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	40	aux	_	_
+21	efter	efter	ADV	_	_	26	advmod	_	_
+22	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	_
 23	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	25	det	_	_
 24	rolige	rolig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	25	amod	_	_
-25	middagsstilhed	middagsstilhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	40	nsubj	_	_
-26	brudt	bryde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	40	xcomp	_	_
+25	middagsstilhed	middagsstilhed	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	26	nsubj	_	_
+26	brudt	bryde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	40	xcomp	_	ToDo=check-xcomp
 27	af	af	ADP	_	AdpType=Prep	29	case	_	_
 28	løbende	løbe	VERB	_	Tense=Pres|VerbForm=Part	29	amod	_	_
 29	skridt	skridt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	26	obl	_	SpaceAfter=No
@@ -7529,9 +7529,9 @@
 # sent_id = dev2-31
 # text = Sådan kunne resultatet gøres op på Christiansborg, efter at regeringen havde indgået to aftaler om aktivering af ledige med de øvrige partier.
 1	Sådan	sådan	ADV	_	_	4	advmod	_	_
-2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
-3	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	_
-4	gøres	gøre	VERB	_	VerbForm=Inf|Voice=Pass	13	xcomp	_	_
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	gøres	gøre	VERB	_	VerbForm=Inf|Voice=Pass	13	xcomp	_	ToDo=check-xcomp
 5	op	op	ADV	_	_	4	compound:prt	_	_
 6	på	på	ADP	_	AdpType=Prep	7	case	_	_
 7	Christiansborg	Christiansborg	PROPN	_	_	4	obl	_	SpaceAfter=No
@@ -7636,9 +7636,9 @@
 35	så	så	SCONJ	_	_	37	mark	_	_
 36	engagementet	engagement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	37	nsubj	_	_
 37	bliver	blive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	29	amod	_	_
-38	slattent	slatten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	xcomp	_	_
-39	og	og	CCONJ	_	_	37	cc	_	_
-40	prisen	pris	NOUN	_	Definite=Def|Gender=Com|Number=Sing	37	nsubj	_	_
+38	slattent	slatten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	xcomp	_	ToDo=check-xcomp
+39	og	og	CCONJ	_	_	38	cc	_	_
+40	prisen	pris	NOUN	_	Definite=Def|Gender=Com|Number=Sing	38	nsubj	_	_
 41	for	for	ADP	_	AdpType=Prep	43	case	_	_
 42	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	43	det	_	_
 43	fejltagelse	fejltagelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	40	nmod	_	_
@@ -8855,11 +8855,11 @@
 # text = De fire kvinder har slet ikke hørt noget fra hende i et år, mens de to andre har fået en kontaktadresse hver, som slet ikke stemte overens med deres ønsker til en mand.
 1	De	den	DET	_	Number=Plur|PronType=Dem	3	det	_	_
 2	fire	fire	NUM	_	NumType=Card	3	nummod	_	_
-3	kvinder	kvinde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	20	nsubj	_	_
-4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
+3	kvinder	kvinde	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	nsubj	_	_
+4	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 5	slet	slet	ADV	_	_	6	advmod	_	_
-6	ikke	ikke	ADV	_	_	20	advmod	_	_
-7	hørt	høre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	_
+6	ikke	ikke	ADV	_	_	7	advmod	_	_
+7	hørt	høre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	ToDo=check-xcomp
 8	noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	7	obj	_	_
 9	fra	fra	ADP	_	AdpType=Prep	10	case	_	_
 10	hende	hun	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_

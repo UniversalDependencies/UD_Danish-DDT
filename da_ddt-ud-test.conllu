@@ -312,13 +312,13 @@
 
 # sent_id = test-17
 # text = "Vi vil ikke finde os i, at det samme skal ske i Danmark," siger hun.
-1	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
-2	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
-3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
-4	ikke	ikke	ADV	_	_	13	advmod	_	_
-5	finde	finde	VERB	_	VerbForm=Inf|Voice=Act	13	xcomp	_	_
-6	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
-7	i	i	ADP	_	AdpType=Prep	13	mark	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	ikke	ikke	ADV	_	_	5	advmod	_	_
+5	finde	finde	VERB	_	VerbForm=Inf|Voice=Act	13	xcomp	_	ToDo=check-xcomp
+6	os	vi	PRON	_	Case=Acc|Gender=Com|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7	i	i	ADP	_	AdpType=Prep	5	mark	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	at	at	SCONJ	_	_	13	mark	_	_
 10	det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
@@ -752,11 +752,11 @@
 9	vidende	vidende	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	hvorfor	hvorfor	ADV	_	_	6	advmod	_	_
-12	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
-13	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	6	nsubj	_	_
-14	så	så	ADV	_	_	6	advmod	_	_
-15	ikke	ikke	ADV	_	_	6	advmod	_	_
-16	grebet	gribe	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	_
+12	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+13	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	16	nsubj	_	_
+14	så	så	ADV	_	_	16	advmod	_	_
+15	ikke	ikke	ADV	_	_	16	advmod	_	_
+16	grebet	gribe	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	6	xcomp	_	ToDo=check-xcomp
 17	ind	ind	ADV	_	_	16	compound:prt	_	SpaceAfter=No
 18	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -934,10 +934,10 @@
 6	i	i	ADP	_	AdpType=Prep	7	case	_	_
 7	arbejde	arbejde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
-10	arbejdet	arbejde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	_
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
+10	arbejdet	arbejde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	_
 11	blevet	blive	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	aux	_	_
-12	stillet	stille	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+12	stillet	stille	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	ToDo=check-xcomp
 13	frit	fri	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	compound:prt	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	24	punct	_	_
 15	og	og	CCONJ	_	_	24	cc	_	_
@@ -949,7 +949,7 @@
 21	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	nsubj	_	_
 22	ikke	ikke	ADV	_	_	24	advmod	_	_
 23	være	være	AUX	_	VerbForm=Inf|Voice=Act	24	aux	_	_
-24	kommet	komme	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+24	kommet	komme	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	_
 25	ind	ind	ADV	_	_	24	advmod:lmod	_	_
 26	igen	igen	ADV	_	_	24	advmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	35	punct	_	_
@@ -964,7 +964,7 @@
 36	deres	deres	DET	_	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	37	det	_	_
 37	opsigelsesfrist	opsigelsesfrist	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	35	obj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	35	punct	_	_
-39	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 40	sagde	sige	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 41	Bjarne	Bjarne	PROPN	_	_	40	nsubj	_	_
 42	og	og	CCONJ	_	_	43	cc	_	_
@@ -1904,9 +1904,9 @@
 # text = To spanske TV-folk blev gennembanket af Sovjet-soldater, fordi de havde filmet en såret litauer, der blev hjulpet væk fra slagmarken.
 1	To	to	NUM	_	NumType=Card	3	nummod	_	_
 2	spanske	spansk	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	_
-3	TV-folk	TV-folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nsubj	_	_
-4	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
-5	gennembanket	gennembanke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	_
+3	TV-folk	TV-folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	_
+4	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	gennembanket	gennembanke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	ToDo=check-xcomp
 6	af	af	ADP	_	AdpType=Prep	7	case	_	_
 7	Sovjet-soldater	Sovjet-soldat	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
@@ -2102,10 +2102,10 @@
 
 # sent_id = test-109
 # text = Det kunne tyde på, at angrebet skal ses som en alvorlig forskrækkelse til Irak.
-1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
-3	tyde	tyde	VERB	_	VerbForm=Inf|Voice=Act	9	xcomp	_	_
-4	på	på	ADP	_	AdpType=Prep	9	mark	_	SpaceAfter=No
+1	Det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	tyde	tyde	VERB	_	VerbForm=Inf|Voice=Act	9	xcomp	_	ToDo=check-xcomp
+4	på	på	ADP	_	AdpType=Prep	3	mark	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	at	at	SCONJ	_	_	9	mark	_	_
 7	angrebet	angreb	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	_
@@ -2251,15 +2251,15 @@
 # text = Den unge mor havde et par måneder forinden konstateret, at sønnen havde haft skorper af blod i næse og mund.
 1	Den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	3	det	_	_
 2	unge	ung	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
-3	mor	mor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	14	nsubj	_	_
-4	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
+3	mor	mor	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	nsubj	_	_
+4	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
 5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Ind	6	det	_	_
 6	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl:tmod	_	_
 7	måneder	måned	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nmod	_	_
-8	forinden	forinden	ADV	_	_	14	advmod	_	_
-9	konstateret	konstatere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	SpaceAfter=No
+8	forinden	forinden	ADV	_	_	9	advmod	_	_
+9	konstateret	konstatere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	14	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	at	at	SCONJ	_	_	14	mark	_	_
+11	at	at	SCONJ	_	_	9	mark	_	_
 12	sønnen	søn	NOUN	_	Definite=Def|Gender=Com|Number=Sing	14	nsubj	_	_
 13	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	haft	have	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -2760,16 +2760,16 @@
 6	den	den	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 7	før	før	ADP	_	AdpType=Prep	8	case	_	_
 8	interviewet	interview	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	24	punct	_	_
-10	men	men	CCONJ	_	_	24	cc	_	_
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	men	men	CCONJ	_	_	17	cc	_	_
 11	efter	efter	ADP	_	AdpType=Prep	12	case	_	_
-12	aftale	aftale	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	obl	_	_
-13	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	_	_
-14	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+12	aftale	aftale	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	obl	_	_
+13	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	_
+14	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 15	på	på	ADP	_	AdpType=Prep	16	case	_	_
-16	skærmen	skærm	NOUN	_	Definite=Def|Gender=Com|Number=Sing	24	obl	_	_
-17	lade	lade	VERB	_	VerbForm=Inf|Voice=Act	24	xcomp	_	_
-18	som	som	ADV	_	_	24	mark	_	_
+16	skærmen	skærm	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	obl	_	_
+17	lade	lade	VERB	_	VerbForm=Inf|Voice=Act	24	xcomp	_	ToDo=check-xcomp
+18	som	som	ADV	_	_	17	mark	_	_
 19	om	om	ADP	_	AdpType=Prep	18	fixed	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
 21	hun	hun	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
@@ -4486,15 +4486,15 @@
 
 # sent_id = test-215
 # text = Vi har fået en utrolig opbakning fra både læger, politi, kommunalfolk, familie og bekendte, så vi skal nok komme igennem denne forfærdelige oplevelse.
-1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
-2	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
-3	fået	få	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	_
+1	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	fået	få	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	23	xcomp	_	ToDo=check-xcomp
 4	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
 5	utrolig	utrolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
-6	opbakning	opbakning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	23	obj	_	_
+6	opbakning	opbakning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	obj	_	_
 7	fra	fra	ADP	_	AdpType=Prep	9	case	_	_
 8	både	både	ADV	_	_	9	advmod	_	_
-9	læger	læge	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	23	obl	_	SpaceAfter=No
+9	læger	læge	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	politi	politi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -4742,7 +4742,7 @@
 # text = I den situation, hvor Schlüter vælger at gå, vil Aage Brusgaard ikke pege på Dyremose: "Sandsynligvis vil vi henholde os til en tidligere beslutning om, at vi altid peger på lederen af det største borgerlige parti.
 1	I	i	ADP	_	AdpType=Prep	3	case	_	_
 2	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	3	det	_	_
-3	situation	situation	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	23	obl	_	SpaceAfter=No
+3	situation	situation	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	hvor	hvor	ADV	_	_	7	advmod	_	_
 6	Schlüter	Schlüter	PROPN	_	_	7	nsubj	_	_
@@ -4750,11 +4750,11 @@
 8	at	at	PART	_	PartType=Inf	9	mark	_	_
 9	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
-11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
-12	Aage	Aage	PROPN	_	_	23	nsubj	_	_
+11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+12	Aage	Aage	PROPN	_	_	15	nsubj	_	_
 13	Brusgaard	Brusgaard	PROPN	_	_	12	flat	_	_
-14	ikke	ikke	ADV	_	_	23	advmod	_	_
-15	pege	pege	VERB	_	VerbForm=Inf|Voice=Act	23	xcomp	_	_
+14	ikke	ikke	ADV	_	_	15	advmod	_	_
+15	pege	pege	VERB	_	VerbForm=Inf|Voice=Act	23	xcomp	_	ToDo=check-xcomp
 16	på	på	ADP	_	AdpType=Prep	17	case	_	_
 17	Dyremose	Dyremose	PROPN	_	_	15	obl	_	SpaceAfter=No
 18	:	:	PUNCT	_	_	15	punct	_	_
@@ -5691,10 +5691,10 @@
 # sent_id = test-270
 # text = Det hele skulle nødigt gå på gulvet, fordi nogle enkeltpersoner har holdt samarbejdet i gang, "siger fiskeriministeren.
 1	Det	den	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
-2	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	nsubj	_	_
-3	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
-4	nødigt	nødigt	ADV	_	_	13	advmod	_	_
-5	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	13	xcomp	_	_
+2	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	nsubj	_	_
+3	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	nødigt	nødigt	ADV	_	_	5	advmod	_	_
+5	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	13	xcomp	_	ToDo=check-xcomp
 6	på	på	ADP	_	AdpType=Prep	7	case	_	_
 7	gulvet	gulv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
@@ -6781,11 +6781,11 @@
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Mercedes-manden	Mercedes-mand	NOUN	_	Definite=Def|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	:	:	PUNCT	_	_	17	punct	_	_
-5	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
-6	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
-7	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	_
-8	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	17	xcomp	_	_
+4	:	:	PUNCT	_	_	8	punct	_	_
+5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+6	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	17	xcomp	_	ToDo=check-xcomp
 9	til	til	ADP	_	AdpType=Prep	12	case	_	_
 10	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	12	det	_	_
 11	anden	anden	DET	_	Gender=Com|Number=Sing|PronType=Ind	12	det	_	_
@@ -7283,12 +7283,12 @@
 2	serbisk	serbisk	ADV	_	Degree=Pos	3	advmod	_	_
 3	dominerede	dominere	VERB	_	Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 4	nyhedsbureau	nyhedsbureau	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
-5	Tanjug	Tanjug	PROPN	_	_	15	nsubj	_	_
-6	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
-7	tidligere	tidligere	ADV	_	Degree=Cmp	15	advmod	_	_
-8	rapporteret	rapportere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	SpaceAfter=No
+5	Tanjug	Tanjug	PROPN	_	_	8	nsubj	_	_
+6	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	tidligere	tidligere	ADV	_	Degree=Cmp	8	advmod	_	_
+8	rapporteret	rapportere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	at	at	SCONJ	_	_	15	mark	_	_
+10	at	at	SCONJ	_	_	8	mark	_	_
 11	omkring	omkring	ADP	_	AdpType=Prep	12	case	_	_
 12	1.700	1.700	NUM	_	NumType=Card	15	nsubj	_	_
 13	artillierigranater	artillierigranater	X	_	_	12	nmod	_	_
@@ -7316,16 +7316,16 @@
 6	at	at	PART	_	PartType=Inf	7	mark	_	_
 7	sidde	sidde	VERB	_	VerbForm=Inf|Voice=Act	3	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-10	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-11	ligge	ligge	VERB	_	VerbForm=Inf|Voice=Act	3	xcomp	_	_
+9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+10	du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+11	ligge	ligge	VERB	_	VerbForm=Inf|Voice=Act	3	xcomp	_	ToDo=check-xcomp
 12	uafbrudt	uafbrudt	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	til	til	ADP	_	AdpType=Prep	17	mark	_	_
 15	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
 17	væk	væk	ADV	_	_	11	compound:prt	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	3	punct	_	_
+18	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = test2-21
 # text = De siger, du slog en kæmpekolbøtte, og din bil skal være helt smadret.
@@ -8056,11 +8056,11 @@
 # sent_id = test2-64
 # text = En undersøgelse har vist, at de to første arbejdsgiverbetalte ledighedsdage har medført en bedre planlægning af arbejdskraftforbruget (eks. maskinsationerne), men der kan ikke forventes yderligere muligheder for positiv adfærdsregulering.
 1	En	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	2	det	_	_
-2	undersøgelse	undersøgelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	13	nsubj	_	_
-3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
-4	vist	vise	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	SpaceAfter=No
+2	undersøgelse	undersøgelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	_
+3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	vist	vise	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	at	at	SCONJ	_	_	13	mark	_	_
+6	at	at	SCONJ	_	_	4	mark	_	_
 7	de	den	DET	_	Number=Plur|PronType=Dem	11	det	_	_
 8	to	to	NUM	_	NumType=Card	11	nummod	_	_
 9	første	første	ADJ	_	Degree=Pos	11	amod	_	_
@@ -8511,15 +8511,15 @@
 
 # sent_id = test2-87
 # text = "Vi har erkendt, at for at få en bedre kvalitet på det almene stof, må stiftstidenderne gå sammen," siger Aalborg Stiftstidendes ansvarshavende chefredaktør og administrerende direktør, Erling Brøndum.
-1	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
-2	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
-3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
-4	erkendt	erkende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	erkendt	erkende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	at	at	SCONJ	_	_	20	mark	_	_
+6	at	at	SCONJ	_	_	4	mark	_	_
 7	for	for	ADP	_	AdpType=Prep	9	mark	_	_
 8	at	at	PART	_	PartType=Inf	9	mark	_	_
-9	få	få	VERB	_	VerbForm=Inf|Voice=Act	20	advcl	_	_
+9	få	få	VERB	_	VerbForm=Inf|Voice=Act	4	advcl	_	_
 10	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	12	det	_	_
 11	bedre	god	ADJ	_	Degree=Cmp	12	amod	_	_
 12	kvalitet	kvalitet	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	obj	_	_
@@ -9665,9 +9665,9 @@
 17	under	under	ADP	_	AdpType=Prep	18	case	_	_
 18	pres	pres	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
-21	kampen	kamp	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	_
-22	vindes	vinde	VERB	_	VerbForm=Inf|Voice=Pass	10	xcomp	_	SpaceAfter=No
+20	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	_
+21	kampen	kamp	NOUN	_	Definite=Def|Gender=Com|Number=Sing	22	nsubj	_	_
+22	vindes	vinde	VERB	_	VerbForm=Inf|Voice=Pass	10	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test2-142
