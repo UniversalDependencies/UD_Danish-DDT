@@ -5075,9 +5075,9 @@
 20	og	og	CCONJ	_	_	21	cc	_	_
 21	kultur	kultur	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	16	conj	_	_
 22	-	-	PUNCT	_	_	23	punct	_	_
-23	noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	16	nsubj	_	_
+23	noget	nogen	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	16	parataxis	_	_
 24	andet	anden	PRON	_	Gender=Neut|Number=Sing|PronType=Ind	23	nmod	_	_
-25	ikke	ikke	ADV	_	_	16	advmod	_	SpaceAfter=No
+25	ikke	ikke	ADV	_	_	23	orphan	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = test-243
