@@ -10941,7 +10941,7 @@
 11	når	når	SCONJ	_	_	18	mark	_	_
 12	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	14	det	_	_
 13	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	_
-14	chef	chef	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nsubj	_	_
+14	chef	chef	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	nsubj	_	_
 15	tiltræder	tiltræde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	så	så	ADV	_	_	18	advmod	_	_
