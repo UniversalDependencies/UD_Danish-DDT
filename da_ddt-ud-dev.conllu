@@ -8261,9 +8261,9 @@
 18	profitable	profitabel	ADJ	_	Degree=Pos|Number=Plur	16	conj	_	_
 19	forretninger	forretning	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	15	punct	_	_
-21	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+21	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
 22	vestlige	vestlig	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	_
-23	firmaer	firma	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nsubj	_	_
+23	firmaer	firma	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	26	nsubj	_	_
 24	været	være	AUX	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	26	cop	_	_
 25	mere	mere	ADV	_	Degree=Cmp	26	advmod	_	_
 26	forsigtige	forsigtig	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	_
@@ -8782,15 +8782,15 @@
 
 # sent_id = dev2-89
 # text = Drivhuset var tilvokset, ruderne knust, Jens gik på tåspidser, lydløst, for flyets larm overdøvede hans sprøde trin.
-1	Drivhuset	drivhus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	_
-2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
-3	tilvokset	tilvokset	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
+1	Drivhuset	drivhus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	tilvokset	tilvokset	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
 5	ruderne	rude	NOUN	_	Definite=Def|Gender=Com|Number=Plur	6	nsubj	_	_
-6	knust	knuse	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	knust	knuse	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	Jens	Jens	PROPN	_	_	9	nsubj	_	_
-9	gik	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+9	gik	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 10	på	på	ADP	_	AdpType=Prep	11	case	_	_
 11	tåspidser	tåspids	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	9	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -8799,11 +8799,11 @@
 15	for	for	CCONJ	_	_	9	dep	_	_
 16	flyets	fly	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod:poss	_	_
 17	larm	larm	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nsubj	_	_
-18	overdøvede	overdøve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	dep	_	_
+18	overdøvede	overdøve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
 19	hans	hans	DET	_	Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
 20	sprøde	sprød	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	_
 21	trin	trin	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obj	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	6	punct	_	_
+22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev2-90
 # text = Meddelelserne var altid timet på en sådan måde, at arbejderne kunne gå hjem en smule tidligere - klokken ti minutter i fem i stedet for fem - hvilket fremkaldte en fornemmelse af tilfredshed, der underbevidst forbandt regimet med gode følelser.
@@ -9285,10 +9285,10 @@
 # sent_id = dev2-109
 # text = Fødderne skal vi være gode ved - de skal transportere os mange km i mange år og uanset hvor vant man er, er det hårdt for fødderne at transportere os kilometervis ad ujævne skovstier og hårde asfaltveje.
 1	Fødderne	fod	NOUN	_	Definite=Def|Gender=Com|Number=Plur	5	obl	_	_
-2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
-3	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	vi	vi	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	være	være	AUX	_	VerbForm=Inf|Voice=Act	5	cop	_	_
-5	gode	god	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	_
+5	gode	god	ADJ	_	Degree=Pos|Number=Plur	10	advcl	_	_
 6	ved	ved	ADP	_	AdpType=Prep	1	case	_	_
 7	-	-	PUNCT	_	_	5	punct	_	_
 8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
@@ -9396,10 +9396,10 @@
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	de	den	DET	_	Number=Plur|PronType=Dem	8	det	_	_
 7	trætte	træt	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	_
-8	mænd	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	4	nsubj	_	_
-9	havde	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
-10	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	_
-11	for	for	ADP	_	AdpType=Prep	10	case	_	SpaceAfter=No
+8	mænd	mand	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	_
+9	havde	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+10	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	_
+11	for	for	ADP	_	AdpType=Prep	9	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev2-114
@@ -10234,9 +10234,9 @@
 1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 2	De	den	DET	_	Number=Plur|PronType=Dem	4	det	_	_
 3	øvrige	øvrig	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	_
-4	portører	portør	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	11	nsubj	_	_
-5	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
-6	ment	mene	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	SpaceAfter=No
+4	portører	portør	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	_
+5	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	ment	mene	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	at	at	SCONJ	_	_	11	mark	_	_
 9	pengene	penge	NOUN	_	Definite=Def|Gender=Com|Number=Plur	11	nsubj	_	_
@@ -10303,12 +10303,12 @@
 19	hårdt	hårdt	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	35	punct	_	_
 21	idet	idet	SCONJ	_	_	35	mark	_	_
-22	Wiese	Wiese	PROPN	_	_	35	nsubj	_	_
-23	ikke	ikke	ADV	_	_	35	advmod	_	_
-24	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	_
+22	Wiese	Wiese	PROPN	_	_	25	nsubj	_	_
+23	ikke	ikke	ADV	_	_	25	advmod	_	_
+24	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
 25	lagt	lægge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	35	xcomp	_	_
-26	skjul	skjul	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	35	obj	_	_
-27	på	på	ADP	_	AdpType=Prep	35	mark	_	SpaceAfter=No
+26	skjul	skjul	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obj	_	_
+27	på	på	ADP	_	AdpType=Prep	25	mark	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	at	at	SCONJ	_	_	35	mark	_	_
 30	han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
@@ -10826,14 +10826,14 @@
 # sent_id = dev2-181
 # text = KØBENHAVN: En dukkert i Furesø kan igen anbefales, efter at læger kommuner og amter har konstateret, at der ikke længere er sundhedsfarlige alger.
 1	KØBENHAVN	København	PROPN	_	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	_	_	18	punct	_	_
+2	:	:	PUNCT	_	_	9	punct	_	_
 3	En	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	4	det	_	_
-4	dukkert	dukkert	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nsubj	_	_
+4	dukkert	dukkert	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	nsubj	_	_
 5	i	i	ADP	_	AdpType=Prep	6	case	_	_
 6	Furesø	Furesø	PROPN	_	_	4	nmod	_	_
-7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
-8	igen	igen	ADV	_	_	18	advmod	_	_
-9	anbefales	anbefale	VERB	_	VerbForm=Inf|Voice=Pass	18	xcomp	_	SpaceAfter=No
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	igen	igen	ADV	_	_	9	advmod	_	_
+9	anbefales	anbefale	VERB	_	VerbForm=Inf|Voice=Pass	18	xcomp	_	SpaceAfter=No|ToDo=check-xcomp
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	efter	efter	ADP	_	AdpType=Prep	18	mark	_	_
 12	at	at	SCONJ	_	_	18	mark	_	_
