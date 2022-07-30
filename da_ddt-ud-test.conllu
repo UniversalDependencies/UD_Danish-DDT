@@ -6060,7 +6060,7 @@
 # text = Og hvis det kniber med hukommelsen, så kan de hjælpe hinanden lidt på gled.
 1	Og	og	CCONJ	_	_	11	cc	_	_
 2	hvis	hvis	SCONJ	_	_	11	mark	_	_
-3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+3	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	kniber	knibe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
 5	med	med	ADP	_	AdpType=Prep	6	case	_	_
 6	hukommelsen	hukommelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No
@@ -6378,7 +6378,7 @@
 # text = "Når boligministeren ikke vil, så må jeg gøre det," siger Kirsten Jacobsen med henvisning til, at boligminister Svend Erik Hovmand (V) har afvist at foretage sig noget, før kammeradvokaten har vurderet sagen.
 1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 2	Når	når	SCONJ	_	_	10	mark	_	_
-3	boligministeren	boligminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	10	nsubj	_	_
+3	boligministeren	boligminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	5	nsubj	_	_
 4	ikke	ikke	ADV	_	_	10	advmod	_	_
 5	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_

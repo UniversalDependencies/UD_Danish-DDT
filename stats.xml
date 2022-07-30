@@ -18,7 +18,7 @@
     <tag name="ADJ">6559</tag><!-- mange, stor, al, ny, dansk, god, meget, lille, hel, samme -->
     <tag name="ADP">11746</tag><!-- i, til, på, af, med, for, om, som, fra, ved -->
     <tag name="ADV">8070</tag><!-- ikke, så, også, hvor, nu, ud, der, op, ind, meget -->
-    <tag name="AUX">4731</tag><!-- være, have, kunne, skulle, ville, blive, måtte, burde, turde -->
+    <tag name="AUX">4730</tag><!-- være, have, kunne, skulle, ville, blive, måtte, burde, turde -->
     <tag name="CCONJ">3383</tag><!-- og, men, eller, for, samt, &, jamen, år -->
     <tag name="DET">5504</tag><!-- en, den, sin, anden, denne, nogen, min, deres, hans, vores -->
     <tag name="INTJ">94</tag><!-- ja, nej, jo, åh, hej, ih, javel, la, øv, Guuud -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">13936</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
     <tag name="SYM">54</tag><!-- =, %, §, * -->
-    <tag name="VERB">10897</tag><!-- være, have, få, sige, blive, gå, komme, se, gøre, tage -->
+    <tag name="VERB">10898</tag><!-- være, have, få, sige, blive, gå, komme, se, gøre, tage -->
     <tag name="X">343</tag><!-- of, MEDARB, en, we, are, frue, km/t., med, the, vind. -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -83,21 +83,21 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="40">
     <dep name="acl">3</dep>
-    <dep name="acl:relcl">1816</dep>
-    <dep name="advcl">1616</dep>
+    <dep name="acl:relcl">1817</dep>
+    <dep name="advcl">1618</dep>
     <dep name="advmod">6741</dep>
     <dep name="advmod:lmod">560</dep>
-    <dep name="amod">5758</dep>
+    <dep name="amod">5756</dep>
     <dep name="appos">359</dep>
-    <dep name="aux">3156</dep>
-    <dep name="case">9913</dep>
+    <dep name="aux">3155</dep>
+    <dep name="case">9912</dep>
     <dep name="cc">3161</dep>
     <dep name="ccomp">600</dep>
     <dep name="compound">2</dep>
     <dep name="compound:prt">394</dep>
-    <dep name="conj">3517</dep>
+    <dep name="conj">3518</dep>
     <dep name="cop">1575</dep>
-    <dep name="dep">490</dep>
+    <dep name="dep">489</dep>
     <dep name="det">5476</dep>
     <dep name="discourse">32</dep>
     <dep name="dislocated">2</dep>
@@ -112,7 +112,7 @@
     <dep name="nsubj">9088</dep>
     <dep name="nummod">1248</dep>
     <dep name="obj">5089</dep>
-    <dep name="obl">6208</dep>
+    <dep name="obl">6209</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
     <dep name="orphan">1</dep>
