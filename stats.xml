@@ -84,7 +84,7 @@
   <deps unique="40">
     <dep name="acl">3</dep>
     <dep name="acl:relcl">1817</dep>
-    <dep name="advcl">1624</dep>
+    <dep name="advcl">1626</dep>
     <dep name="advmod">6740</dep>
     <dep name="advmod:lmod">560</dep>
     <dep name="amod">5750</dep>
@@ -112,7 +112,7 @@
     <dep name="nsubj">9086</dep>
     <dep name="nummod">1248</dep>
     <dep name="obj">5088</dep>
-    <dep name="obl">6209</dep>
+    <dep name="obl">6207</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
     <dep name="orphan">3</dep>
