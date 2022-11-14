@@ -10,61 +10,61 @@
     <dev><sentences>564</sentences><tokens>10332</tokens><words>10332</words><fused>0</fused></dev>
     <test><sentences>565</sentences><tokens>10023</tokens><words>10023</words><fused>0</fused></test>
   </size>
-  <lemmas unique="13229" /><!-- ,, ., i, være, og, en, den, at, ", til, af, på, have, det, med -->
+  <lemmas unique="13228" /><!-- ,, ., i, være, og, en, den, at, ", til, af, på, have, det, med -->
   <forms unique="17875" /><!-- ,, ., i, og, at, er, det, ", en, til, af, på, med, de, for -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">6571</tag><!-- mange, stor, al, ny, dansk, god, meget, lille, hel, samme -->
+    <tag name="ADJ">6559</tag><!-- mange, stor, al, ny, dansk, god, meget, lille, hel, samme -->
     <tag name="ADP">11746</tag><!-- i, til, på, af, med, for, om, som, fra, ved -->
-    <tag name="ADV">8379</tag><!-- ikke, der, så, også, hvor, nu, ud, op, ind, meget -->
-    <tag name="AUX">4916</tag><!-- være, have, kunne, blive, skulle, ville, måtte, burde, turde -->
-    <tag name="CCONJ">3382</tag><!-- og, men, eller, for, samt, &, jamen -->
+    <tag name="ADV">8070</tag><!-- ikke, så, også, hvor, nu, ud, der, op, ind, meget -->
+    <tag name="AUX">4730</tag><!-- være, have, kunne, skulle, ville, blive, måtte, burde, turde -->
+    <tag name="CCONJ">3383</tag><!-- og, men, eller, for, samt, &, jamen, år -->
     <tag name="DET">5504</tag><!-- en, den, sin, anden, denne, nogen, min, deres, hans, vores -->
-    <tag name="INTJ">95</tag><!-- ja, nej, jo, åh, hej, ih, javel, la, øv, Guuud -->
-    <tag name="NOUN">18725</tag><!-- år, dag, krone, gang, tid, mand, sted, barn, land, del -->
-    <tag name="NUM">1491</tag><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
+    <tag name="INTJ">94</tag><!-- ja, nej, jo, åh, hej, ih, javel, la, øv, Guuud -->
+    <tag name="NOUN">18726</tag><!-- år, dag, krone, gang, tid, mand, sted, barn, land, del -->
+    <tag name="NUM">1505</tag><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
     <tag name="PART">1215</tag><!-- at -->
-    <tag name="PRON">6800</tag><!-- det, han, jeg, vi, de, der, man, sig, hun, som -->
+    <tag name="PRON">7202</tag><!-- det, der, han, jeg, vi, de, man, sig, hun, som -->
     <tag name="PROPN">4978</tag><!-- Danmark, København, Nielsen, Lars, Poul, Peter, USA, Europa, Hafnia, Henrik -->
-    <tag name="PUNCT">13929</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
+    <tag name="PUNCT">13936</tag><!-- ,, ., ", -, :, ?, ), (, !, ... -->
     <tag name="SCONJ">1790</tag><!-- at, da, når, hvis, fordi, så, om, mens, før, ligesom -->
-    <tag name="SYM">61</tag><!-- =, *, %, § -->
-    <tag name="VERB">10712</tag><!-- være, have, få, sige, gå, komme, se, gøre, tage, give -->
-    <tag name="X">439</tag><!-- of, MEDARB, en, vivaldi, we, allesammen, are, at, frue, hel -->
+    <tag name="SYM">54</tag><!-- =, %, §, * -->
+    <tag name="VERB">10898</tag><!-- være, have, få, sige, blive, gå, komme, se, gøre, tage -->
+    <tag name="X">343</tag><!-- of, MEDARB, en, we, are, frue, km/t., med, the, vind. -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="44">
-    <feat name="Abbr" value="Yes" upos="X">32</feat><!-- fru, km/t., vind., B, cand.-jur., kl, o/m., 4-cyl., E, G -->
+    <feat name="Abbr" value="Yes" upos="ADV,X">32</feat><!-- fru, km/t., vind., B, cand.-jur., kl, o/m., 4-cyl., E, G -->
     <feat name="AdpType" value="Prep" upos="ADP">11095</feat><!-- i, til, på, af, med, for, om, fra, ved, efter -->
     <feat name="Case" value="Acc" upos="PRON">2301</feat><!-- det, sig, den, ham, mig, dem, os, hende, dig, jer -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PRON,PROPN,VERB">1137</feat><!-- års, Danmarks, Københavns, landets, aftes, hvis, regeringens, statens, Brøndbys, Kræftens -->
     <feat name="Case" value="Nom" upos="PRON">2836</feat><!-- han, jeg, vi, de, man, hun, du, I -->
     <feat name="Definite" value="Def" upos="ADJ,NOUN,VERB">6537</feat><!-- hele, danske, store, fleste, stedet, tiden, nye, politiet, bedste, sagen -->
-    <feat name="Definite" value="Ind" upos="ADJ,AUX,NOUN,VERB">17698</feat><!-- år, været, kr., gang, dag, blevet, tid, dansk, del, folk -->
+    <feat name="Definite" value="Ind" upos="ADJ,AUX,NOUN,NUM,VERB">17698</feat><!-- år, været, kr., gang, dag, blevet, tid, dansk, del, folk -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV">5</feat><!-- allerhelst, allerinderst, allermindst, allerstørste, alleryderst -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV">585</feat><!-- mere, flere, tidligere, længere, bedre, mindre, senere, større, højere, ældre -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">7131</feat><!-- meget, alle, mange, danske, helt, store, godt, samme, hele, første -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">580</feat><!-- mere, flere, tidligere, længere, bedre, mindre, senere, større, højere, ældre -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">7124</feat><!-- meget, alle, mange, danske, helt, store, godt, samme, hele, første -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">311</feat><!-- mest, fleste, bedste, mindst, største, seneste, senest, nærmest, bedst, mindste -->
-    <feat name="Foreign" value="Yes" upos="X">111</feat><!-- of, are, the, we, a, and, children, dead, in, junkmail -->
-    <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,PRON,VERB">20101</feat><!-- en, den, han, jeg, vi, man, hun, sin, du, ham -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,PRON">9130</feat><!-- det, et, år, noget, sit, alt, andet, folk, går, dette -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">168</feat><!-- lad, rør, se, skær, brug, hold, hæld, steg, prøv, Bland -->
+    <feat name="Foreign" value="Yes" upos="ADV,X">111</feat><!-- of, are, the, we, a, and, children, dead, in, junkmail -->
+    <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,VERB">20101</feat><!-- en, den, han, jeg, vi, man, hun, sin, du, ham -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON">9130</feat><!-- det, et, år, noget, sit, alt, andet, folk, går, dette -->
+    <feat name="Mood" value="Imp" upos="VERB">168</feat><!-- lad, rør, se, skær, brug, hold, hæld, steg, prøv, Bland -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">10010</feat><!-- er, har, var, kan, skal, vil, siger, blev, havde, kunne -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,VERB">9291</feat><!-- de, vi, år, alle, mange, andre, dem, kr., flere, os -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,VERB">27205</feat><!-- det, en, den, et, han, jeg, hun, sin, noget, du -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,NUM,PRON,VERB">9291</feat><!-- de, vi, år, alle, mange, andre, dem, kr., flere, os -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">27205</feat><!-- det, en, den, et, han, jeg, hun, sin, noget, du -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">194</feat><!-- deres, vores, vore, vor, vort, jeres -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">614</feat><!-- sin, hans, min, sit, hendes, sine, mit, din, mine, dets -->
     <feat name="NumType" value="Card" upos="NUM">1491</feat><!-- to, tre, fire, 20, fem, seks, 10, otte, 100, 1 -->
     <feat name="NumType" value="Ord" upos="ADJ">149</feat><!-- 1., anden, 2., tredje, 3., andet, 12., 17., fjerde, 10. -->
-    <feat name="PartType" value="Inf" upos="ADP,ADV,PART,PRON">3038</feat><!-- at, der, som -->
+    <feat name="PartType" value="Inf" upos="ADP,ADV,PART,PRON">2635</feat><!-- at, som, der -->
     <feat name="Person" value="1" upos="DET,PRON">1442</feat><!-- jeg, vi, mig, os, min, vores, mit, vore, mine, vor -->
     <feat name="Person" value="2" upos="DET,PRON">267</feat><!-- du, dig, din, De, I, Dem, Deres, jer, dit, jeres -->
     <feat name="Person" value="3" upos="DET,PRON">3889</feat><!-- det, han, de, sig, hun, den, sin, ham, deres, hans -->
     <feat name="Polite" value="Form" upos="DET,PRON">31</feat><!-- De, Dem, Deres -->
     <feat name="Poss" value="Yes" upos="DET,PRON">813</feat><!-- sin, deres, hans, min, sit, hendes, sine, vores, mit, din -->
     <feat name="PronType" value="Dem" upos="DET,PRON">2328</feat><!-- den, de, det, selv, denne, dette, disse, begge, dén, dennes -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">3394</feat><!-- en, et, man, noget, andre, ingen, nogle, anden, andet, hver -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">3392</feat><!-- en, et, man, noget, andre, ingen, nogle, anden, andet, hver -->
     <feat name="PronType" value="Int,Rel" upos="PRON">186</feat><!-- hvad, hvilket, hvem, hvilke, hvilken, hvis, HVA', Hva -->
     <feat name="PronType" value="Prs" upos="DET,PRON">5598</feat><!-- det, han, jeg, vi, de, sig, hun, den, sin, du -->
     <feat name="PronType" value="Rcp" upos="PRON">38</feat><!-- hinanden, hinandens -->
@@ -81,43 +81,47 @@
     <feat name="Voice" value="Pass" upos="VERB">484</feat><!-- bruges, tages, ventes, gøres, nævnes, sælges, udsendes, ses, kaldes, sættes -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
-    <dep name="acl:relcl">1816</dep>
-    <dep name="advcl">1107</dep>
-    <dep name="advmod">7233</dep>
+  <deps unique="41">
+    <dep name="acl">3</dep>
+    <dep name="acl:relcl">1814</dep>
+    <dep name="advcl">1630</dep>
+    <dep name="advmod">6739</dep>
     <dep name="advmod:lmod">560</dep>
-    <dep name="amod">5760</dep>
-    <dep name="appos">358</dep>
-    <dep name="aux">3156</dep>
-    <dep name="case">9913</dep>
-    <dep name="cc">3162</dep>
-    <dep name="ccomp">597</dep>
-    <dep name="compound:prt">395</dep>
-    <dep name="conj">3508</dep>
-    <dep name="cop">1760</dep>
-    <dep name="dep">492</dep>
+    <dep name="amod">5747</dep>
+    <dep name="appos">359</dep>
+    <dep name="aux">3154</dep>
+    <dep name="case">9912</dep>
+    <dep name="cc">3163</dep>
+    <dep name="ccomp">604</dep>
+    <dep name="compound">2</dep>
+    <dep name="compound:prt">394</dep>
+    <dep name="conj">3533</dep>
+    <dep name="cop">1576</dep>
+    <dep name="dep">486</dep>
     <dep name="det">5476</dep>
     <dep name="discourse">32</dep>
+    <dep name="dislocated">2</dep>
     <dep name="expl">441</dep>
-    <dep name="fixed">493</dep>
+    <dep name="fixed">492</dep>
     <dep name="flat">1644</dep>
-    <dep name="goeswith">8</dep>
-    <dep name="iobj">155</dep>
+    <dep name="iobj">157</dep>
     <dep name="list">199</dep>
-    <dep name="mark">4648</dep>
-    <dep name="nmod">5112</dep>
+    <dep name="mark">4428</dep>
+    <dep name="nmod">5180</dep>
     <dep name="nmod:poss">1030</dep>
-    <dep name="nsubj">9085</dep>
-    <dep name="nummod">1254</dep>
-    <dep name="obj">5011</dep>
-    <dep name="obl">6159</dep>
+    <dep name="nsubj">9073</dep>
+    <dep name="nsubj:outer">1</dep>
+    <dep name="nummod">1248</dep>
+    <dep name="obj">5083</dep>
+    <dep name="obl">6202</dep>
     <dep name="obl:lmod">50</dep>
     <dep name="obl:tmod">132</dep>
-    <dep name="parataxis">1</dep>
+    <dep name="orphan">14</dep>
+    <dep name="parataxis">7</dep>
     <dep name="punct">13933</dep>
     <dep name="reparandum">2</dep>
     <dep name="root">5512</dep>
     <dep name="vocative">32</dep>
-    <dep name="xcomp">507</dep>
+    <dep name="xcomp">687</dep>
   </deps>
 </treebank>
