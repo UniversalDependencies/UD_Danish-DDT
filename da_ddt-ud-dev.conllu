@@ -331,11 +331,11 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-16
-# text = "Han skulle ha'en lærestreg for alle de rædsler, han har begået.
+# text = "Han skulle ha' en lærestreg for alle de rædsler, han har begået.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Han	han	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	_
-4	ha'	have	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+4	ha'	have	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 5	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	6	det	_	_
 6	lærestreg	lærestreg	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	obj	_	_
 7	for	for	ADP	_	AdpType=Prep	10	case	_	_
@@ -798,11 +798,11 @@
 33	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-36
-# text = Men man ka'sgu'ikke undvære dem.
+# text = Men man ka' sgu' ikke undvære dem.
 1	Men	men	CCONJ	_	_	6	cc	_	_
 2	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	6	nsubj	_	_
-3	ka'	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	SpaceAfter=No
-4	sgu'	sgu'	ADV	_	_	6	advmod	_	SpaceAfter=No
+3	ka'	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+4	sgu'	sgu'	ADV	_	_	6	advmod	_	_
 5	ikke	ikke	ADV	_	_	6	advmod	_	_
 6	undvære	undvære	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 7	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
@@ -1347,9 +1347,9 @@
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = dev-60
-# text = Du sku'prøve det, knægt.
+# text = Du sku' prøve det, knægt.
 1	Du	du	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	sku'	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	SpaceAfter=No
+2	sku'	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	prøve	prøve	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	_
 4	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -10057,11 +10057,11 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev2-149
-# text = Den klub mente Lars'far var sagen.
+# text = Den klub mente Lars' far var sagen.
 1	Den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	2	det	_	_
 2	klub	klub	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	nsubj	_	_
 3	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	Lars'	Lars	PROPN	_	Case=Gen	5	nmod:poss	_	SpaceAfter=No
+4	Lars'	Lars	PROPN	_	Case=Gen	5	nmod:poss	_	_
 5	far	far	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	_
 6	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
 7	sagen	sag	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	dep	_	SpaceAfter=No
