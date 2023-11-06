@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Danish-DDT:
-commit 077bc9c2e966135af8b32b4cd6fc4da0490de70d
-Merge: 65a91c7 989de33
+commit d44d49ac07f6bb7706d035ff219604d1cf09c923
+Merge: e3c52ae 8ee1775
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 100733 of 100733 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.22494690419642.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       1488
-Udapi: found 1488 bugs.
+               TOTAL       1487
+Udapi: found 1487 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 100733 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.667723922723832) = 0.17121126223688
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.852282767315577) = 0.262240851481716
+(weight=0.307692307692308) * (score{udapi}=0.85238203964937) = 0.262271396815191
 (weight=0.0769230769230769) * (score{udeprels}=0.735135135135135) = 0.0565488565488566
-(TOTAL score=0.743997953676201) * (availability=1) * (validity=1) = 0.743997953676201
+(TOTAL score=0.744028499009675) * (availability=1) * (validity=1) = 0.744028499009675
 STARS = 3.5
-UD_Danish-DDT	0.743997953676201	3.5
+UD_Danish-DDT	0.744028499009675	3.5
