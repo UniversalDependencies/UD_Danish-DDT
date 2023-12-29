@@ -2533,7 +2533,7 @@
 18	,	,	PUNCT	_	_	23	punct	_	_
 19	at	at	SCONJ	_	_	23	mark	_	_
 20	Superliga-finalen	superliga-finale	NOUN	_	Definite=Def|Gender=Com|Number=Sing	23	nsubj	_	_
-21	aldrig	aldrig	ADV	_	_	23	advmod	_	_
+21	aldrig	aldrig	ADV	Polarity=Neg	_	23	advmod	_	_
 22	rigtig	rigtig	ADV	_	Degree=Pos	23	advmod	_	_
 23	formåede	formå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	obj	_	_
 24	at	at	PART	_	PartType=Inf	25	mark	_	_
@@ -10051,7 +10051,7 @@
 2	måske	måske	ADV	_	_	3	advmod	_	_
 3	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	3	nsubj	_	_
-5	aldrig	aldrig	ADV	_	_	3	advmod	_	_
+5	aldrig	aldrig	ADV	Polarity=Neg	_	3	advmod	_	_
 6	hel	hel	ADV	_	_	7	advmod	_	_
 7	klarlagt	klarlægge	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
@@ -10574,7 +10574,7 @@
 11	besættelsen	besættelse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nmod	_	_
 12	som	som	ADP	_	PartType=Inf	18	obj	_	_
 13	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
-14	aldrig	aldrig	ADV	_	_	17	advmod	_	_
+14	aldrig	aldrig	ADV	Polarity=Neg	_	17	advmod	_	_
 15	helt	helt	ADV	_	Degree=Pos	17	advmod	_	_
 16	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	_
 17	fået	få	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
