@@ -6431,7 +6431,7 @@
 19	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	21	det	_	_
 20	flade	flad	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	_
 21	bygning	bygning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	3	punct	_	_.
+22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-306
 # text = Men efter seks måneders rekruttid havde han fået nok, og da den ny kontrakt som rekrutterne underskriver giver både dem og Legionen ret til at sige fra efter et halvt års prøvetid, rejste han hjem.
