@@ -6414,7 +6414,7 @@
 2	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	flyet	fly	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	_
-5	med	med	ADP	_	AdpType=Prep	12	case	_	_
+5	med	med	ADP	_	AdpType=Prep	6	case	_	_
 6	næsen	næse	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	nmod	_	_
 7	pegende	pege	VERB	_	Tense=Pres|VerbForm=Part	11	case	_	_
 8	nedad	nedad	ADV	_	_	11	advmod:lmod	_	SpaceAfter=No
