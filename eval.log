@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Danish-DDT:
-commit 1302603a82203d66ce6813da7dea800b608c92e9
-Merge: bfc0e5f 427ed59
+commit 026aa967229a5bdcfc82d3955fc4be0defe8dfc0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 12:07:17 2024 +0200
 Size: counted 100733 of 100733 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.22494690419642.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,18 @@ Udapi: found 1485 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 100733 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-dev.conllu
+[Line 5382 Sent dev-243 Node 45]: [L3 Warning leaf-det] 'det' not expected to have children (45:de:det --> 46:udstødte:acl)
+[Line 5385 Sent dev-243 Node 48]: [L3 Warning leaf-det] 'det' not expected to have children (48:de:det --> 49:kuede:acl)
+Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-train.conllu
+[Line 7704 Sent train-v2-387 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:én:det --> 8:hjørne:nmod)
+[Line 69078 Sent train-v2-3271 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:det:det --> 8:overrumplende:acl)
+[Line 81148 Sent train-v2-3814 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:en:det --> 7:1,6:nummod)
+[Line 90148 Sent train-v2-4227 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:én:det --> 7:slagsen:nmod)
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
