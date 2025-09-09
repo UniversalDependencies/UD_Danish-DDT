@@ -167,6 +167,7 @@ On Fri, Sep 9, 2016 at 10:58 PM, Dan Zeman <zeman@ufal.mff.cuni.cz> wrote:
 Data available since: UD v1.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news fiction spoken nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
