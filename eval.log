@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Danish-DDT:
-commit 45e713edd37466eb11b91052e0b9c0da98155e0c
-Merge: fcbc868 36dc40e
+commit 85faf86dc39f735722925fb1e822070d83649068
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:16:25 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'da_ddt'
 Language code (from CoNLL-U file name) = 'da'
@@ -25,85 +25,118 @@ Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 4 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-dev.conllu
-[Line 19 Sent dev-1]: [L3 Warning pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 108 Sent dev-5]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 267 Sent dev-13]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 313 Sent dev-14]: [L3 Warning pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 522 Sent dev-24]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 573 Sent dev-27]: [L3 Warning fixed-without-extpos] Fixed expression 'til rette' does not have the 'ExtPos' feature
-[Line 610 Sent dev-30]: [L3 Warning pron-det-without-prontype] The word 'Der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 633 Sent dev-30]: [L3 Warning obl-should-be-nmod] The parent (node [18] 'motorer') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 643 Sent dev-30]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 654 Sent dev-30]: [L3 Warning pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 867 Sent dev-40]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('bl.')
-[Line 968 Sent dev-45]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 1490 Sent dev-68]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('I')
-[Line 2030 Sent dev-93]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('til')
-[Line 2505 Sent dev-111]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 2578 Sent dev-115]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('I')
-[Line 2616 Sent dev-116]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 4322 Sent dev-192]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 4865 Sent dev-220]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 5382 Sent dev-243]: [L3 Syntax leaf-det] 'det' not expected to have children (45:de:det --> 46:udstødte:acl)
-...suppressing further errors regarding Syntax
-Syntax errors: 26
-Warnings: 153
-*** FAILED *** with 26 errors
-Exit code: 1
-/net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-test.conllu
-[Line 137 Sent test-6]: [L3 Warning fixed-without-extpos] Fixed expression 'Bortset fra' does not have the 'ExtPos' feature
-[Line 166 Sent test-8]: [L3 Warning fixed-without-extpos] Fixed expression 'på grund af' does not have the 'ExtPos' feature
-[Line 187 Sent test-10]: [L3 Warning fixed-without-extpos] Fixed expression 'til sidst' does not have the 'ExtPos' feature
-[Line 187 Sent test-10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('til')
-[Line 285 Sent test-15]: [L3 Warning pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 287 Sent test-15]: [L3 Warning obl-should-be-nmod] The parent (node [24] 'sommerferien') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 395 Sent test-20]: [L3 Warning fixed-without-extpos] Fixed expression 'blandt andet' does not have the 'ExtPos' feature
-[Line 395 Sent test-20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('blandt')
-[Line 540 Sent test-28]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 617 Sent test-32]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 674 Sent test-37]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 769 Sent test-43]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 2491 Sent test-131]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 3107 Sent test-155]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 3131 Sent test-155]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 3322 Sent test-165]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('blandt')
-[Line 4258 Sent test-205]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('I')
-[Line 5347 Sent test-254]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 5437 Sent test-258]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 5622 Sent test-266]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-...suppressing further errors regarding Syntax
-Syntax errors: 31
-Warnings: 168
+[Line 19 Sent dev-1]: [L3 WARNING pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 108 Sent dev-5]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 267 Sent dev-13]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 313 Sent dev-14]: [L3 WARNING pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 522 Sent dev-24]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 573 Sent dev-27]: [L3 WARNING fixed-without-extpos] Fixed expression 'til rette' does not have the 'ExtPos' feature
+[Line 610 Sent dev-30]: [L3 WARNING pron-det-without-prontype] The word 'Der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 633 Sent dev-30]: [L3 SYNTAX obl-should-be-nmod] The parent (node [18] 'motorer') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 643 Sent dev-30]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 654 Sent dev-30]: [L3 WARNING pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 720 Sent dev-33]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 789 Sent dev-35]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 867 Sent dev-40]: [L3 WARNING fixed-without-extpos] Fixed expression 'bl. a.' does not have the 'ExtPos' feature
+[Line 867 Sent dev-40]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('bl.')
+...suppressing further messages regarding WARNING/MORPHO
+[Line 968 Sent dev-45]: [L3 WARNING fixed-without-extpos] Fixed expression 'i dag' does not have the 'ExtPos' feature
+[Line 968 Sent dev-45]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 1127 Sent dev-51]: [L3 SYNTAX obl-should-be-nmod] The parent (node [25] 'blikket') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1490 Sent dev-68]: [L3 WARNING fixed-without-extpos] Fixed expression 'I øvrigt' does not have the 'ExtPos' feature
+[Line 1490 Sent dev-68]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('I')
+[Line 2030 Sent dev-93]: [L3 WARNING fixed-without-extpos] Fixed expression 'til sidst' does not have the 'ExtPos' feature
+[Line 2030 Sent dev-93]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('til')
+[Line 2312 Sent dev-103]: [L3 WARNING fixed-without-extpos] Fixed expression 'selv om' does not have the 'ExtPos' feature
+[Line 2505 Sent dev-111]: [L3 WARNING fixed-without-extpos] Fixed expression 'i går' does not have the 'ExtPos' feature
+[Line 2505 Sent dev-111]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 2578 Sent dev-115]: [L3 WARNING fixed-without-extpos] Fixed expression 'I går' does not have the 'ExtPos' feature
+[Line 2578 Sent dev-115]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('I')
+[Line 2616 Sent dev-116]: [L3 WARNING fixed-without-extpos] Fixed expression 'i år' does not have the 'ExtPos' feature
+[Line 2616 Sent dev-116]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 3787 Sent dev-167]: [L3 WARNING fixed-without-extpos] Fixed expression 'som om' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 4322 Sent dev-192]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 147
+SYNTAX errors: 31
 *** FAILED *** with 31 errors
 Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-test.conllu
+[Line 137 Sent test-6]: [L3 WARNING fixed-without-extpos] Fixed expression 'Bortset fra' does not have the 'ExtPos' feature
+[Line 166 Sent test-8]: [L3 WARNING fixed-without-extpos] Fixed expression 'på grund af' does not have the 'ExtPos' feature
+[Line 187 Sent test-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'til sidst' does not have the 'ExtPos' feature
+[Line 187 Sent test-10]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('til')
+[Line 285 Sent test-15]: [L3 WARNING pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 287 Sent test-15]: [L3 SYNTAX obl-should-be-nmod] The parent (node [24] 'sommerferien') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 395 Sent test-20]: [L3 WARNING fixed-without-extpos] Fixed expression 'blandt andet' does not have the 'ExtPos' feature
+[Line 395 Sent test-20]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('blandt')
+[Line 540 Sent test-28]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 617 Sent test-32]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 674 Sent test-37]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 769 Sent test-43]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 792 Sent test-44]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 973 Sent test-49]: [L3 SYNTAX obl-should-be-nmod] The parent (node [48] 'fællesmøde') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 989 Sent test-50]: [L3 WARNING pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1099 Sent test-53]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1371 Sent test-73]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1427 Sent test-75]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2491 Sent test-131]: [L3 WARNING fixed-without-extpos] Fixed expression 'i hvert fald' does not have the 'ExtPos' feature
+[Line 2491 Sent test-131]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 2563 Sent test-134]: [L3 WARNING fixed-without-extpos] Fixed expression 'selv om' does not have the 'ExtPos' feature
+[Line 2772 Sent test-143]: [L3 WARNING fixed-without-extpos] Fixed expression 'som om' does not have the 'ExtPos' feature
+[Line 3107 Sent test-155]: [L3 WARNING fixed-without-extpos] Fixed expression 'i dag' does not have the 'ExtPos' feature
+[Line 3107 Sent test-155]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 3131 Sent test-155]: [L3 WARNING fixed-without-extpos] Fixed expression 'i hvert fald' does not have the 'ExtPos' feature
+[Line 3131 Sent test-155]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 3322 Sent test-165]: [L3 WARNING fixed-without-extpos] Fixed expression 'blandt andet' does not have the 'ExtPos' feature
+[Line 3322 Sent test-165]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('blandt')
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 4258 Sent test-205]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('I')
+[Line 5347 Sent test-254]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 164
+SYNTAX errors: 35
+*** FAILED *** with 35 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang da --max-err=10 UD_Danish-DDT/da_ddt-ud-train.conllu
-[Line 42 Sent train-v2-1]: [L3 Warning pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 151 Sent train-v2-6]: [L3 Warning fixed-without-extpos] Fixed expression 'i år' does not have the 'ExtPos' feature
-[Line 266 Sent train-v2-12]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 300 Sent train-v2-13]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 578 Sent train-v2-26]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 598 Sent train-v2-27]: [L3 Warning pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 639 Sent train-v2-28]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 704 Sent train-v2-32]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 720 Sent train-v2-32]: [L3 Warning fixed-without-extpos] Fixed expression 'selv om' does not have the 'ExtPos' feature
-[Line 843 Sent train-v2-38]: [L3 Warning pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 906 Sent train-v2-42]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 1273 Sent train-v2-61]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 1391 Sent train-v2-67]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 1616 Sent train-v2-77]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 3188 Sent train-v2-154]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 3341 Sent train-v2-158]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 4529 Sent train-v2-221]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('blandt')
-[Line 5011 Sent train-v2-245]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 5417 Sent train-v2-267]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-[Line 6742 Sent train-v2-334]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
-...suppressing further errors regarding Syntax
-Syntax errors: 253
-Warnings: 1301
-*** FAILED *** with 253 errors
+[Line 42 Sent train-v2-1]: [L3 WARNING pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 151 Sent train-v2-6]: [L3 WARNING fixed-without-extpos] Fixed expression 'i år' does not have the 'ExtPos' feature
+[Line 266 Sent train-v2-12]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 300 Sent train-v2-13]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 578 Sent train-v2-26]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 598 Sent train-v2-27]: [L3 WARNING pron-det-without-prontype] The word 'som' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 639 Sent train-v2-28]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 704 Sent train-v2-32]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 720 Sent train-v2-32]: [L3 WARNING fixed-without-extpos] Fixed expression 'selv om' does not have the 'ExtPos' feature
+[Line 843 Sent train-v2-38]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 906 Sent train-v2-42]: [L3 WARNING fixed-without-extpos] Fixed expression 'i går' does not have the 'ExtPos' feature
+[Line 906 Sent train-v2-42]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 936 Sent train-v2-43]: [L3 WARNING fixed-without-extpos] Fixed expression 'bortset fra' does not have the 'ExtPos' feature
+[Line 963 Sent train-v2-43]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1007 Sent train-v2-45]: [L3 WARNING pron-det-without-prontype] The word 'der' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1206 Sent train-v2-56]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'bronze-figur') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1273 Sent train-v2-61]: [L3 WARNING fixed-without-extpos] Fixed expression 'i lørdags' does not have the 'ExtPos' feature
+[Line 1273 Sent train-v2-61]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 1391 Sent train-v2-67]: [L3 WARNING fixed-without-extpos] Fixed expression 'i øvrigt' does not have the 'ExtPos' feature
+[Line 1391 Sent train-v2-67]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 1616 Sent train-v2-77]: [L3 WARNING fixed-without-extpos] Fixed expression 'i går' does not have the 'ExtPos' feature
+[Line 1616 Sent train-v2-77]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 1870 Sent train-v2-92]: [L3 WARNING fixed-without-extpos] Fixed expression 'på tide' does not have the 'ExtPos' feature
+[Line 2009 Sent train-v2-101]: [L3 WARNING fixed-without-extpos] Fixed expression 'selv om' does not have the 'ExtPos' feature
+[Line 2246 Sent train-v2-112]: [L3 WARNING fixed-without-extpos] Fixed expression 'selv om' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 3188 Sent train-v2-154]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 3341 Sent train-v2-158]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+[Line 4529 Sent train-v2-221]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('blandt')
+[Line 4932 Sent train-v2-241]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'hinanden') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5011 Sent train-v2-245]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('i')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 1279
+SYNTAX errors: 273
+*** FAILED *** with 273 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
