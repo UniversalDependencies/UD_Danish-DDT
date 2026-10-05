@@ -284,7 +284,7 @@
 19	,	,	PUNCT	_	_	25	punct	_	_
 20	som	som	PRON	_	PartType=Inf	27	obj	_	_
 21	Folketinget	folketing	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	nsubj	_	_
-22	kort	kort	ADV	_	Degree=Pos	24	obl:tmod	_	_
+22	kort	kort	ADV	_	Degree=Pos	24	advmod	_	_
 23	før	før	ADP	_	AdpType=Prep	22	case	_	_
 24	sommerferien	sommerferie	NOUN	_	Definite=Def|Gender=Com|Number=Sing	25	obl	_	_
 25	besluttede	beslutte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
@@ -970,7 +970,7 @@
 42	og	og	CCONJ	_	_	43	cc	_	_
 43	Max	Max	PROPN	_	_	41	conj	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	48	punct	_	_
-45	umiddelbart	umiddelbart	ADV	_	Degree=Pos	48	obl:tmod	_	_
+45	umiddelbart	umiddelbart	ADV	_	Degree=Pos	48	advmod	_	_
 46	efter	efter	ADP	_	AdpType=Prep	45	case	_	_
 47	morgenens	morgen	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	48	nmod:poss	_	_
 48	fællesmøde	fællesmøde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	40	obl	_	SpaceAfter=No
@@ -7731,7 +7731,7 @@
 2	pistolen	pistol	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	obl	_	_
 3	rettet	rette	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	2	case	_	_
 4	mod	mod	ADP	_	AdpType=Prep	5	case	_	_
-5	hovedet	hoved	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
+5	hovedet	hoved	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	_
 6	blev	blive	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	postchaufføren	postchauffør	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
 8	dirigeret	dirigere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -9248,7 +9248,7 @@
 
 # sent_id = test2-121
 # text = Kort før invasionen bestilte han en graveret, schweizisk, guldpistol vurderet til 7.000 pund fra Asprey's, der er den engelske dronnings juvelér i London.
-1	Kort	kort	ADV	_	Degree=Pos	3	obl:tmod	_	_
+1	Kort	kort	ADV	_	Degree=Pos	3	advmod	_	_
 2	før	før	ADP	_	AdpType=Prep	1	case	_	_
 3	invasionen	invasion	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
 4	bestilte	bestille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
