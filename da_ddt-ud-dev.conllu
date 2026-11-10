@@ -630,7 +630,7 @@
 21	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 22	så	så	ADV	_	_	24	advmod	_	_
 23	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_
-24	diesel	diesel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	obl	_	_
+24	diesel	diesel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	_
 25	eller	eller	CCONJ	_	_	26	cc	_	_
 26	benzin	benzin	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	24	conj	_	_
 27	gør	gøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	case	_	_
@@ -1124,7 +1124,7 @@
 27	til	til	ADP	_	AdpType=Prep	30	case	_	_
 28	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	30	det	_	_
 29	velduftende	velduftende	ADJ	_	Degree=Pos	30	amod	_	_
-30	skovbund	skovbund	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	obl	_	_
+30	skovbund	skovbund	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	25	nmod	_	_
 31	søger	søge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
 32	efter	efter	ADP	_	AdpType=Prep	33	case	_	_
 33	nogle	nogen	PRON	_	Number=Plur|PronType=Ind	31	obl	_	_
@@ -4675,7 +4675,7 @@
 31	blev	blive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 32	klokken	klokke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	31	nsubj	_	_
 33	henad	henad	ADP	_	AdpType=Prep	34	case	_	_
-34	22	22	NUM	_	NumType=Card	32	obl	_	SpaceAfter=No
+34	22	22	NUM	_	NumType=Card	32	nmod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	38	punct	_	_
 36	før	før	SCONJ	_	_	38	mark	_	_
 37	man	man	PRON	_	Case=Nom|Gender=Com|PronType=Ind	38	nsubj	_	_
@@ -6849,7 +6849,7 @@
 
 # sent_id = dev2-1
 # text = Kort før broen fik han besked på at køre ind ad Bådehavnsgade og ud ad Speditørvej, der ender blindt ved et hegn ud mod et grønt område.
-1	Kort	kort	ADV	_	Degree=Pos	3	obl:tmod	_	_
+1	Kort	kort	ADV	_	Degree=Pos	3	advmod	_	_
 2	før	før	ADP	_	AdpType=Prep	1	case	_	_
 3	broen	bro	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
 4	fik	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -9708,7 +9708,7 @@
 14	stift	stift	ADV	_	Degree=Pos	13	advmod	_	_
 15	rettet	rette	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	13	case	_	_
 16	mod	mod	ADP	_	AdpType=Prep	17	case	_	_
-17	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obl	_	_
+17	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	_
 18	omkring	omkring	ADP	_	AdpType=Prep	19	case	_	_
 19	blodbøgen	blodbøg	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
 20	for	for	ADP	_	AdpType=Prep	21	case	_	_
@@ -10159,7 +10159,7 @@
 11	det	det	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 12	fastsættes	fastsætte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	case	_	_
 13	i	i	ADP	_	AdpType=Prep	14	case	_	_
-14	lovgivningen	lovgivning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	obl	_	SpaceAfter=No
+14	lovgivningen	lovgivning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	9	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev2-154

@@ -1203,7 +1203,7 @@
 15	vurderet	vurdere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	9	case	_	_
 16	til	til	ADP	_	AdpType=Prep	18	case	_	_
 17	50.000	50.000	NUM	_	NumType=Card	18	nummod	_	_
-18	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	9	obl	_	SpaceAfter=No
+18	kr.	krone	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	9	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = train-v2-57
@@ -4929,7 +4929,7 @@
 3	tidligt	tidligt	ADV	_	Degree=Pos	2	advmod	_	_
 4	3	3	NUM	_	NumType=Card	5	nummod	_	_
 5	børn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	_
-6	lige	lige	ADV	_	_	8	obl:tmod	_	_
+6	lige	lige	ADV	_	_	8	advmod	_	_
 7	efter	efter	ADP	_	AdpType=Prep	6	case	_	_
 8	hinanden	hinanden	PRON	_	Number=Plur|PronType=Rcp	2	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -7723,7 +7723,7 @@
 
 # sent_id = train-v2-388
 # text = Umiddelbart før jul var der indgået en aftale mellem Hafnia og Baltica om afhændelse af den store aktiepost, men Hafnia ville ikke anerkende Skandia som køber af en fjerdedel af Baltica-aktierne.
-1	Umiddelbart	umiddelbart	ADV	_	Degree=Pos	3	obl:tmod	_	_
+1	Umiddelbart	umiddelbart	ADV	_	Degree=Pos	3	advmod	_	_
 2	før	før	ADP	_	AdpType=Prep	1	case	_	_
 3	jul	jul	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	6	obl	_	_
 4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
@@ -10364,7 +10364,7 @@
 5	daterede	datere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	helt	helt	ADV	_	Degree=Pos	8	advmod	_	_
-8	tilbage	tilbage	ADV	_	_	10	obl:tmod	_	_
+8	tilbage	tilbage	ADV	_	_	10	advmod	_	_
 9	til	til	ADP	_	AdpType=Prep	8	case	_	_
 10	turneringens	turnering	NOUN	_	Case=Gen|Definite=Def|Gender=Com|Number=Sing	5	obl	_	_
 11	anden	anden	ADJ	_	NumType=Ord	10	amod	_	_
@@ -14418,7 +14418,7 @@
 10	som	som	ADP	_	PartType=Inf	9	mark	_	_
 11	vist	vise	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	9	case	_	_
 12	på	på	ADP	_	AdpType=Prep	13	case	_	_
-13	fig.	figur	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
+13	fig.	figur	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	9	nmod	_	_
 14	9.9	9.9	NUM	_	NumType=Card	13	nmod	_	_
 
 # sent_id = train-v2-727
@@ -26624,7 +26624,7 @@
 41	i	i	ADP	_	AdpType=Prep	42	case	_	_
 42	50'erne	50'er	NOUN	_	Definite=Def|Gender=Com|Number=Plur	39	obl	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	39	punct	_	_
-44	noter	note	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	13	obl	_	_
+44	noter	note	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	13	nmod	_	_
 45	og	og	CCONJ	_	_	44	dep	_	_
 46	biografier	biografi	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	44	conj	_	_
 47	-	-	PUNCT	_	_	51	punct	_	_
@@ -26733,7 +26733,7 @@
 7	vej	vej	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
 8	til	til	ADP	_	AdpType=Prep	10	mark	_	_
 9	at	at	PART	_	PartType=Inf	10	mark	_	_
-10	gøre	gøre	VERB	_	VerbForm=Inf|Voice=Act	7	obl:lmod	_	_
+10	gøre	gøre	VERB	_	VerbForm=Inf|Voice=Act	7	advcl	_	_
 11	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 12	skizofren	skizofren	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
@@ -35127,7 +35127,7 @@
 8	hos	hos	ADP	_	AdpType=Prep	9	case	_	_
 9	producenterne	producent	NOUN	_	Definite=Def|Gender=Com|Number=Plur	15	obl	_	_
 10	-	-	PUNCT	_	_	9	punct	_	_
-11	umiddelbart	umiddelbart	ADV	_	Degree=Pos	13	obl:tmod	_	_
+11	umiddelbart	umiddelbart	ADV	_	Degree=Pos	13	advmod	_	_
 12	før	før	ADP	_	AdpType=Prep	11	case	_	_
 13	slagtningen	slagtning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	15	obl	_	_
 14	-	-	PUNCT	_	_	13	punct	_	_
@@ -36378,7 +36378,7 @@
 21	lokalt	lokalt	ADV	_	Degree=Pos	18	advmod	_	_
 22	som	som	ADP	_	PartType=Inf	23	case	_	_
 23	nationalt	nationalt	ADV	_	Degree=Pos	21	conj	_	_
-24	lige	lige	ADV	_	_	26	obl:tmod	_	_
+24	lige	lige	ADV	_	_	26	advmod	_	_
 25	efter	efter	ADP	_	AdpType=Prep	24	case	_	_
 26	bortførslen	bortførsel	NOUN	_	Definite=Def|Gender=Com|Number=Sing	18	obl	_	_
 27	gennem	gennem	ADP	_	AdpType=Prep	30	case	_	_
@@ -38045,7 +38045,7 @@
 19	at	at	ADV	_	_	22	advmod	_	_
 20	helt	helt	ADV	_	Degree=Pos	22	advmod	_	_
 21	at	at	PART	_	PartType=Inf	22	mark	_	_
-22	afskaffe	afskaffe	VERB	_	VerbForm=Inf|Voice=Act	17	obl:lmod	_	_
+22	afskaffe	afskaffe	VERB	_	VerbForm=Inf|Voice=Act	17	advcl	_	_
 23	enhver	enhver	DET	_	Gender=Com|Number=Sing|PronType=Ind	24	det	_	_
 24	form	form	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	22	obj	_	_
 25	for	for	ADP	_	AdpType=Prep	26	case	_	_
@@ -38766,7 +38766,7 @@
 50	trekant	trekant	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	46	nmod	_	_
 51	konstrueret	konstruere	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	50	case	_	_
 52	som	som	ADP	_	PartType=Inf	53	case	_	_
-53	pyramide-bygningselement	pyramide-bygningselement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	50	obl	_	SpaceAfter=No
+53	pyramide-bygningselement	pyramide-bygningselement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	50	nmod	_	SpaceAfter=No
 54	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = train-v2-1839
@@ -47863,7 +47863,7 @@
 16	som	som	ADP	_	PartType=Inf	17	case	_	_
 17	regel	regel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	19	nmod	_	_
 18	flere	mange	ADJ	_	Degree=Cmp|Number=Plur	19	amod	_	_
-19	dage	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	obl:tmod	_	_
+19	dage	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	15	nmod:tmod	_	_
 20	før	før	ADP	_	AdpType=Prep	21	case	_	_
 21	premieren	premiere	NOUN	_	Definite=Def|Gender=Com|Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
@@ -54946,7 +54946,7 @@
 3	timer	time	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	nmod	_	_
 4	senere	senere	ADV	_	Degree=Cmp	12	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	kort	kort	ADV	_	Degree=Pos	8	obl:tmod	_	_
+6	kort	kort	ADV	_	Degree=Pos	8	advmod	_	_
 7	før	før	ADP	_	AdpType=Prep	6	case	_	_
 8	klokken	klokke	NOUN	_	Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
 9	seks	seks	NUM	_	NumType=Card	8	nmod	_	_
@@ -58184,7 +58184,7 @@
 15	form	form	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
 16	som	som	ADP	_	PartType=Inf	18	case	_	_
 17	i	i	ADP	_	AdpType=Prep	18	case	_	_
-18	udsmykning	udsmykning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	obl	_	SpaceAfter=No
+18	udsmykning	udsmykning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = train-v2-2753
@@ -63144,12 +63144,12 @@
 5	tove	tov	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	_
 6	udspændt	udspænde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	case	_	_
 7	fra	fra	ADP	_	AdpType=Prep	10	case	_	_
-8	kant	kant	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
+8	kant	kant	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	_
 9	til	til	ADP	_	AdpType=Prep	10	case	_	_
 10	kant	kant	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
 11	som	som	ADP	_	PartType=Inf	13	case	_	_
 12	støttende	støtte	VERB	_	Tense=Pres|VerbForm=Part	13	amod	_	_
-13	holdepunkt	holdepunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	_
+13	holdepunkt	holdepunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	_
 14	følger	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 15	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 16	intenst	intenst	ADV	_	Degree=Pos	14	advmod	_	_
@@ -63832,9 +63832,9 @@
 9	flagrende	flagre	VERB	_	Tense=Pres|VerbForm=Part	8	case	_	_
 10	som	som	ADP	_	PartType=Inf	12	case	_	_
 11	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	12	det	_	_
-12	fane	fane	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	obl	_	_
+12	fane	fane	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
 13	efter	efter	ADP	_	AdpType=Prep	14	case	_	_
-14	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obl	_	SpaceAfter=No
+14	sig	sig	PRON	_	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = train-v2-3015
@@ -73969,7 +73969,7 @@
 43	af	af	ADP	_	AdpType=Prep	47	case	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
 45	i	i	ADP	_	AdpType=Prep	47	mark	_	_
-46	hvilket	hvilken	PRON	_	Gender=Neut|Number=Sing|PronType=Int,Rel	47	obl	_	_
+46	hvilket	hvilken	PRON	_	Gender=Neut|Number=Sing|PronType=Int,Rel	47	nmod	_	_
 47	omfang	omfang	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	42	obl	_	_
 48	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	50	det	_	_
 49	højere	høj	ADJ	_	Degree=Cmp	50	amod	_	_
@@ -74614,7 +74614,7 @@
 5	vej	vej	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	_
 6	til	til	ADP	_	AdpType=Prep	8	mark	_	_
 7	at	at	PART	_	PartType=Inf	8	mark	_	_
-8	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	5	obl:lmod	_	_
+8	gå	gå	VERB	_	VerbForm=Inf|Voice=Act	5	advcl	_	_
 9	i	i	ADP	_	AdpType=Prep	10	case	_	_
 10	hundene	hund	NOUN	_	Definite=Def|Gender=Com|Number=Plur	8	obl	_	_
 11	på	på	ADP	_	AdpType=Prep	15	case	_	_
@@ -75343,7 +75343,7 @@
 15	terninger	terning	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	12	nmod	_	_
 16	overhældt	overhælde	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	12	case	_	_
 17	med	med	ADP	_	AdpType=Prep	18	case	_	_
-18	sirup	sirup	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	obl	_	_
+18	sirup	sirup	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	_
 19	og	og	CCONJ	_	_	21	cc	_	_
 20	hakkede	hakke	VERB	_	Number=Plur|Tense=Past|VerbForm=Part	21	amod	_	_
 21	nødder	nød	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	18	conj	_	SpaceAfter=No
@@ -83428,7 +83428,7 @@
 7	Loa	Loa	PROPN	_	_	5	nsubj	_	_
 8	smiler	smile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	case	_	_
 9	til	til	ADP	_	AdpType=Prep	10	case	_	_
-10	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+10	mig	jeg	PRON	_	Case=Acc|Gender=Com|Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
 11	-	-	PUNCT	_	_	3	punct	_	_
 12	så	så	ADV	_	_	13	advmod	_	_
 13	kender	kende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
